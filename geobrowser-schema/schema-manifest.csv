@@ -1,0 +1,9 @@
+file_name,kind,purpose,source_of_truth
+spaces.csv,space,Declares the target Geo space for the graph,README.md
+entity-types.csv,type,Defines top-level entity classes for dossier concepts,content/*.json
+property-types.csv,property,Defines reusable typed values for entities,content-schema.ts
+relation-types.csv,relation,Defines allowed graph edge types between entities,content-loaders.ts
+entity-template.csv,template,Template for generated entity rows,content/*.json
+relation-template.csv,template,Template for generated relation rows,content/*.json
+mapping.md,documentation,Explains workbook/content to graph mapping,content/*.json
+api-notes.md,documentation,Notes from Geo testnet API OpenAPI shape,https://testnet-api.geobrowser.io/openapi

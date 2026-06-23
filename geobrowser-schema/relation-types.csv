@@ -1,0 +1,14 @@
+relation_key,geo_relation_type_id,name,from_type_keys,to_type_keys,description,inverse_label
+HAS_TYPE,,Has Type,"dossier,dichotomy,continuum_position,initiative,source,method,evidence_claim,topic,evidence_strength,research_design,outcome,input_variable","dossier,dichotomy,continuum_position,initiative,source,method,evidence_claim,topic,evidence_strength,research_design,outcome,input_variable",Connects an entity to its type when using explicit type nodes,TYPE_OF
+HAS_TOPIC,,Has Topic,dichotomy,topic,Groups a dichotomy by topical lens,TOPIC_OF
+HAS_CONTINUUM_POSITION,,Has Continuum Position,dichotomy,continuum_position,Connects a dichotomy to its synthesized continuum placement,POSITION_FOR
+HAS_EVIDENCE_STRENGTH,,Has Evidence Strength,"dichotomy,initiative,source,evidence_claim",evidence_strength,Connects evidence-bearing entities to normalized strength categories,STRENGTH_OF
+USES_RESEARCH_DESIGN,,Uses Research Design,"source,initiative",research_design,Connects sources or initiatives to evaluation design tags,DESIGN_FOR
+CITES_SOURCE,,Cites Source,"dichotomy,initiative,evidence_claim,method",source,Connects claims and content entities to supporting research sources,CITED_BY
+KEY_INITIATIVE,,Key Initiative,dichotomy,initiative,Connects a dichotomy to representative initiatives,KEY_FOR
+RELATED_DICHOTOMY,,Related Dichotomy,initiative,dichotomy,Connects an initiative back to relevant debates,RELATED_INITIATIVE
+SUPPORTS_CLAIM,,Supports Claim,source,evidence_claim,Connects a source to a claim it supports,CLAIM_SUPPORTED_BY
+MEASURES_OUTCOME,,Measures Outcome,initiative,outcome,Connects an initiative to measured output families,OUTCOME_FOR
+CHANGES_INPUT,,Changes Input,initiative,input_variable,Connects an initiative to input-variable families,INPUT_FOR
+EXPLAINS_METHOD,,Explains Method,method,research_design,Connects method guide entities to research design categories,METHOD_EXPLAINED_BY
+HAS_BLOCK,,Has Block,"dossier,dichotomy,initiative,source,method,evidence_claim","method,evidence_claim",Optional content block relation for narrative sections,BLOCK_OF

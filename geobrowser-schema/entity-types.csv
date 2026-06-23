@@ -1,0 +1,13 @@
+type_key,geo_type_id,name,description,primary_label_property_key,source_file
+dossier,,Dossier,"The overall Education Evidence Dossier publication or graph root.",name,README.md
+dichotomy,,Dichotomy,"A philosophical education reform debate represented as an evidence continuum.",title,content/dichotomies.json
+continuum_position,,Continuum Position,"Editorial synthesis position, uncertainty band, and confidence for a dichotomy.",title,content/dichotomies.json
+initiative,,Initiative,"A reform, policy, program, intervention, or research infrastructure item.",name,content/initiatives.json
+source,,Source,"A study, report, review, data source, or institution page cited by the dossier.",title,content/sources.json
+method,,Method,"A research design, evidence concept, input variable, or outcome normalization concept.",name,content/methods.json
+evidence_claim,,Evidence Claim,"A sourced claim or synthesis statement displayed in the dossier.",claim_text,content/landing-cards.json
+topic,,Topic,"A topical grouping such as Literacy, Technology, Finance, or Governance.",name,content/dichotomies.json
+evidence_strength,,Evidence Strength,"A normalized evidence-strength category used across claims, sources, and initiatives.",name,src/lib/content-schema.ts
+research_design,,Research Design,"An evaluation method tag such as RCT, Lottery, or Difference-in-differences.",name,src/lib/content-schema.ts
+outcome,,Outcome,"An output family or metric used to judge an initiative or claim.",name,content/methods.json
+input_variable,,Input Variable,"An input family changed by an initiative or considered in normalization.",name,content/methods.json

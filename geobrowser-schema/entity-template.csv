@@ -1,0 +1,8 @@
+local_entity_key,geo_entity_id,type_key,name_or_title,slug,description,source_file,json_pointer
+dossier:education-evidence-dossier,,dossier,Education Evidence Dossier,,Evidence graph for the dossier root.,README.md,
+dichotomy:{slug},,dichotomy,{title},{slug},{dek},content/dichotomies.json,$[?slug=='{slug}']
+continuum:{slug},,continuum_position,{title} continuum,{slug},{continuum.explanation},content/dichotomies.json,$[?slug=='{slug}'].continuum
+initiative:{slug},,initiative,{name},{slug},{oneLineFinding},content/initiatives.json,$[?slug=='{slug}']
+source:{id},,source,{title},{id},{finding},content/sources.json,$[?id=='{id}']
+method:{section}:{item},,method,{item},,{definition},content/methods.json,$[?section=='{section}' && item=='{item}']
+claim:{dichotomySlug}:{claim_slug},,evidence_claim,{claim_slug},,{claim},content/landing-cards.json,$[?dichotomySlug=='{dichotomySlug}']

@@ -1,0 +1,13 @@
+local_relation_key,geo_relation_id,relation_key,from_entity_key,to_entity_key,position,verified,source_file,json_pointer
+dichotomy:{slug}:topic,,HAS_TOPIC,dichotomy:{slug},topic:{topic},,true,content/dichotomies.json,$[?slug=='{slug}'].topic
+dichotomy:{slug}:continuum,,HAS_CONTINUUM_POSITION,dichotomy:{slug},continuum:{slug},,true,content/dichotomies.json,$[?slug=='{slug}'].continuum
+dichotomy:{slug}:strength,,HAS_EVIDENCE_STRENGTH,dichotomy:{slug},evidence_strength:{evidenceStrength},,true,content/dichotomies.json,$[?slug=='{slug}'].evidenceStrength
+dichotomy:{slug}:source:{sourceId},,CITES_SOURCE,dichotomy:{slug},source:{sourceId},,true,content/dichotomies.json,$[?slug=='{slug}'].sourceIds
+dichotomy:{slug}:initiative:{initiativeSlug},,KEY_INITIATIVE,dichotomy:{slug},initiative:{initiativeSlug},,true,content/dichotomies.json,$[?slug=='{slug}'].keyInitiativeSlugs
+initiative:{slug}:dichotomy:{dichotomySlug},,RELATED_DICHOTOMY,initiative:{slug},dichotomy:{dichotomySlug},,true,content/initiatives.json,$[?slug=='{slug}'].relatedDichotomySlugs
+initiative:{slug}:source:{sourceId},,CITES_SOURCE,initiative:{slug},source:{sourceId},,true,content/initiatives.json,$[?slug=='{slug}'].sourceIds
+initiative:{slug}:strength,,HAS_EVIDENCE_STRENGTH,initiative:{slug},evidence_strength:{evidenceStrength},,true,content/initiatives.json,$[?slug=='{slug}'].evidenceStrength
+source:{id}:design,,USES_RESEARCH_DESIGN,source:{id},research_design:{method},,true,content/sources.json,$[?id=='{id}'].method
+source:{id}:strength,,HAS_EVIDENCE_STRENGTH,source:{id},evidence_strength:{evidenceStrength},,true,content/sources.json,$[?id=='{id}'].evidenceStrength
+claim:{dichotomySlug}:{claim_slug}:dichotomy,,RELATED_DICHOTOMY,claim:{dichotomySlug}:{claim_slug},dichotomy:{dichotomySlug},,true,content/landing-cards.json,$[?dichotomySlug=='{dichotomySlug}']
+claim:{dichotomySlug}:{claim_slug}:source:{sourceId},,CITES_SOURCE,claim:{dichotomySlug}:{claim_slug},source:{sourceId},,true,content/landing-cards.json,$[?dichotomySlug=='{dichotomySlug}'].sourceIds

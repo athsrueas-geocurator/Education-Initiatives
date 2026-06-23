@@ -1,0 +1,2 @@
+space_key,geo_space_id,name,description,api_base_url,environment
+education-evidence-dossier,,Education Evidence Dossier,"Evidence graph for U.S. education reform dichotomies, initiatives, methods, sources, and synthesis claims.",https://testnet-api.geobrowser.io,testnet

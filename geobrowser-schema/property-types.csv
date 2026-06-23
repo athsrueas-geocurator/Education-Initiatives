@@ -1,0 +1,32 @@
+property_key,geo_property_id,name,value_type,applies_to_type_keys,description,example
+name,,Name,TEXT,"dossier,initiative,method,topic,evidence_strength,research_design,outcome,input_variable",Human-readable entity name,Reading First
+title,,Title,TEXT,"dichotomy,continuum_position,source",Human-readable title,Whole language / balanced literacy vs phonics / Science of Reading
+slug,,Slug,TEXT,"dichotomy,initiative",Stable local URL slug,reading-first
+description,,Description,TEXT,"dossier,method,topic,outcome,input_variable",Plain-language description,Research design used to estimate causal effects
+dek,,Dek,TEXT,dichotomy,Short editorial summary or better synthesis question,How do we guarantee code mastery without narrowing reading to decoding drills?
+claim_text,,Claim Text,TEXT,evidence_claim,Visible sourced claim text,Reading First changed instruction but not broad comprehension scores.
+finding,,Finding,TEXT,"source,initiative",One-line finding or source finding,Important agenda-setting reform but not a clean causal estimate.
+caveat,,Caveat,TEXT,"source,evidence_claim",Important limitation or interpretation warning,Review the original source for sample and outcome definitions.
+url,,URL,TEXT,source,Direct source URL,https://nces.ed.gov/nationsreportcard/
+authors,,Authors / Institution,TEXT,source,Authors or publishing institution,NCES
+year,,Year,TEXT,source,Publication year when available,2024
+category,,Category,TEXT,initiative,Workbook category,Standards/accountability
+years_scale,,Years / Scale,TEXT,initiative,When and at what scale the initiative ran,2002-2015; federal
+theory_of_action,,Theory of Action,TEXT,initiative,Mechanism by which the initiative is expected to affect outcomes,Annual testing and subgroup reporting pressure schools to improve.
+inputs_changed,,Inputs Changed,TEXT,initiative,Input variables changed by the initiative,State standards; assessment emphasis
+target_population,,Target Population,TEXT,initiative,Population or setting affected by the initiative,K-12 systems
+evaluation_designs,,Evaluation Designs,TEXT,initiative,Free-text designs listed in the workbook,NAEP state panel; event study
+outputs_measured,,Outputs Measured,TEXT,initiative,Measured output variables,NAEP; state tests; graduation
+normalization_issues,,Normalization Issues,TEXT,initiative,Fair-comparison and normalization issues,State tests can inflate or change across years.
+left_pole,,Left Pole,TEXT,continuum_position,Left side of the debate continuum,Meaning-first immersion and cueing
+right_pole,,Right Pole,TEXT,continuum_position,Right side of the debate continuum,Explicit code-based instruction plus language comprehension
+position,,Position,FLOAT64,continuum_position,Editorial synthesis position from 0 to 100,78
+uncertainty_low,,Uncertainty Low,FLOAT64,continuum_position,Lower bound of reasonable interpretation,66
+uncertainty_high,,Uncertainty High,FLOAT64,continuum_position,Upper bound of reasonable interpretation,88
+confidence,,Confidence,TEXT,continuum_position,Confidence label,high
+explanation,,Explanation,TEXT,continuum_position,Plain-language explanation for the position,Strongly favors explicit code instruction while retaining comprehension.
+evidence_strength_key,,Evidence Strength Key,TEXT,"dichotomy,initiative,source,evidence_claim",Normalized local evidence-strength key,strong-causal
+research_design_key,,Research Design Key,TEXT,source,Normalized local research design key,Difference-in-differences
+method_section,,Method Section,TEXT,method,Method page grouping,Evidence signal
+source_file,,Source File,TEXT,"dichotomy,initiative,source,method,evidence_claim",Local source file for generated row,content/dichotomies.json
+local_key,,Local Key,TEXT,"dossier,dichotomy,continuum_position,initiative,source,method,evidence_claim,topic,evidence_strength,research_design,outcome,input_variable",Stable key before Geo UUID assignment,dichotomy:reading-first
