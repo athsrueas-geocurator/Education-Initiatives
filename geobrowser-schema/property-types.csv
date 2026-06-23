@@ -25,8 +25,17 @@ uncertainty_low,,Uncertainty Low,FLOAT64,continuum_position,Lower bound of reaso
 uncertainty_high,,Uncertainty High,FLOAT64,continuum_position,Upper bound of reasonable interpretation,88
 confidence,,Confidence,TEXT,continuum_position,Confidence label,high
 explanation,,Explanation,TEXT,continuum_position,Plain-language explanation for the position,Strongly favors explicit code instruction while retaining comprehension.
+philosophical_disagreement,,Philosophical Disagreement,TEXT,dichotomy,Underlying philosophical disagreement behind a dichotomy,Whether reading is learned naturally or requires systematic code instruction.
+what_evidence_suggests,,What Evidence Suggests,TEXT,dichotomy,Narrative synthesis of the evidence,The evidence strongly supports explicit foundational skills.
+better_question,,Better Question,TEXT,dichotomy,Question that reframes the slogan debate,How do we guarantee code mastery without narrowing reading to decoding drills?
+common_misreadings,,Common Misreadings,TEXT,dichotomy,Semicolon-separated common misreadings,Phonics works does not mean only phonics matters.
+what_would_change_our_mind,,What Would Change Our Mind,TEXT,dichotomy,Condition that would move the synthesis,Comparable causal evidence across settings showing durable gains.
+landing_priority,,Landing Priority,INT64,dichotomy,Editorial ordering field from the app content,2
 evidence_strength_key,,Evidence Strength Key,TEXT,"dichotomy,initiative,source,evidence_claim",Normalized local evidence-strength key,strong-causal
 research_design_key,,Research Design Key,TEXT,source,Normalized local research design key,Difference-in-differences
+outcome_tags,,Outcome Tags,TEXT,source,Semicolon-separated outcome tags,Achievement; Implementation
 method_section,,Method Section,TEXT,method,Method page grouping,Evidence signal
+reference_urls,,Reference URLs,TEXT,"method,outcome,input_variable",Semicolon-separated URLs attached to method guide entries,https://ies.ed.gov/ncee/wwc/
+tags,,Tags,TEXT,initiative,Semicolon-separated workbook tags,standards; history
 source_file,,Source File,TEXT,"dichotomy,initiative,source,method,evidence_claim",Local source file for generated row,content/dichotomies.json
 local_key,,Local Key,TEXT,"dossier,dichotomy,continuum_position,initiative,source,method,evidence_claim,topic,evidence_strength,research_design,outcome,input_variable",Stable key before Geo UUID assignment,dichotomy:reading-first

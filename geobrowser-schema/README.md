@@ -16,6 +16,9 @@ The CSV files here use stable local keys instead of permanent Geo UUIDs. After c
 - `entity-types.csv`: entity type definitions for the dossier.
 - `property-types.csv`: reusable property definitions and Geo value types.
 - `relation-types.csv`: graph edge definitions between entity types.
+- `entities.csv`: populated graph entities generated from the live app content.
+- `values.csv`: populated property values generated from the live app content.
+- `relations.csv`: populated graph edges generated from the live app content.
 - `entity-template.csv`: row shape for entity imports generated from the JSON content.
 - `relation-template.csv`: row shape for relation imports generated from the JSON content.
 - `mapping.md`: how the current `content/*.json` files map into graph nodes and edges.
@@ -31,3 +34,13 @@ The CSV files here use stable local keys instead of permanent Geo UUIDs. After c
 6. Generate relations using `relation-template.csv`.
 
 Keep the schema small at first. The main value of this graph is connecting debates, initiatives, sources, methods, outcomes, and evidence claims without flattening the evidence into a single table.
+
+## Regenerating Populated CSVs
+
+Run this after `content/*.json` changes:
+
+```bash
+node scripts/generate-geobrowser-csvs.mjs
+```
+
+The generator writes `entities.csv`, `values.csv`, and `relations.csv`.

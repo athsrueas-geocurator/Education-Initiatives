@@ -1,4 +1,7 @@
 file_name,kind,purpose,source_of_truth
+entities.csv,data,Populated entity rows generated from the app content,content/*.json
+values.csv,data,Populated property-value rows generated from the app content,content/*.json
+relations.csv,data,Populated typed relation rows generated from the app content,content/*.json
 spaces.csv,space,Declares the target Geo space for the graph,README.md
 entity-types.csv,type,Defines top-level entity classes for dossier concepts,content/*.json
 property-types.csv,property,Defines reusable typed values for entities,content-schema.ts

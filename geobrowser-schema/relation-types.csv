@@ -1,4 +1,5 @@
 relation_key,geo_relation_type_id,name,from_type_keys,to_type_keys,description,inverse_label
+HAS_DOSSIER_ITEM,,Has Dossier Item,dossier,"dichotomy,continuum_position,initiative,source,method,evidence_claim,topic,evidence_strength,research_design,outcome,input_variable",Connects the dossier root to graph entities included in this publication,ITEM_IN_DOSSIER
 HAS_TYPE,,Has Type,"dossier,dichotomy,continuum_position,initiative,source,method,evidence_claim,topic,evidence_strength,research_design,outcome,input_variable","dossier,dichotomy,continuum_position,initiative,source,method,evidence_claim,topic,evidence_strength,research_design,outcome,input_variable",Connects an entity to its type when using explicit type nodes,TYPE_OF
 HAS_TOPIC,,Has Topic,dichotomy,topic,Groups a dichotomy by topical lens,TOPIC_OF
 HAS_CONTINUUM_POSITION,,Has Continuum Position,dichotomy,continuum_position,Connects a dichotomy to its synthesized continuum placement,POSITION_FOR

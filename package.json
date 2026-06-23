@@ -8,7 +8,8 @@
     "build:pages": "node scripts/validate-content.mjs && next build",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "content": "python scripts/convert_workbook.py"
+    "content": "python scripts/convert_workbook.py",
+    "geobrowser": "node scripts/generate-geobrowser-csvs.mjs"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.10",
