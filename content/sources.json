@@ -1,0 +1,842 @@
+[
+  {
+    "id": "src-001",
+    "title": "National Assessment of Educational Progress",
+    "authors": "NCES",
+    "year": "",
+    "method": "Difference-in-differences",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "Important agenda-setting reform, but not a discrete intervention with clean causal estimates.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://nces.ed.gov/nationsreportcard/"
+  },
+  {
+    "id": "src-002",
+    "title": "ies.ed.gov (ies.ed.gov)",
+    "authors": "ies.ed.gov",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "not-outcome-intervention",
+    "finding": "Important agenda-setting reform, but not a discrete intervention with clean causal estimates.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://ies.ed.gov/ncee/wwc/"
+  },
+  {
+    "id": "src-003",
+    "title": "W15531 (nber.org)",
+    "authors": "nber.org",
+    "year": "",
+    "method": "Difference-in-differences",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "Pre-NCLB accountability often raised measured math achievement more than reading, with risks of narrowing and gaming.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.nber.org/papers/w15531"
+  },
+  {
+    "id": "src-004",
+    "title": "Rtt Evaluation (mathematica.org)",
+    "authors": "mathematica.org",
+    "year": "",
+    "method": "Descriptive",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "Large policy adoption effects; achievement effects were not consistently strong or easy to attribute.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.mathematica.org/news/rtt-evaluation"
+  },
+  {
+    "id": "src-005",
+    "title": "Rr2658.Html (rand.org)",
+    "authors": "rand.org",
+    "year": "",
+    "method": "Descriptive",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "Large policy adoption effects; achievement effects were not consistently strong or easy to attribute.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.rand.org/pubs/research_reports/RR2658.html"
+  },
+  {
+    "id": "src-006",
+    "title": "School Improvement Grants Implementation And Effectiveness (ies.ed.gov)",
+    "authors": "ies.ed.gov",
+    "year": "",
+    "method": "Regression discontinuity",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "The national evaluation found weak average impacts despite large funding; implementation and model quality varied.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://ies.ed.gov/use-work/resource-library/report/evaluation-report/school-improvement-grants-implementation-and-effectiveness"
+  },
+  {
+    "id": "src-007",
+    "title": "ies.ed.gov (ies.ed.gov)",
+    "authors": "ies.ed.gov",
+    "year": "",
+    "method": "Descriptive",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "not-outcome-intervention",
+    "finding": "Useful infrastructure for comparing studies, but it does not itself improve learning without good implementation.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://ies.ed.gov/ncee/wwc/essa"
+  },
+  {
+    "id": "src-008",
+    "title": "Handbooks (ies.ed.gov)",
+    "authors": "ies.ed.gov",
+    "year": "",
+    "method": "Descriptive",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "not-outcome-intervention",
+    "finding": "Useful infrastructure for comparing studies, but it does not itself improve learning without good implementation.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://ies.ed.gov/ncee/wwc/Handbooks"
+  },
+  {
+    "id": "src-009",
+    "title": "Implementation (c-sail.org)",
+    "authors": "c-sail.org",
+    "year": "",
+    "method": "Descriptive",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "Implementation was uneven; evidence does not support the idea that standards alone generate large achievement gains.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.c-sail.org/research/implementation"
+  },
+  {
+    "id": "src-010",
+    "title": "mdek12.org (mdek12.org)",
+    "authors": "mdek12.org",
+    "year": "",
+    "method": "Descriptive",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "Mississippi is one of the most cited recent literacy success cases, but the causal mechanism is a policy bundle rather than one isolated program.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.mdek12.org/literacy/lbpa/"
+  },
+  {
+    "id": "src-011",
+    "title": "Literacy Series Part 1 (mississippifirst.org)",
+    "authors": "mississippifirst.org",
+    "year": "",
+    "method": "Descriptive",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "Mississippi is one of the most cited recent literacy success cases, but the causal mechanism is a policy bundle rather than one isolated program.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.mississippifirst.org/literacy-series-part-1/"
+  },
+  {
+    "id": "src-012",
+    "title": "National Assessment of Educational Progress",
+    "authors": "NCES",
+    "year": "",
+    "method": "Descriptive",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "Mississippi is one of the most cited recent literacy success cases, but the causal mechanism is a policy bundle rather than one isolated program.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://nces.ed.gov/nationsreportcard/subject/publications/stt2022/pdf/2023010MS4.pdf"
+  },
+  {
+    "id": "src-013",
+    "title": "Ms Read By Grade Three (wheelockpolicycenter.org)",
+    "authors": "wheelockpolicycenter.org",
+    "year": "",
+    "method": "Descriptive",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "Mississippi is one of the most cited recent literacy success cases, but the causal mechanism is a policy bundle rather than one isolated program.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://wheelockpolicycenter.org/high-quality-education/ms-read-by-grade-three/"
+  },
+  {
+    "id": "src-014",
+    "title": "Report of the National Reading Panel",
+    "authors": "NICHD",
+    "year": "",
+    "method": "Systematic review",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "not-outcome-intervention",
+    "finding": "Highly influential and evidence-aligned in direction, but cross-state causal estimates are still emerging.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.nichd.nih.gov/publications/pubs/nrp/findings"
+  },
+  {
+    "id": "src-015",
+    "title": "Reading First Impact Study: Final Report",
+    "authors": "IES",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "Highly influential and evidence-aligned in direction, but cross-state causal estimates are still emerging.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://ies.ed.gov/use-work/resource-library/report/evaluation-report/reading-first-impact-study-final-report"
+  },
+  {
+    "id": "src-016",
+    "title": "ies.ed.gov (ies.ed.gov)",
+    "authors": "ies.ed.gov",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "strong-causal",
+    "finding": "One of the better-studied comprehensive literacy models, with positive evidence in multiple reviews.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://ies.ed.gov/ncee/wwc/Intervention/214"
+  },
+  {
+    "id": "src-017",
+    "title": "Jrr 23 1 Fall 2023 Schwartz.Pdf (readingrecovery.org)",
+    "authors": "readingrecovery.org",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "Short-run reading gains are supported in some studies, but cost, scale, and longer-run durability remain contested.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://readingrecovery.org/wp-content/uploads/2023/11/JRR_23-1_fall_2023_schwartz.pdf"
+  },
+  {
+    "id": "src-018",
+    "title": "eric.ed.gov (eric.ed.gov)",
+    "authors": "eric.ed.gov",
+    "year": "",
+    "method": "Descriptive",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "A major counterexample to claims that highly explicit instruction is inherently low-level.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://eric.ed.gov/?id=EJ353785"
+  },
+  {
+    "id": "src-019",
+    "title": "Study Knowledge Rich Curriculum Significantly Boosts Reading Scores (education.virginia.edu)",
+    "authors": "education.virginia.edu",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "Recent causal work finds promising long-term reading gains, supporting a content-rich view of comprehension.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://education.virginia.edu/news-stories/study-knowledge-rich-curriculum-significantly-boosts-reading-scores"
+  },
+  {
+    "id": "src-020",
+    "title": "Rra134 13.Html (rand.org)",
+    "authors": "rand.org",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "Often weak when isolated from coaching, materials, and accountability for classroom use.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.rand.org/pubs/research_reports/RRA134-13.html"
+  },
+  {
+    "id": "src-021",
+    "title": "Ed613847.Pdf (files.eric.ed.gov)",
+    "authors": "files.eric.ed.gov",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "strong-causal",
+    "finding": "One of the strongest short-run academic interventions when frequent, sustained, curriculum-aligned, and attended.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://files.eric.ed.gov/fulltext/ED613847.pdf"
+  },
+  {
+    "id": "src-022",
+    "title": "W16381 (nber.org)",
+    "authors": "nber.org",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "strong-causal",
+    "finding": "Small early classes produced lasting benefits, but broad policy is expensive and sensitive to teacher labor supply.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.nber.org/papers/w16381"
+  },
+  {
+    "id": "src-023",
+    "title": "The Effect of Teacher Coaching on Instruction and Achievement",
+    "authors": "Annenberg Institute",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "strong-causal",
+    "finding": "Coaching has stronger evidence than generic PD, especially at smaller scale and with clear instructional focus.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://annenberg.brown.edu/publications/effect-teacher-coaching-instruction-and-achievement-meta-analysis-causal-evidence"
+  },
+  {
+    "id": "src-024",
+    "title": "The Effectiveness Of Secondary Math Teachers From Teach For America And The Teaching Fello (mathematica.org)",
+    "authors": "mathematica.org",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "Some evaluations show positive math effects, but reading effects and turnover tradeoffs vary by context.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.mathematica.org/publications/the-effectiveness-of-secondary-math-teachers-from-teach-for-america-and-the-teaching-fellows-programs"
+  },
+  {
+    "id": "src-025",
+    "title": "Point (my.vanderbilt.edu)",
+    "authors": "my.vanderbilt.edu",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "Coaching has more consistent developmental evidence than simple merit pay; evaluation systems can change workforce composition but carry trust costs.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://my.vanderbilt.edu/performanceincentives/projects/point/"
+  },
+  {
+    "id": "src-026",
+    "title": "W19403 (nber.org)",
+    "authors": "nber.org",
+    "year": "",
+    "method": "Regression discontinuity",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "More consequential evaluation can change teacher performance and composition, but sustainability and trust are central concerns.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.nber.org/papers/w19403"
+  },
+  {
+    "id": "src-027",
+    "title": "Met Project (cepr.harvard.edu)",
+    "authors": "cepr.harvard.edu",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "not-outcome-intervention",
+    "finding": "Influential for teacher evaluation design, but not itself a school improvement program.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://cepr.harvard.edu/met-project"
+  },
+  {
+    "id": "src-028",
+    "title": "Improving Teaching Effectiveness: Final Report",
+    "authors": "RAND",
+    "year": "",
+    "method": "Descriptive",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "The initiative did not deliver broad expected student achievement gains despite major investment and implementation effort.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.rand.org/pubs/research_reports/RR2242.html"
+  },
+  {
+    "id": "src-029",
+    "title": "New York City Small Schools of Choice Evaluation",
+    "authors": "MDRC",
+    "year": "",
+    "method": "Lottery",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "strong-causal",
+    "finding": "NYC small schools produced meaningful graduation gains, showing school design can matter when implementation and choice systems align.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.mdrc.org/work/projects/new-york-city-small-schools-choice-evaluation"
+  },
+  {
+    "id": "src-030",
+    "title": "Rr1365.Html (rand.org)",
+    "authors": "rand.org",
+    "year": "",
+    "method": "Matched comparison",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "Early RAND evidence was promising, but heterogeneity and later critiques caution against treating personalized learning as one proven model.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.rand.org/pubs/research_reports/RR1365.html"
+  },
+  {
+    "id": "src-031",
+    "title": "Networks For School Improvement Initiative Lessons Learned To Inform Student And Teacher S (usprogram.gatesfoundation.org)",
+    "authors": "usprogram.gatesfoundation.org",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "The final evaluation found promising effects on some targeted outcomes, with engagement and CI fidelity tied to stronger results.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://usprogram.gatesfoundation.org/news-and-insights/articles/networks-for-school-improvement-initiative-lessons-learned-to-inform-student-and-teacher-success"
+  },
+  {
+    "id": "src-032",
+    "title": "Actualdownload (mathematica.org)",
+    "authors": "mathematica.org",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "The final evaluation found promising effects on some targeted outcomes, with engagement and CI fidelity tied to stronger results.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.mathematica.org/api/sitecore/MediaLibrary/ActualDownload?fileData=NSI+Evaluation+-+Impacts+on+Student+Outcomes+Final+Report.pdf+-+%7B253F094F-163C-4719-BB71-B1D76F5EE4CE%7D&fileId=%7B253F094F-163C-4719-BB71-B1D76F5EE4CE%7D&fileMime=application%2Fpdf&fileName=NSI+Evaluation+-+Impacts+on+Student+Outcomes+Final+Report.pdf"
+  },
+  {
+    "id": "src-033",
+    "title": "National Charter School Study Iii (credo.stanford.edu)",
+    "authors": "credo.stanford.edu",
+    "year": "",
+    "method": "Lottery",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "Charter effects are highly heterogeneous: urban/no-excuses and some CMOs show strong gains, while many charters are neutral or weaker.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://credo.stanford.edu/reports/item/national-charter-school-study-iii/"
+  },
+  {
+    "id": "src-034",
+    "title": "W16832 (nber.org)",
+    "authors": "nber.org",
+    "year": "",
+    "method": "Lottery",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "Charter effects are highly heterogeneous: urban/no-excuses and some CMOs show strong gains, while many charters are neutral or weaker.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.nber.org/papers/w16832"
+  },
+  {
+    "id": "src-035",
+    "title": "20174022 (ies.ed.gov)",
+    "authors": "ies.ed.gov",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "DC and Louisiana show why voucher evidence cannot be generalized: non-test outcomes may improve in some contexts while test scores can fall in others.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://ies.ed.gov/ncee/pubs/20174022/"
+  },
+  {
+    "id": "src-036",
+    "title": "Free to Choose: Can School Choice Reduce Student Achievement?",
+    "authors": "NBER",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "DC and Louisiana show why voucher evidence cannot be generalized: non-test outcomes may improve in some contexts while test scores can fall in others.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.nber.org/papers/w21839"
+  },
+  {
+    "id": "src-037",
+    "title": "Rr3245.Html (rand.org)",
+    "authors": "rand.org",
+    "year": "",
+    "method": "Descriptive",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "Evidence is promising for attendance and some academic outcomes, but the model is complex and slower-moving than a single curriculum change.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.rand.org/pubs/research_reports/RR3245.html"
+  },
+  {
+    "id": "src-038",
+    "title": "The Evidence Is Clear An Update On Research Examining Social And Emotional Learning (casel.org)",
+    "authors": "casel.org",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "strong-causal",
+    "finding": "Meta-analytic evidence supports positive average effects, though program content and measurement vary widely.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://casel.org/events/the-evidence-is-clear-an-update-on-research-examining-social-and-emotional-learning/"
+  },
+  {
+    "id": "src-039",
+    "title": "Studies (pbis.org)",
+    "authors": "pbis.org",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "strong-causal",
+    "finding": "Good evidence for behavior/climate improvements; academic effects are often indirect through instructional time.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.pbis.org/pbis/studies"
+  },
+  {
+    "id": "src-040",
+    "title": "Rb10051.Html (rand.org)",
+    "authors": "rand.org",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "Can reduce suspensions and improve climate, but academic effects are not automatically positive and depend on execution.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.rand.org/pubs/research_briefs/RB10051.html"
+  },
+  {
+    "id": "src-041",
+    "title": "educationrecoveryscorecard.org (educationrecoveryscorecard.org)",
+    "authors": "educationrecoveryscorecard.org",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "Attendance is a crucial mediator after COVID, but interventions vary from low-cost nudges to intensive case management.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://educationrecoveryscorecard.org/"
+  },
+  {
+    "id": "src-042",
+    "title": "eric.ed.gov (eric.ed.gov)",
+    "authors": "eric.ed.gov",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "The national RCT found early positive impacts with substantial fadeout on many early academic measures.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://eric.ed.gov/?id=ED507845"
+  },
+  {
+    "id": "src-043",
+    "title": "cehd.uchicago.edu (cehd.uchicago.edu)",
+    "authors": "cehd.uchicago.edu",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "strong-causal",
+    "finding": "Classic studies show large long-run benefits, but they are not evidence that every scaled pre-K program will replicate them.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://cehd.uchicago.edu/?page_id=958"
+  },
+  {
+    "id": "src-044",
+    "title": "Tnprekevaluation (my.vanderbilt.edu)",
+    "authors": "my.vanderbilt.edu",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "A cautionary scaled pre-K case: short-run gains did not translate into broad long-run academic benefits in the evaluation.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://my.vanderbilt.edu/tnprekevaluation/"
+  },
+  {
+    "id": "src-045",
+    "title": "W28756 (nber.org)",
+    "authors": "nber.org",
+    "year": "",
+    "method": "Lottery",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "strong-causal",
+    "finding": "Shows that test-score fadeout can coexist with meaningful long-run gains in college and discipline outcomes.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.nber.org/papers/w28756"
+  },
+  {
+    "id": "src-046",
+    "title": "Kraft%20Novicoff%20 %20Time%20In%20School%20 %20Feb%202024 1.Pdf (edworkingpapers.com)",
+    "authors": "edworkingpapers.com",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "Often improves short-run early skills, but durability varies with subsequent instruction quality.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://edworkingpapers.com/sites/default/files/Kraft%20Novicoff%20-%20Time%20In%20School%20-%20Feb%202024_1.pdf"
+  },
+  {
+    "id": "src-047",
+    "title": "National Summer Learning Project.Html (rand.org)",
+    "authors": "rand.org",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "Benefits are clearest for students who attend enough days and receive well-planned instruction.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.rand.org/education-employment-infrastructure/projects/national-summer-learning-project.html"
+  },
+  {
+    "id": "src-048",
+    "title": "Learning In One To One Laptop Environments A Meta Analysis And Re (scholar.usuhs.edu)",
+    "authors": "scholar.usuhs.edu",
+    "year": "",
+    "method": "Meta-analysis",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "Meta-analytic evidence shows some positive average effects, but technology access alone is not an instructional model.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://scholar.usuhs.edu/en/publications/learning-in-one-to-one-laptop-environments-a-meta-analysis-and-re/"
+  },
+  {
+    "id": "src-049",
+    "title": "Students Computers And Learning 9789264239555 En.Html (oecd.org)",
+    "authors": "oecd.org",
+    "year": "",
+    "method": "Meta-analysis",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "Meta-analytic evidence shows some positive average effects, but technology access alone is not an instructional model.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.oecd.org/en/publications/students-computers-and-learning_9789264239555-en.html"
+  },
+  {
+    "id": "src-050",
+    "title": "Generative AI Use in K-12 Education: A Systematic Review",
+    "authors": "Frontiers in Education",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "Treat AI as an emerging tool, not a proven replacement for teacher-led instruction or high-dosage tutoring.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1647573/full"
+  },
+  {
+    "id": "src-051",
+    "title": "Career Academies Long Term Impacts Work Education And Transitions Adulthood (mdrc.org)",
+    "authors": "mdrc.org",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "strong-causal",
+    "finding": "One of the strongest CTE-related causal studies, with notable long-run earnings effects especially for young men.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://www.mdrc.org/work/publications/career-academies-long-term-impacts-work-education-and-transitions-adulthood"
+  },
+  {
+    "id": "src-052",
+    "title": "2024 Systematic Review (cteresearchnetwork.org)",
+    "authors": "cteresearchnetwork.org",
+    "year": "",
+    "method": "Systematic review",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "Evidence is increasingly positive for completion and college/career readiness, but quality varies by pathway.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://cteresearchnetwork.org/resources/2024-systematic-review"
+  },
+  {
+    "id": "src-053",
+    "title": "Air Early College Follow Efficacy Study (nces.ed.gov)",
+    "authors": "nces.ed.gov",
+    "year": "",
+    "method": "RCT",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "strong-causal",
+    "finding": "One of the strongest causal postsecondary-readiness models, with positive impacts on college enrollment and degree attainment.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://nces.ed.gov/use-work/awards/air-early-college-follow-efficacy-study"
+  },
+  {
+    "id": "src-054",
+    "title": "Outcomes Associated Dual Enrollment Programs (nces.ed.gov)",
+    "authors": "nces.ed.gov",
+    "year": "",
+    "method": "Descriptive",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "Advanced access can help, but expansion must track pass rates, credit quality, and whether support keeps up with access.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://nces.ed.gov/use-work/evaluations/outcomes-associated-dual-enrollment-programs"
+  },
+  {
+    "id": "src-055",
+    "title": "College Preparatory Curriculum All Consequences Ninth Grade Coursetaking Algebra And (consortium.uchicago.edu)",
+    "authors": "consortium.uchicago.edu",
+    "year": "",
+    "method": "Descriptive",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "The Chicago case reduced course-taking inequities but increased failures and did not clearly improve achievement or college outcomes.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://consortium.uchicago.edu/publications/college-preparatory-curriculum-all-consequences-ninth-grade-coursetaking-algebra-and"
+  },
+  {
+    "id": "src-056",
+    "title": "2461148 (academic.oup.com)",
+    "authors": "academic.oup.com",
+    "year": "",
+    "method": "Difference-in-differences",
+    "outcomeTags": [
+      "Achievement",
+      "Implementation"
+    ],
+    "evidenceStrength": "strong-causal",
+    "finding": "Modern causal finance research rejects the simple 'money does not matter' claim: sustained targeted dollars can matter.",
+    "caveat": "Review the original source for sample, design, and outcome definitions.",
+    "url": "https://academic.oup.com/qje/article-abstract/131/1/157/2461148"
+  }
+]
