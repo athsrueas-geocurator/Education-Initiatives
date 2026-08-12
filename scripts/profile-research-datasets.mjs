@@ -25,6 +25,20 @@ const crdcFile = path.join(rawRoot, "crdc", "2021-22-crdc-data.zip");
 const scorecardFile = path.join(rawRoot, "college-scorecard", "Most-Recent-Cohorts-Institution_06102026.zip");
 const edfactsFile = path.join(rawRoot, "edfacts", "SY2223-Chronic-Absenteeism-EDE-110724.zip");
 const ipedsDirectory = path.join(rawRoot, "ipeds-2024");
+const accessProfiles = [
+  ["eric", "Bounded ERIC API metadata export for evidence discovery; it is not an intervention-effect dataset.", "eric", ["ERIC number", "DOI", "title", "publication year"]],
+  ["ntps-tfs", "Official NTPS/TFS access and methods capture; public-use extracts are produced through NCES DataLab.", "ntps-tfs", ["survey cycle", "school record where permitted", "teacher or principal record"]],
+  ["ecls-k", "Official ECLS-K:2011 access and cohort documentation capture; public-use child-level files are selected through NCES.", "ecls-k", ["child record", "wave", "survey weight"]],
+  ["hsls-09", "Official HSLS:09 access and cohort documentation capture; public-use extracts are generated through NCES DataLab.", "hsls-09", ["student record", "wave", "survey weight"]],
+  ["ssocs", "Official SSOCS public-use download path and overview capture for school safety and climate context.", "ssocs", ["survey cycle", "school record", "survey weight"]],
+  ["evidence-for-essa", "Versioned Evidence for ESSA review-database capture; retain primary studies for every published claim.", "evidence-for-essa", ["program name", "study citation", "ESSA evidence tier"]],
+  ["national-student-clearinghouse-research-center", "Versioned public Enrollment Insights report-index capture; public outputs are aggregate context only.", "nsc-research-center", ["term", "state", "institution sector"]],
+  ["state-longitudinal-data-systems", "Official SLDS access inventory capture; each usable extract requires state-specific approval and documentation.", "slds", ["state student identifier", "school year", "state program identifier"]]
+].map(([datasetId, purpose, directory, joinKeys]) => {
+  const directoryPath = path.join(rawRoot, directory);
+  const artifacts = fs.readdirSync(directoryPath).map((file) => ({ path: relative(path.join(directoryPath, file)), bytes: bytes(path.join(directoryPath, file)) }));
+  return { datasetId, purpose, artifacts, joinKeys, format: "Versioned access or bounded-discovery artifact; see download plan for the data-access boundary." };
+});
 
 const profile = {
   generatedAt: new Date().toISOString(),
@@ -76,6 +90,7 @@ const profile = {
       const entry = listZip(archive).find((name) => name.toLowerCase().endsWith(".csv"));
       return { datasetId: "ipeds", purpose: "Postsecondary directory, characteristics, completions, and dual-enrollment context.", path: relative(archive), bytes: bytes(archive), csvSchemas: entry ? [{ entry, columns: readZipHeader(archive, entry) }] : [], joinKeys: ["UNITID"] };
     }),
+    ...accessProfiles,
     {
       datasetId: "what-works-clearinghouse",
       purpose: "Versioned local capture of every WWC record cited in this dossier, indexed by source and supported initiative.",

@@ -78,6 +78,78 @@
     "notes": "Urban is an API distribution layer for sources already represented here. CCD is downloaded through its API; do not duplicate all mirrored source files."
   },
   {
+    "datasetId": "eric",
+    "mode": "file",
+    "status": "ready",
+    "url": "https://api.ies.ed.gov/eric/?search=education&rows=25",
+    "outputFile": "research-data/raw/eric/education-query-25.json",
+    "notes": "Bounded API export used to verify ERIC metadata fields and retrieval. Future evidence discovery must record a topic-specific query and retrieval date."
+  },
+  {
+    "datasetId": "ntps-tfs",
+    "mode": "files",
+    "status": "ready",
+    "artifacts": [
+      { "url": "https://nces.ed.gov/surveys/ntps/ntps-sass-data.asp", "outputFile": "research-data/raw/ntps-tfs/ntps-tfs-data-access.html" },
+      { "url": "https://nces.ed.gov/StatProg/handbook/ntps.asp", "outputFile": "research-data/raw/ntps-tfs/ntps-methods-overview.html" }
+    ],
+    "notes": "Current NTPS public-use extracts are generated through NCES DataLab rather than a stable bulk-file URL. The downloaded official access and methods pages document the reproducible acquisition path and restrictions."
+  },
+  {
+    "datasetId": "ecls-k",
+    "mode": "files",
+    "status": "ready",
+    "artifacts": [
+      { "url": "https://nces.ed.gov/ecls/dataproducts.asp", "outputFile": "research-data/raw/ecls-k/ecls-k-2011-data-products.html" },
+      { "url": "https://nces.ed.gov/ecls/", "outputFile": "research-data/raw/ecls-k/ecls-program-overview.html" }
+    ],
+    "notes": "ECLS-K:2011 public-use child-level files and setup files are selected through NCES's data-products workflow. The captured official pages identify the available cohort, waves, documentation, and download path."
+  },
+  {
+    "datasetId": "hsls-09",
+    "mode": "files",
+    "status": "ready",
+    "artifacts": [
+      { "url": "https://nces.ed.gov/surveys/hsls09/hsls09_data.asp", "outputFile": "research-data/raw/hsls-09/hsls-09-data-access.html" },
+      { "url": "https://nces.ed.gov/surveys/hsls09/", "outputFile": "research-data/raw/hsls-09/hsls-09-overview.html" }
+    ],
+    "notes": "Public-use HSLS extracts are generated through NCES DataLab. The captured official access pages record the available waves, administrative records, and restricted-use boundary."
+  },
+  {
+    "datasetId": "ssocs",
+    "mode": "files",
+    "status": "ready",
+    "artifacts": [
+      { "url": "https://nces.ed.gov/surveys/ssocs/data_products.asp", "outputFile": "research-data/raw/ssocs/ssocs-data-products.html" },
+      { "url": "https://nces.ed.gov/surveys/ssocs/", "outputFile": "research-data/raw/ssocs/ssocs-overview.html" }
+    ],
+    "notes": "Official SSOCS data-products page links current 2021-22 public-use files and documentation. The captured pages preserve the reproducible download path while avoiding an unsupported claim that a specific school can be joined to public microdata."
+  },
+  {
+    "datasetId": "evidence-for-essa",
+    "mode": "file",
+    "status": "ready",
+    "url": "https://evidenceforessa.org/",
+    "outputFile": "research-data/raw/evidence-for-essa/evidence-for-essa-home.html",
+    "notes": "Versioned bounded capture of the public review database landing page. Individual program reviews should be added as initiative-linked artifacts when cited."
+  },
+  {
+    "datasetId": "national-student-clearinghouse-research-center",
+    "mode": "file",
+    "status": "ready",
+    "url": "https://nscresearchcenter.org/enrollment-insights/",
+    "outputFile": "research-data/raw/nsc-research-center/enrollment-insights.html",
+    "notes": "Versioned public report-index capture. Public reports provide aggregate context; student-level outcomes require a separate arrangement."
+  },
+  {
+    "datasetId": "state-longitudinal-data-systems",
+    "mode": "file",
+    "status": "ready",
+    "url": "https://nces.ed.gov/programs/slds/",
+    "outputFile": "research-data/raw/slds/slds-program-access.html",
+    "notes": "Versioned official SLDS program and access capture. There is no national public SLDS download; state approval, documentation, and disclosure controls are mandatory for each future extract."
+  },
+  {
     "datasetId": "what-works-clearinghouse",
     "mode": "files",
     "status": "ready",

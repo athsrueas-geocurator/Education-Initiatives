@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T01:24:03.723Z",
+  "generatedAt": "2026-08-12T03:51:09.415Z",
   "profiles": [
     {
       "datasetId": "ccd-public-school-directory",
@@ -693,6 +693,151 @@
       "joinKeys": [
         "UNITID"
       ]
+    },
+    {
+      "datasetId": "eric",
+      "purpose": "Bounded ERIC API metadata export for evidence discovery; it is not an intervention-effect dataset.",
+      "artifacts": [
+        {
+          "path": "research-data/raw/eric/education-query-25.json",
+          "bytes": 51617
+        }
+      ],
+      "joinKeys": [
+        "ERIC number",
+        "DOI",
+        "title",
+        "publication year"
+      ],
+      "format": "Versioned access or bounded-discovery artifact; see download plan for the data-access boundary."
+    },
+    {
+      "datasetId": "ntps-tfs",
+      "purpose": "Official NTPS/TFS access and methods capture; public-use extracts are produced through NCES DataLab.",
+      "artifacts": [
+        {
+          "path": "research-data/raw/ntps-tfs/ntps-methods-overview.html",
+          "bytes": 21916
+        },
+        {
+          "path": "research-data/raw/ntps-tfs/ntps-tfs-data-access.html",
+          "bytes": 11770
+        }
+      ],
+      "joinKeys": [
+        "survey cycle",
+        "school record where permitted",
+        "teacher or principal record"
+      ],
+      "format": "Versioned access or bounded-discovery artifact; see download plan for the data-access boundary."
+    },
+    {
+      "datasetId": "ecls-k",
+      "purpose": "Official ECLS-K:2011 access and cohort documentation capture; public-use child-level files are selected through NCES.",
+      "artifacts": [
+        {
+          "path": "research-data/raw/ecls-k/ecls-k-2011-data-products.html",
+          "bytes": 32651
+        },
+        {
+          "path": "research-data/raw/ecls-k/ecls-program-overview.html",
+          "bytes": 27909
+        }
+      ],
+      "joinKeys": [
+        "child record",
+        "wave",
+        "survey weight"
+      ],
+      "format": "Versioned access or bounded-discovery artifact; see download plan for the data-access boundary."
+    },
+    {
+      "datasetId": "hsls-09",
+      "purpose": "Official HSLS:09 access and cohort documentation capture; public-use extracts are generated through NCES DataLab.",
+      "artifacts": [
+        {
+          "path": "research-data/raw/hsls-09/hsls-09-data-access.html",
+          "bytes": 11960
+        },
+        {
+          "path": "research-data/raw/hsls-09/hsls-09-overview.html",
+          "bytes": 29365
+        }
+      ],
+      "joinKeys": [
+        "student record",
+        "wave",
+        "survey weight"
+      ],
+      "format": "Versioned access or bounded-discovery artifact; see download plan for the data-access boundary."
+    },
+    {
+      "datasetId": "ssocs",
+      "purpose": "Official SSOCS public-use download path and overview capture for school safety and climate context.",
+      "artifacts": [
+        {
+          "path": "research-data/raw/ssocs/ssocs-data-products.html",
+          "bytes": 31181
+        },
+        {
+          "path": "research-data/raw/ssocs/ssocs-overview.html",
+          "bytes": 9051
+        }
+      ],
+      "joinKeys": [
+        "survey cycle",
+        "school record",
+        "survey weight"
+      ],
+      "format": "Versioned access or bounded-discovery artifact; see download plan for the data-access boundary."
+    },
+    {
+      "datasetId": "evidence-for-essa",
+      "purpose": "Versioned Evidence for ESSA review-database capture; retain primary studies for every published claim.",
+      "artifacts": [
+        {
+          "path": "research-data/raw/evidence-for-essa/evidence-for-essa-home.html",
+          "bytes": 50111
+        }
+      ],
+      "joinKeys": [
+        "program name",
+        "study citation",
+        "ESSA evidence tier"
+      ],
+      "format": "Versioned access or bounded-discovery artifact; see download plan for the data-access boundary."
+    },
+    {
+      "datasetId": "national-student-clearinghouse-research-center",
+      "purpose": "Versioned public Enrollment Insights report-index capture; public outputs are aggregate context only.",
+      "artifacts": [
+        {
+          "path": "research-data/raw/nsc-research-center/enrollment-insights.html",
+          "bytes": 109951
+        }
+      ],
+      "joinKeys": [
+        "term",
+        "state",
+        "institution sector"
+      ],
+      "format": "Versioned access or bounded-discovery artifact; see download plan for the data-access boundary."
+    },
+    {
+      "datasetId": "state-longitudinal-data-systems",
+      "purpose": "Official SLDS access inventory capture; each usable extract requires state-specific approval and documentation.",
+      "artifacts": [
+        {
+          "path": "research-data/raw/slds/slds-program-access.html",
+          "bytes": 19450
+        }
+      ],
+      "joinKeys": [
+        "state student identifier",
+        "school year",
+        "state program identifier"
+      ],
+      "format": "Versioned access or bounded-discovery artifact; see download plan for the data-access boundary."
     },
     {
       "datasetId": "what-works-clearinghouse",

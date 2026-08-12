@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-12T01:24:02.046Z",
+  "generatedAt": "2026-08-12T03:49:52.978Z",
   "requested": "all-ready-artifacts",
   "results": [
     {
       "datasetId": "ccd-public-school-directory",
       "planStatus": "ready",
-      "startedAt": "2026-08-12T01:24:02.046Z",
+      "startedAt": "2026-08-12T03:49:52.978Z",
       "state": "downloaded",
       "totalRecords": 101105,
       "artifacts": [
@@ -469,12 +469,12 @@
           "sha256": "ccb2f452ed8c9523e070510698618a661c69ef85339097303357ba986b10355a"
         }
       ],
-      "completedAt": "2026-08-12T01:24:02.560Z"
+      "completedAt": "2026-08-12T03:49:53.443Z"
     },
     {
       "datasetId": "seda-v5",
       "planStatus": "ready",
-      "startedAt": "2026-08-12T01:24:02.560Z",
+      "startedAt": "2026-08-12T03:49:53.443Z",
       "state": "downloaded",
       "artifacts": [
         {
@@ -485,12 +485,12 @@
           "sha256": "f262da89e095513e974bdae727021eacb673018c158e5dd6bb81ff77d0cc0120"
         }
       ],
-      "completedAt": "2026-08-12T01:24:02.583Z"
+      "completedAt": "2026-08-12T03:49:53.463Z"
     },
     {
       "datasetId": "edfacts-ed-data-express",
       "planStatus": "ready",
-      "startedAt": "2026-08-12T01:24:02.583Z",
+      "startedAt": "2026-08-12T03:49:53.463Z",
       "state": "downloaded",
       "artifacts": [
         {
@@ -501,12 +501,12 @@
           "sha256": "6fd197a93c36fc9442f75fc5f9c9caf9b88fa704d47f4781a29c270d53d31fad"
         }
       ],
-      "completedAt": "2026-08-12T01:24:02.590Z"
+      "completedAt": "2026-08-12T03:49:53.470Z"
     },
     {
       "datasetId": "ipeds",
       "planStatus": "ready",
-      "startedAt": "2026-08-12T01:24:02.590Z",
+      "startedAt": "2026-08-12T03:49:53.470Z",
       "state": "downloaded",
       "artifacts": [
         {
@@ -538,12 +538,12 @@
           "sha256": "deb13f577560870b848348ee8db4422587a42815d2bfb357fd44a443f6f61b90"
         }
       ],
-      "completedAt": "2026-08-12T01:24:02.601Z"
+      "completedAt": "2026-08-12T03:49:53.478Z"
     },
     {
       "datasetId": "crdc",
       "planStatus": "ready",
-      "startedAt": "2026-08-12T01:24:02.601Z",
+      "startedAt": "2026-08-12T03:49:53.478Z",
       "state": "downloaded",
       "artifacts": [
         {
@@ -554,12 +554,12 @@
           "sha256": "5d0b6b2996f06d5ea1ee4fd94b4d6687b9fcd3efaac7e8b0b65533f82765fd4f"
         }
       ],
-      "completedAt": "2026-08-12T01:24:03.084Z"
+      "completedAt": "2026-08-12T03:49:53.908Z"
     },
     {
       "datasetId": "census-f33-school-finance",
       "planStatus": "ready",
-      "startedAt": "2026-08-12T01:24:03.084Z",
+      "startedAt": "2026-08-12T03:49:53.908Z",
       "state": "downloaded",
       "artifacts": [
         {
@@ -570,12 +570,12 @@
           "sha256": "7e69f35a44c1d03c9b5a9127a074bd4feed705e7a950bf028305135241cfd758"
         }
       ],
-      "completedAt": "2026-08-12T01:24:03.091Z"
+      "completedAt": "2026-08-12T03:49:53.915Z"
     },
     {
       "datasetId": "naep-data-explorer",
       "planStatus": "ready",
-      "startedAt": "2026-08-12T01:24:03.091Z",
+      "startedAt": "2026-08-12T03:49:53.915Z",
       "state": "downloaded",
       "artifacts": [
         {
@@ -600,12 +600,12 @@
           "sha256": "dca018c01ded5fa1d23d56808910682939e323f200b984621eccdfef2c754baf"
         }
       ],
-      "completedAt": "2026-08-12T01:24:03.148Z"
+      "completedAt": "2026-08-12T03:49:53.961Z"
     },
     {
       "datasetId": "college-scorecard",
       "planStatus": "ready",
-      "startedAt": "2026-08-12T01:24:03.148Z",
+      "startedAt": "2026-08-12T03:49:53.961Z",
       "state": "downloaded",
       "artifacts": [
         {
@@ -616,21 +616,177 @@
           "sha256": "f56a181b000ca4914e924c16b6b81dcc656e25aeb2ac68ab7d271ac0f29ffd58"
         }
       ],
-      "completedAt": "2026-08-12T01:24:03.163Z"
+      "completedAt": "2026-08-12T03:49:53.974Z"
     },
     {
       "datasetId": "urban-education-data-portal",
       "planStatus": "not-independent-source",
-      "startedAt": "2026-08-12T01:24:03.163Z",
+      "startedAt": "2026-08-12T03:49:53.974Z",
       "state": "not-independent-source",
       "accessUrl": "https://educationdata.urban.org/documentation/index.html",
       "notes": "Urban is an API distribution layer for sources already represented here. CCD is downloaded through its API; do not duplicate all mirrored source files.",
-      "completedAt": "2026-08-12T01:24:03.163Z"
+      "completedAt": "2026-08-12T03:49:53.974Z"
+    },
+    {
+      "datasetId": "eric",
+      "planStatus": "ready",
+      "startedAt": "2026-08-12T03:49:53.974Z",
+      "state": "downloaded",
+      "artifacts": [
+        {
+          "url": "https://api.ies.ed.gov/eric/?search=education&rows=25",
+          "path": "research-data/raw/eric/education-query-25.json",
+          "state": "downloaded",
+          "bytes": 51617,
+          "sha256": "5e12997212c0fefb1bb777fe3f9eb90391e1605ae66e5a397944060403f86859"
+        }
+      ],
+      "completedAt": "2026-08-12T03:49:54.253Z"
+    },
+    {
+      "datasetId": "ntps-tfs",
+      "planStatus": "ready",
+      "startedAt": "2026-08-12T03:49:54.253Z",
+      "state": "downloaded",
+      "artifacts": [
+        {
+          "url": "https://nces.ed.gov/surveys/ntps/ntps-sass-data.asp",
+          "path": "research-data/raw/ntps-tfs/ntps-tfs-data-access.html",
+          "state": "downloaded",
+          "bytes": 11770,
+          "sha256": "ac5bee36b3d11b603a3f8e75cba8c09906915f553d2a79dd59dd5b4cc5331456"
+        },
+        {
+          "url": "https://nces.ed.gov/StatProg/handbook/ntps.asp",
+          "path": "research-data/raw/ntps-tfs/ntps-methods-overview.html",
+          "state": "downloaded",
+          "bytes": 21916,
+          "sha256": "48c62f920f9bff5a107c81f93cfa1b73f8c1244bcafd208dadc42f2c1131da4b"
+        }
+      ],
+      "completedAt": "2026-08-12T03:49:55.636Z"
+    },
+    {
+      "datasetId": "ecls-k",
+      "planStatus": "ready",
+      "startedAt": "2026-08-12T03:49:55.636Z",
+      "state": "downloaded",
+      "artifacts": [
+        {
+          "url": "https://nces.ed.gov/ecls/dataproducts.asp",
+          "path": "research-data/raw/ecls-k/ecls-k-2011-data-products.html",
+          "state": "downloaded",
+          "bytes": 32651,
+          "sha256": "114d915cbd47cac893182f094f603b3a6de0f4d0ce9929b8c7504512d851c1ee"
+        },
+        {
+          "url": "https://nces.ed.gov/ecls/",
+          "path": "research-data/raw/ecls-k/ecls-program-overview.html",
+          "state": "downloaded",
+          "bytes": 27909,
+          "sha256": "5e3804f596e6fc4bff55c29bb5416e118cad856511ce33817840fd9e5e25f3f8"
+        }
+      ],
+      "completedAt": "2026-08-12T03:49:57.399Z"
+    },
+    {
+      "datasetId": "hsls-09",
+      "planStatus": "ready",
+      "startedAt": "2026-08-12T03:49:57.399Z",
+      "state": "downloaded",
+      "artifacts": [
+        {
+          "url": "https://nces.ed.gov/surveys/hsls09/hsls09_data.asp",
+          "path": "research-data/raw/hsls-09/hsls-09-data-access.html",
+          "state": "downloaded",
+          "bytes": 11960,
+          "sha256": "80d1fd4e8827a5af5cf1ac729a56d4bf4615a62f80ea56a1c12dd8d01c3f8abb"
+        },
+        {
+          "url": "https://nces.ed.gov/surveys/hsls09/",
+          "path": "research-data/raw/hsls-09/hsls-09-overview.html",
+          "state": "downloaded",
+          "bytes": 29365,
+          "sha256": "b27e86738b42e105a135ba24fd704bd2af15b4da9914d1ffd7b3fc8c67abf1fc"
+        }
+      ],
+      "completedAt": "2026-08-12T03:49:58.948Z"
+    },
+    {
+      "datasetId": "ssocs",
+      "planStatus": "ready",
+      "startedAt": "2026-08-12T03:49:58.948Z",
+      "state": "downloaded",
+      "artifacts": [
+        {
+          "url": "https://nces.ed.gov/surveys/ssocs/data_products.asp",
+          "path": "research-data/raw/ssocs/ssocs-data-products.html",
+          "state": "downloaded",
+          "bytes": 31181,
+          "sha256": "9cb4e4d3432e79a7669242e2ff9b42a4f3b03387defde03bc2e6ede0bd381c7d"
+        },
+        {
+          "url": "https://nces.ed.gov/surveys/ssocs/",
+          "path": "research-data/raw/ssocs/ssocs-overview.html",
+          "state": "downloaded",
+          "bytes": 9051,
+          "sha256": "e1b5816fb4968905cf4b946a22d946ff505468857d7da2cd19f2dd55bee796ac"
+        }
+      ],
+      "completedAt": "2026-08-12T03:50:00.114Z"
+    },
+    {
+      "datasetId": "evidence-for-essa",
+      "planStatus": "ready",
+      "startedAt": "2026-08-12T03:50:00.114Z",
+      "state": "downloaded",
+      "artifacts": [
+        {
+          "url": "https://evidenceforessa.org/",
+          "path": "research-data/raw/evidence-for-essa/evidence-for-essa-home.html",
+          "state": "downloaded",
+          "bytes": 50111,
+          "sha256": "bede729510c7ee9619bdf3a88501c571163973c1fe44cd75da53ae3fd8959483"
+        }
+      ],
+      "completedAt": "2026-08-12T03:50:00.673Z"
+    },
+    {
+      "datasetId": "national-student-clearinghouse-research-center",
+      "planStatus": "ready",
+      "startedAt": "2026-08-12T03:50:00.673Z",
+      "state": "downloaded",
+      "artifacts": [
+        {
+          "url": "https://nscresearchcenter.org/enrollment-insights/",
+          "path": "research-data/raw/nsc-research-center/enrollment-insights.html",
+          "state": "downloaded",
+          "bytes": 109951,
+          "sha256": "b8f69317f61013a896227b0d7863d72343f01bf5dd3f41ba6bd2d6083de8d75c"
+        }
+      ],
+      "completedAt": "2026-08-12T03:50:01.171Z"
+    },
+    {
+      "datasetId": "state-longitudinal-data-systems",
+      "planStatus": "ready",
+      "startedAt": "2026-08-12T03:50:01.171Z",
+      "state": "downloaded",
+      "artifacts": [
+        {
+          "url": "https://nces.ed.gov/programs/slds/",
+          "path": "research-data/raw/slds/slds-program-access.html",
+          "state": "downloaded",
+          "bytes": 19450,
+          "sha256": "9de825112d7d96b3c465aebd80ed5080064af841387e80ce071acd6283d173d9"
+        }
+      ],
+      "completedAt": "2026-08-12T03:50:01.717Z"
     },
     {
       "datasetId": "what-works-clearinghouse",
       "planStatus": "ready",
-      "startedAt": "2026-08-12T01:24:03.163Z",
+      "startedAt": "2026-08-12T03:50:01.717Z",
       "state": "downloaded",
       "artifacts": [
         {
@@ -676,7 +832,7 @@
           "sha256": "d3105bd8a78c51448ded0ca10cc918c915b1b87b53b78a3628e8cf3cb7b057b3"
         }
       ],
-      "completedAt": "2026-08-12T01:24:03.167Z"
+      "completedAt": "2026-08-12T03:50:01.719Z"
     }
   ]
 }

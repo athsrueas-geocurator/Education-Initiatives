@@ -22,6 +22,14 @@ Large national extracts are intentionally excluded from Git. They must be fetche
 - `wwc-dossier-index.json`: complete list of cited What Works Clearinghouse records, mapped to their source IDs and related initiatives.
 - `source-coverage-audit.json`: generated, initiative-by-initiative source coverage and the current research queue.
 
+## Added National Sources
+
+The intake now includes ERIC; NTPS/TFS; ECLS-K; HSLS:09; SSOCS; Evidence for ESSA; National Student Clearinghouse Research Center enrollment reporting; and the NCES State Longitudinal Data Systems program.
+
+Some of these are downloadable public files, while others are controlled-access systems or evidence repositories. The download plan captures a versioned official access artifact for every source. Do not describe those captures as microdata downloads when NCES DataLab, a restricted-use license, a state agreement, or a separate research arrangement is required.
+
+In particular, SLDS is an integration target rather than a national dataset: future state extracts require the state's approval, data dictionary, disclosure controls, and a study-specific comparison design.
+
 ## Collection
 
 Run the bounded CCD sample collector:

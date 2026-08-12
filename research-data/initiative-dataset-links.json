@@ -64,5 +64,95 @@
     "datasetId": "crdc",
     "role": "contextual benchmarking",
     "use": "Compare available school access and discipline measures; retain the WWC-reviewed study for outcomes."
+  },
+  {
+    "initiativeSlug": "teacher-coaching",
+    "datasetId": "ntps-tfs",
+    "role": "teacher workforce context",
+    "use": "Describe nationally representative teacher professional-development and working-condition context; do not infer coaching effects from survey associations."
+  },
+  {
+    "initiativeSlug": "comprehensive-teacher-induction",
+    "datasetId": "ntps-tfs",
+    "role": "retention context",
+    "use": "Benchmark novice-teacher support and mobility context while retaining the randomized induction evaluation for effects."
+  },
+  {
+    "initiativeSlug": "head-start",
+    "datasetId": "ecls-k",
+    "role": "early-childhood outcome context",
+    "use": "Describe longitudinal early-learning and development context; retain the Head Start randomized evaluation for causal claims."
+  },
+  {
+    "initiativeSlug": "boston-universal-pre-k",
+    "datasetId": "ecls-k",
+    "role": "early-childhood outcome context",
+    "use": "Compare cohort-level early-childhood measures only; ECLS-K does not identify the Boston program effect."
+  },
+  {
+    "initiativeSlug": "career-academies",
+    "datasetId": "hsls-09",
+    "role": "postsecondary pathway context",
+    "use": "Provide national course-taking, CTE, and postsecondary pathway context; retain the Career Academies trial for effects."
+  },
+  {
+    "initiativeSlug": "dual-enrollment-ap-and-advanced-coursework-expansion",
+    "datasetId": "hsls-09",
+    "role": "course-taking context",
+    "use": "Describe national transcript and postsecondary context without treating cohort associations as dual-enrollment effects."
+  },
+  {
+    "initiativeSlug": "restorative-practices",
+    "datasetId": "ssocs",
+    "role": "school climate context",
+    "use": "Compare nationally representative safety, discipline, and restorative-support reporting; retain the district RCT for effects."
+  },
+  {
+    "initiativeSlug": "pbis-mtss-behavior-systems",
+    "datasetId": "ssocs",
+    "role": "school climate context",
+    "use": "Use national safety and prevention-practice context without inferring PBIS effectiveness from cross-sectional survey responses."
+  },
+  {
+    "initiativeSlug": "high-quality-instructional-materials-initiatives",
+    "datasetId": "evidence-for-essa",
+    "role": "evidence discovery",
+    "use": "Screen reading and mathematics programs for ESSA-aligned reviews, then retain the underlying primary study for every claim."
+  },
+  {
+    "initiativeSlug": "core-knowledge-knowledge-rich-curriculum",
+    "datasetId": "evidence-for-essa",
+    "role": "evidence discovery",
+    "use": "Use the review database to locate related curriculum evaluations; do not substitute a database rating for the primary study."
+  },
+  {
+    "initiativeSlug": "early-college-high-schools",
+    "datasetId": "national-student-clearinghouse-research-center",
+    "role": "postsecondary trend context",
+    "use": "Use public aggregate enrollment reporting as national context; it cannot estimate Early College effects for individual applicants."
+  },
+  {
+    "initiativeSlug": "modern-cte-pathways-and-concentrator-programs",
+    "datasetId": "national-student-clearinghouse-research-center",
+    "role": "postsecondary trend context",
+    "use": "Use public aggregate postsecondary trends as context while retaining program-specific studies for effects."
+  },
+  {
+    "initiativeSlug": "school-improvement-grants",
+    "datasetId": "state-longitudinal-data-systems",
+    "role": "local evaluation feasibility",
+    "use": "A future state-approved extract could link program exposure, outcomes, and implementation timing; no national SLDS file is implied."
+  },
+  {
+    "initiativeSlug": "school-finance-reforms-adequacy-and-equity-funding",
+    "datasetId": "state-longitudinal-data-systems",
+    "role": "local evaluation feasibility",
+    "use": "A state-specific longitudinal system can support exposure and outcome linkage when legal access, identifiers, and a credible comparison design are available."
+  },
+  {
+    "initiativeSlug": "teacher-coaching",
+    "datasetId": "eric",
+    "role": "evidence discovery",
+    "use": "Use controlled queries to locate primary coaching evaluations and syntheses; save the exact query and cited record."
   }
 ]

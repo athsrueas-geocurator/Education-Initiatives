@@ -5,6 +5,7 @@ import { ArrowUpRight, Search, SlidersHorizontal, X } from "lucide-react";
 import { useMemo, useState } from "react";
 import { evidenceLabels } from "@/lib/evidence-normalization";
 import type { EvidenceStrength, Initiative, Source } from "@/lib/content-schema";
+import datasetCatalog from "@/../research-data/dataset-catalog.json";
 
 type Props = {
   initiatives: Initiative[];
@@ -113,7 +114,7 @@ export function EvidenceDashboard({ initiatives, sources }: Props) {
                 <p className="mt-1 text-xs text-slate-400">sources</p>
               </div>
               <div className="px-4 py-3 pr-0">
-                <p className="font-mono text-2xl tabular-nums">10</p>
+                <p className="font-mono text-2xl tabular-nums">{datasetCatalog.length}</p>
                 <p className="mt-1 text-xs text-slate-400">data collections</p>
               </div>
             </div>
