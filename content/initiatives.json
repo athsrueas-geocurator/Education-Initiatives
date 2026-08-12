@@ -287,7 +287,8 @@
     "normalizationIssues": "The review synthesized studies rather than evaluating a single program; later policies sometimes oversimplified the findings.",
     "oneLineFinding": "It became the foundation for much of the phonics/science-of-reading policy debate.",
     "sourceIds": [
-      "src-014"
+      "src-014",
+      "src-099"
     ],
     "tags": "reading research; evidence review",
     "relatedDichotomySlugs": []
@@ -515,7 +516,8 @@
     "normalizationIssues": "Distinguish the tutoring relationship from software contribution; compare intended vs attended sessions.",
     "oneLineFinding": "Strong evidence for intensive tutoring models; the technology role is a support, not the whole treatment.",
     "sourceIds": [
-      "src-021"
+      "src-021",
+      "src-093"
     ],
     "tags": "math tutoring; edtech",
     "relatedDichotomySlugs": [
@@ -1000,7 +1002,8 @@
     "normalizationIssues": "SEL outcomes rely on validated scales and can be politically redefined; implementation quality matters.",
     "oneLineFinding": "Meta-analytic evidence supports positive average effects, though program content and measurement vary widely.",
     "sourceIds": [
-      "src-038"
+      "src-038",
+      "src-094"
     ],
     "tags": "SEL; whole child",
     "relatedDichotomySlugs": []
@@ -1637,7 +1640,8 @@
     "normalizationIssues": "Effects depend on scaffolding and assessment alignment; 'PBL' labels range from rigorous to superficial.",
     "oneLineFinding": "PBL is strongest when content-rich, well-scaffolded, and assessed on more than generic engagement.",
     "sourceIds": [
-      "src-002"
+      "src-002",
+      "src-095"
     ],
     "tags": "PBL; inquiry",
     "relatedDichotomySlugs": []
@@ -1733,7 +1737,7 @@
     "outputsMeasured": "Attendance, GPA, credits earned",
     "normalizationIssues": "The result identifies effects near one assignment threshold in a particular pilot and does not establish a uniform effect for all culturally relevant coursework.",
     "oneLineFinding": "A large, policy-relevant engagement and credit-accumulation case with strong local causal identification and limited external scope.",
-    "sourceIds": ["src-061"],
+    "sourceIds": ["src-061", "src-096"],
     "tags": "ethnic studies; cultural relevance; engagement; San Francisco",
     "relatedDichotomySlugs": ["knowledge-rich-curriculum-vs-generic-skills", "tracking-acceleration-vs-detracking-inclusion"]
   },
@@ -1809,7 +1813,7 @@
     "outputsMeasured": "Reading comprehension, state ELA and math tests, GPA, credits accumulated",
     "normalizationIssues": "The two program models differ; short-run gains did not persist after the program year and students remained substantially behind grade level.",
     "oneLineFinding": "A large multi-site RCT shows meaningful short-run literacy and course-progress gains, alongside a clear warning about fadeout and remaining need.",
-    "sourceIds": ["src-064"],
+    "sourceIds": ["src-064", "src-097"],
     "tags": "adolescent literacy; reading apprenticeship; ninth grade; RCT",
     "relatedDichotomySlugs": ["whole-language-balanced-literacy-vs-phonics-science-of-reading", "remediation-readiness-vs-grade-level-acceleration"]
   },
@@ -1847,7 +1851,7 @@
     "outputsMeasured": "Progressing in school, staying in school, graduation",
     "normalizationIssues": "Structural and curriculum changes occur together, evidence is limited, and the reviewed comparison may not represent every academy or turnaround model.",
     "oneLineFinding": "A real school-restructuring model that belongs in the dossier precisely because the reviewed evidence did not show a discernible progress-in-school effect.",
-    "sourceIds": ["src-067"],
+    "sourceIds": ["src-067", "src-098"],
     "tags": "small learning communities; dropout prevention; high school restructuring; null results",
     "relatedDichotomySlugs": ["small-schools-personalization-vs-comprehensive-breadth", "data-driven-continuous-improvement-vs-big-bang-reform"]
   }

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-12T02:53:43.381Z",
+  "generatedAt": "2026-08-12T02:54:52.588Z",
   "targetMinimumLinkedSources": 2,
   "initiativeCount": 76,
-  "sourceCount": 92,
+  "sourceCount": 99,
   "sourceCoverage": {
-    "1": 28,
-    "2": 45,
+    "1": 21,
+    "2": 52,
     "3": 2,
     "4": 1
   },
@@ -84,17 +84,6 @@
       "linkedSourceCount": 1,
       "linkedSourceIds": [
         "src-060"
-      ],
-      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
-    },
-    {
-      "initiativeSlug": "enhanced-reading-opportunities-raals-xtreme-reading",
-      "initiativeName": "Enhanced Reading Opportunities / Reading Apprenticeship and Xtreme Reading",
-      "category": "Literacy",
-      "studyDesignAssessment": "strong-causal",
-      "linkedSourceCount": 1,
-      "linkedSourceIds": [
-        "src-064"
       ],
       "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
     },
@@ -220,17 +209,6 @@
       "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
     },
     {
-      "initiativeSlug": "national-reading-panel-synthesis",
-      "initiativeName": "National Reading Panel synthesis",
-      "category": "Evidence infrastructure",
-      "studyDesignAssessment": "not-outcome-intervention",
-      "linkedSourceCount": 1,
-      "linkedSourceIds": [
-        "src-014"
-      ],
-      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
-    },
-    {
       "initiativeSlug": "principal-pipeline-initiative",
       "initiativeName": "Principal Pipeline Initiative",
       "category": "School organization/governance",
@@ -253,50 +231,6 @@
       "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
     },
     {
-      "initiativeSlug": "project-based-learning-and-inquiry-oriented-reform",
-      "initiativeName": "Project-based learning and inquiry-oriented reform",
-      "category": "Curriculum/pedagogy",
-      "studyDesignAssessment": "mixed-conditional",
-      "linkedSourceCount": 1,
-      "linkedSourceIds": [
-        "src-002"
-      ],
-      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
-    },
-    {
-      "initiativeSlug": "saga-style-and-tech-infused-tutoring",
-      "initiativeName": "Saga-style and tech-infused tutoring",
-      "category": "Time/dosage",
-      "studyDesignAssessment": "strong-causal",
-      "linkedSourceCount": 1,
-      "linkedSourceIds": [
-        "src-021"
-      ],
-      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
-    },
-    {
-      "initiativeSlug": "ethnic-studies-curriculum-san-francisco",
-      "initiativeName": "San Francisco ethnic studies curriculum pilot",
-      "category": "Curriculum/pedagogy",
-      "studyDesignAssessment": "promising-causal-quasi",
-      "linkedSourceCount": 1,
-      "linkedSourceIds": [
-        "src-061"
-      ],
-      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
-    },
-    {
-      "initiativeSlug": "social-and-emotional-learning-programs",
-      "initiativeName": "Social and emotional learning programs",
-      "category": "Whole-child/climate",
-      "studyDesignAssessment": "strong-causal",
-      "linkedSourceCount": 1,
-      "linkedSourceIds": [
-        "src-038"
-      ],
-      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
-    },
-    {
       "initiativeSlug": "summer-learning-programs",
       "initiativeName": "Summer learning programs",
       "category": "Time/dosage",
@@ -304,17 +238,6 @@
       "linkedSourceCount": 1,
       "linkedSourceIds": [
         "src-047"
-      ],
-      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
-    },
-    {
-      "initiativeSlug": "talent-development-high-schools",
-      "initiativeName": "Talent Development High Schools",
-      "category": "School organization/governance",
-      "studyDesignAssessment": "mixed-conditional",
-      "linkedSourceCount": 1,
-      "linkedSourceIds": [
-        "src-067"
       ],
       "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
     },
@@ -511,6 +434,18 @@
       "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
     },
     {
+      "initiativeSlug": "enhanced-reading-opportunities-raals-xtreme-reading",
+      "initiativeName": "Enhanced Reading Opportunities / Reading Apprenticeship and Xtreme Reading",
+      "category": "Literacy",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-064",
+        "src-097"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
       "initiativeSlug": "esser-and-pandemic-recovery-initiatives",
       "initiativeName": "ESSER and pandemic recovery initiatives",
       "category": "Finance/recovery",
@@ -619,6 +554,18 @@
       "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
     },
     {
+      "initiativeSlug": "national-reading-panel-synthesis",
+      "initiativeName": "National Reading Panel synthesis",
+      "category": "Evidence infrastructure",
+      "studyDesignAssessment": "not-outcome-intervention",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-014",
+        "src-099"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
       "initiativeSlug": "no-child-left-behind",
       "initiativeName": "No Child Left Behind",
       "category": "Standards/accountability",
@@ -691,6 +638,18 @@
       "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
     },
     {
+      "initiativeSlug": "project-based-learning-and-inquiry-oriented-reform",
+      "initiativeName": "Project-based learning and inquiry-oriented reform",
+      "category": "Curriculum/pedagogy",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-002",
+        "src-095"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
       "initiativeSlug": "race-to-the-top",
       "initiativeName": "Race to the Top",
       "category": "Standards/accountability",
@@ -751,6 +710,30 @@
       "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
     },
     {
+      "initiativeSlug": "saga-style-and-tech-infused-tutoring",
+      "initiativeName": "Saga-style and tech-infused tutoring",
+      "category": "Time/dosage",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-021",
+        "src-093"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "ethnic-studies-curriculum-san-francisco",
+      "initiativeName": "San Francisco ethnic studies curriculum pilot",
+      "category": "Curriculum/pedagogy",
+      "studyDesignAssessment": "promising-causal-quasi",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-061",
+        "src-096"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
       "initiativeSlug": "school-finance-reforms-adequacy-and-equity-funding",
       "initiativeName": "School finance reforms / adequacy and equity funding",
       "category": "Finance/recovery",
@@ -775,6 +758,18 @@
       "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
     },
     {
+      "initiativeSlug": "social-and-emotional-learning-programs",
+      "initiativeName": "Social and emotional learning programs",
+      "category": "Whole-child/climate",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-038",
+        "src-094"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
       "initiativeSlug": "state-test-based-accountability-before-nclb",
       "initiativeName": "State test-based accountability before NCLB",
       "category": "Standards/accountability",
@@ -795,6 +790,18 @@
       "linkedSourceIds": [
         "src-016",
         "src-002"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "talent-development-high-schools",
+      "initiativeName": "Talent Development High Schools",
+      "category": "School organization/governance",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-067",
+        "src-098"
       ],
       "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
     },

@@ -1270,5 +1270,89 @@
     "finding": "The study compares postsecondary outcomes for dual-enrollment participants and similar nonparticipants in two states.",
     "caveat": "Participation is not randomly assigned, and the estimate is sensitive to the comparison construction and state policy context.",
     "url": "https://doi.org/10.7916/f3ex-vd60"
+  },
+  {
+    "id": "src-093",
+    "title": "The Impressive Effects of Tutoring on PreK-12 Learning: A Systematic Review and Meta-Analysis of the Experimental Evidence",
+    "authors": "Andre Nickow, Philip Oreopoulos, and Vincent Quan",
+    "year": "2020",
+    "method": "Meta-analysis",
+    "outcomeTags": ["Achievement", "Tutoring", "Dosage"],
+    "evidenceStrength": "strong-causal",
+    "finding": "The experimental tutoring synthesis provides comparative evidence relevant to both in-person and technology-supported high-dosage tutoring models.",
+    "caveat": "The review does not isolate the effects of one branded tutoring provider or software platform.",
+    "url": "https://doi.org/10.3386/w27476"
+  },
+  {
+    "id": "src-094",
+    "title": "The Impact of Enhancing Students' Social and Emotional Learning: A Meta-Analysis of School-Based Universal Interventions",
+    "authors": "Joseph A. Durlak and colleagues",
+    "year": "2011",
+    "method": "Meta-analysis",
+    "outcomeTags": ["Social-emotional skills", "Behavior", "Achievement"],
+    "evidenceStrength": "strong-causal",
+    "finding": "The meta-analysis synthesizes universal school-based SEL interventions across social-emotional, behavioral, and academic outcomes.",
+    "caveat": "Interventions vary in curriculum, delivery quality, and measurement, so average effects do not identify one required SEL model.",
+    "url": "https://doi.org/10.1111/j.1467-8624.2010.01564.x"
+  },
+  {
+    "id": "src-095",
+    "title": "A Review of Research on Project-Based Learning",
+    "authors": "John W. Thomas",
+    "year": "2000",
+    "method": "Systematic review",
+    "outcomeTags": ["Achievement", "Engagement", "Inquiry"],
+    "evidenceStrength": "limited-descriptive",
+    "finding": "The review assesses the then-available research on project-based learning, including achievement and implementation questions.",
+    "caveat": "The underlying studies are heterogeneous and many predate current standards, assessments, and digital tools.",
+    "url": "https://www.bobpearlman.org/BestPractices/PBL_Research.pdf"
+  },
+  {
+    "id": "src-096",
+    "title": "The Causal Effects of Cultural Relevance: Evidence from an Ethnic Studies Curriculum",
+    "authors": "Thomas S. Dee and Emily K. Penner",
+    "year": "2017",
+    "method": "Regression discontinuity",
+    "outcomeTags": ["Attendance", "GPA", "Credit accumulation"],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "The published analysis estimates effects of San Francisco's ethnic-studies assignment rule for students near the eligibility cutoff.",
+    "caveat": "The design is most informative at the cutoff and for the district's particular curriculum and implementation.",
+    "url": "https://doi.org/10.1257/app.20180293"
+  },
+  {
+    "id": "src-097",
+    "title": "The Enhanced Reading Opportunities Study: Early Impact and Implementation Findings",
+    "authors": "James J. Kemple, William Corrin, Elizabeth Nelson, and colleagues",
+    "year": "2008",
+    "method": "RCT",
+    "outcomeTags": ["Reading comprehension", "Implementation", "Credits"],
+    "evidenceStrength": "strong-causal",
+    "finding": "The early report describes implementation and first-year impacts for the randomized supplemental literacy-course evaluation.",
+    "caveat": "It is an earlier follow-up from the same research program and does not answer longer-term persistence questions.",
+    "url": "https://ies.ed.gov/ncee/pubs/20084015/pdf/20084015.pdf"
+  },
+  {
+    "id": "src-098",
+    "title": "Making Progress Toward Graduation: Evidence from the Talent Development High School Model",
+    "authors": "James J. Kemple, Corinne Herlihy, and Thomas E. Smith",
+    "year": "2005",
+    "method": "Matched comparison",
+    "outcomeTags": ["Graduation", "Attendance", "Course performance"],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "The evaluation compares outcomes in Talent Development high schools and comparison schools during implementation of the restructuring model.",
+    "caveat": "The comparison design and bundled school changes make it difficult to isolate individual model components.",
+    "url": "https://www.mdrc.org/publication/making-progress-toward-graduation"
+  },
+  {
+    "id": "src-099",
+    "title": "National Early Literacy Panel: Developing Early Literacy",
+    "authors": "National Early Literacy Panel",
+    "year": "2008",
+    "method": "Systematic review",
+    "outcomeTags": ["Early literacy", "Phonological awareness", "Reading"],
+    "evidenceStrength": "strong-causal",
+    "finding": "The panel synthesizes evidence on early literacy skills and instructional practices that predict later conventional literacy.",
+    "caveat": "It is a synthesis of early-literacy research, not a new evaluation of the National Reading Panel itself.",
+    "url": "https://lincs.ed.gov/publications/pdf/NELPReport09.pdf"
   }
 ]
