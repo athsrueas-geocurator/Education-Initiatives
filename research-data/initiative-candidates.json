@@ -1,0 +1,142 @@
+[
+  {
+    "slug": "double-dose-algebra-chicago",
+    "name": "Chicago double-dose algebra",
+    "category": "Curriculum/pedagogy",
+    "admissionStatus": "research-verified",
+    "whyItIsMissing": "The dossier has Algebra for All but not the distinct extended-instruction policy with a stronger causal design and long-run outcomes.",
+    "theoryOfAction": "Require an additional daily algebra-support period for ninth graders below a pre-policy test-score threshold.",
+    "targetPopulation": "Chicago ninth graders with below-median prior math scores during the policy period.",
+    "evaluationDesign": "Regression discontinuity and longitudinal administrative follow-up.",
+    "evidenceStrength": "promising-causal-quasi",
+    "outcomes": ["math course performance", "test scores", "graduation", "college persistence and degree attainment"],
+    "keyCaveat": "Effects depend on the threshold rule, implementation, peer grouping, and a single-district setting.",
+    "relatedDichotomySlugs": ["remediation-readiness-vs-grade-level-acceleration", "college-for-all-vs-cte-career-pathways"],
+    "primarySource": {
+      "title": "Doubling Up? Understanding the Long-Term Effects of Ninth-grade Algebra Reform on College Persistence and Graduation",
+      "publisher": "Institute of Education Sciences",
+      "year": "2021",
+      "url": "https://ies.ed.gov/use-work/awards/doubling-understanding-long-term-effects-ninth-grade-algebra-reform-college-persistence-and"
+    }
+  },
+  {
+    "slug": "principal-pipeline-initiative",
+    "name": "Principal Pipeline Initiative",
+    "category": "School organization/governance",
+    "admissionStatus": "research-verified",
+    "whyItIsMissing": "Leadership is not represented as a discrete initiative despite a multi-district evaluation with achievement, retention, and cost findings.",
+    "theoryOfAction": "Strengthen leader standards, preparation, selective hiring, evaluation, and on-the-job support as a coherent district system.",
+    "targetPopulation": "Schools receiving newly placed principals in participating districts.",
+    "evaluationDesign": "Multi-district matched comparison with implementation and cost analysis.",
+    "evidenceStrength": "promising-causal-quasi",
+    "outcomes": ["reading achievement", "math achievement", "principal retention", "cost per student"],
+    "keyCaveat": "The package was evaluated as a system; individual components cannot be credited separately.",
+    "relatedDichotomySlugs": ["data-driven-continuous-improvement-vs-big-bang-reform", "standardization-accountability-vs-professional-autonomy"],
+    "primarySource": {
+      "title": "Principal Pipelines: A Feasible, Affordable, and Effective Way for Districts to Improve Schools",
+      "publisher": "RAND Corporation",
+      "year": "2019",
+      "url": "https://www.rand.org/content/dam/rand/pubs/research_reports/RR2600/RR2666/RAND_RR2666.pdf"
+    }
+  },
+  {
+    "slug": "dual-language-immersion-programs",
+    "name": "Dual-language immersion programs",
+    "category": "Curriculum/pedagogy",
+    "admissionStatus": "research-verified",
+    "whyItIsMissing": "Dual language is a continuum topic but lacks a program-level initiative record tied to lottery evidence and bilingualism outcomes.",
+    "theoryOfAction": "Deliver academic and literacy instruction in English and a partner language over multiple years.",
+    "targetPopulation": "Elementary and middle-grade students participating in immersion programs.",
+    "evaluationDesign": "Lottery-based evidence reviewed by the What Works Clearinghouse.",
+    "evidenceStrength": "strong-causal",
+    "outcomes": ["English literacy", "mathematics", "science", "bilingualism and biliteracy"],
+    "keyCaveat": "Results vary by program model, language pair, time horizon, student selection, and whether biliteracy is treated as an outcome.",
+    "relatedDichotomySlugs": ["bilingual-dual-language-vs-english-immersion"],
+    "primarySource": {
+      "title": "Effects of Dual-Language Immersion Programs on Student Achievement: Evidence from Lottery Data",
+      "publisher": "What Works Clearinghouse",
+      "year": "2022 review of 2017 study",
+      "url": "https://ies.ed.gov/ncee/WWC/Study/85526"
+    }
+  },
+  {
+    "slug": "early-warning-intervention-monitoring-system",
+    "name": "Early Warning Intervention and Monitoring System (EWIMS)",
+    "category": "Evidence infrastructure",
+    "admissionStatus": "research-verified",
+    "whyItIsMissing": "The dossier covers attendance interventions but not the distinct randomized early-warning-system model that uses attendance, behavior, and course performance together.",
+    "theoryOfAction": "Use school teams and data routines to identify students at risk and assign supports before students fall further off track.",
+    "targetPopulation": "First- and second-year high school students in participating schools.",
+    "evaluationDesign": "Cluster randomized controlled trial across 73 high schools.",
+    "evidenceStrength": "strong-causal",
+    "outcomes": ["chronic absence", "course failure", "GPA", "on-track credits", "suspension"],
+    "keyCaveat": "The first-year study found risk-indicator improvements but no detectable effect on credit accumulation, and implementation was challenging.",
+    "relatedDichotomySlugs": ["data-driven-continuous-improvement-vs-big-bang-reform", "remediation-readiness-vs-grade-level-acceleration"],
+    "primarySource": {
+      "title": "Getting students on track for graduation: Impacts of the Early Warning Intervention and Monitoring System after one year",
+      "publisher": "Institute of Education Sciences",
+      "year": "2017",
+      "url": "https://ies.ed.gov/use-work/resource-library/report/impact-study/getting-students-track-graduation-impacts-early-warning-intervention-and-monitoring-system-after-one"
+    }
+  },
+  {
+    "slug": "ethnic-studies-curriculum-san-francisco",
+    "name": "San Francisco ethnic studies curriculum pilot",
+    "category": "Curriculum/pedagogy",
+    "admissionStatus": "research-verified",
+    "whyItIsMissing": "Culturally relevant curriculum is absent despite a policy-relevant regression-discontinuity study with large high-school engagement outcomes.",
+    "theoryOfAction": "Offer a culturally relevant ninth-grade course to students assigned around an eighth-grade GPA threshold.",
+    "targetPopulation": "Ninth-grade students in participating San Francisco high schools near the assignment threshold.",
+    "evaluationDesign": "Fuzzy regression discontinuity.",
+    "evidenceStrength": "promising-causal-quasi",
+    "outcomes": ["attendance", "GPA", "credits earned"],
+    "keyCaveat": "The study is tied to a particular pilot, threshold, and fidelity context; it should not stand in for every ethnic studies implementation.",
+    "relatedDichotomySlugs": ["knowledge-rich-curriculum-vs-generic-skills", "tracking-acceleration-vs-detracking-inclusion"],
+    "primarySource": {
+      "title": "The Causal Effects of Cultural Relevance: Evidence from an Ethnic Studies Curriculum",
+      "publisher": "National Bureau of Economic Research",
+      "year": "2016",
+      "url": "https://www.nber.org/papers/w21865"
+    }
+  },
+  {
+    "slug": "comprehensive-teacher-induction",
+    "name": "Comprehensive teacher induction",
+    "category": "Teacher workforce",
+    "admissionStatus": "research-verified",
+    "whyItIsMissing": "The teacher-workforce collection has coaching and evaluation, but not a major randomized test of structured novice-teacher induction with largely null findings.",
+    "theoryOfAction": "Provide full-time mentoring, mentoring training, professional development, and observation opportunities to beginning teachers.",
+    "targetPopulation": "Beginning elementary teachers in districts not already offering comprehensive induction.",
+    "evaluationDesign": "School-level randomized controlled trial across 17 districts.",
+    "evidenceStrength": "strong-causal",
+    "outcomes": ["teacher support", "teacher practice", "teacher retention", "student reading and math achievement"],
+    "keyCaveat": "One-year induction had no student-achievement impact; a later positive subset result for two-year induction requires careful interpretation.",
+    "relatedDichotomySlugs": ["teacher-incentives-evaluation-vs-trust-professionalism", "central-curriculum-hqim-vs-teacher-created-materials"],
+    "primarySource": {
+      "title": "Impacts of Comprehensive Teacher Induction: Final Results from a Randomized Controlled Study",
+      "publisher": "Institute of Education Sciences",
+      "year": "2010",
+      "url": "https://ies.ed.gov/use-work/resource-library/report/evaluation-report/impacts-comprehensive-teacher-induction-final-results-randomized-controlled-study"
+    }
+  },
+  {
+    "slug": "community-eligibility-provision-universal-meals",
+    "name": "Community Eligibility Provision / universal free school meals",
+    "category": "Whole-child/climate",
+    "admissionStatus": "research-verified-contextual",
+    "whyItIsMissing": "The dossier is thin on universal service policies whose most direct outcomes are family resources, food security, participation, and stigma rather than test scores.",
+    "theoryOfAction": "Offer meals to all students in eligible high-poverty schools without individual meal applications.",
+    "targetPopulation": "Students and households in schools eligible for the Community Eligibility Provision.",
+    "evaluationDesign": "Quasi-experimental exposure analysis.",
+    "evidenceStrength": "promising-causal-quasi",
+    "outcomes": ["household food purchases", "dietary quality", "food insecurity", "program participation"],
+    "keyCaveat": "This initial source does not establish student academic effects; add education-outcome evidence before positioning it as an academic intervention.",
+    "relatedDichotomySlugs": ["sel-whole-child-vs-academics-first", "more-money-resources-vs-money-does-not-matter"],
+    "primarySource": {
+      "title": "The Effect of Free School Meals on Household Food Purchases: Evidence from the Community Eligibility Provision",
+      "publisher": "National Bureau of Economic Research",
+      "year": "2021",
+      "url": "https://www.nber.org/papers/w29395"
+    }
+  }
+]
