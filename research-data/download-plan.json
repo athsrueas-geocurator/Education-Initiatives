@@ -1,0 +1,83 @@
+[
+  {
+    "datasetId": "ccd-public-school-directory",
+    "mode": "urban-ccd-state-api",
+    "year": 2022,
+    "status": "ready",
+    "outputDirectory": "research-data/raw/ccd-public-school-directory/2022",
+    "notes": "Downloads the complete 50-state-plus-DC school directory in separate resumable API slices. The authoritative provenance remains NCES CCD."
+  },
+  {
+    "datasetId": "seda-v5",
+    "mode": "file",
+    "status": "ready",
+    "url": "https://stacks.stanford.edu/file/xh833nn4025/seda_school_pool_cs_6.0.csv",
+    "outputFile": "research-data/raw/seda-v6/seda_school_pool_cs_6.0.csv",
+    "notes": "Current SEDA v6 school-level pooled cohort-standardized achievement file."
+  },
+  {
+    "datasetId": "edfacts-ed-data-express",
+    "mode": "file",
+    "status": "ready",
+    "url": "https://eddataexpress.ed.gov/sites/default/files/2024-11/SY2223%20Chronic%20Absenteeism%20EDE%20110724.zip",
+    "outputFile": "research-data/raw/edfacts/SY2223-Chronic-Absenteeism-EDE-110724.zip",
+    "notes": "National EDFacts chronic-absence release with data notes."
+  },
+  {
+    "datasetId": "ipeds",
+    "mode": "files",
+    "status": "ready",
+    "artifacts": [
+      { "url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip", "outputFile": "research-data/raw/ipeds-2024/HD2024.zip" },
+      { "url": "https://nces.ed.gov/ipeds/datacenter/data/IC2024.zip", "outputFile": "research-data/raw/ipeds-2024/IC2024.zip" },
+      { "url": "https://nces.ed.gov/ipeds/datacenter/data/C2024_A.zip", "outputFile": "research-data/raw/ipeds-2024/C2024_A.zip" },
+      { "url": "https://nces.ed.gov/ipeds/datacenter/data/EFFY2024_HS.zip", "outputFile": "research-data/raw/ipeds-2024/EFFY2024_HS.zip" }
+    ],
+    "notes": "Directory, institutional characteristics, completions by program, and dual-enrollment headcount."
+  },
+  {
+    "datasetId": "crdc",
+    "mode": "file",
+    "status": "ready",
+    "url": "https://ocrdata.ed.gov/assets/ocr/docs/2021-22-crdc-data.zip",
+    "outputFile": "research-data/raw/crdc/2021-22-crdc-data.zip",
+    "notes": "Official CRDC 2021-22 public-use data archive, verified from the portal's Download Data Files table."
+  },
+  {
+    "datasetId": "census-f33-school-finance",
+    "mode": "file",
+    "status": "ready",
+    "url": "https://www2.census.gov/programs-surveys/school-finances/tables/2024/secondary-education-finance/elsec24.xlsx",
+    "outputFile": "research-data/raw/census-f33/elsec24.xlsx",
+    "notes": "Official Census 2024 All Data Items workbook from the Annual Survey of School System Finances. This avoids the API key requirement while retaining district-level finance data."
+  },
+  {
+    "datasetId": "naep-data-explorer",
+    "mode": "interactive-query",
+    "status": "requires-query-definition",
+    "accessUrl": "https://nces.ed.gov/nationsreportcard/naepdata/",
+    "notes": "NAEP is a multidimensional query system, not one bulk national file. An outcome, grade, subject, years, and jurisdictions must be selected before an export is meaningful."
+  },
+  {
+    "datasetId": "college-scorecard",
+    "mode": "file",
+    "status": "ready",
+    "url": "https://ed-public-download.scorecard.network/downloads/Most-Recent-Cohorts-Institution_06102026.zip",
+    "outputFile": "research-data/raw/college-scorecard/Most-Recent-Cohorts-Institution_06102026.zip",
+    "notes": "Official College Scorecard most-recent institution-level release, dated June 10, 2026. The release contains institutional characteristics, enrollment, aid, cost, completion, debt, repayment, and earnings measures."
+  },
+  {
+    "datasetId": "urban-education-data-portal",
+    "mode": "metadata-only",
+    "status": "not-independent-source",
+    "accessUrl": "https://educationdata.urban.org/documentation/index.html",
+    "notes": "Urban is an API distribution layer for sources already represented here. CCD is downloaded through its API; do not duplicate all mirrored source files."
+  },
+  {
+    "datasetId": "what-works-clearinghouse",
+    "mode": "interactive-export",
+    "status": "requires-query-definition",
+    "accessUrl": "https://ies.ed.gov/ncee/wwc/",
+    "notes": "WWC is an evidence-review repository. Its relevant export must be defined by intervention, topic, grade, and review status."
+  }
+]

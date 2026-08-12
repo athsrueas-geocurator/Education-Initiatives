@@ -1,0 +1,68 @@
+[
+  {
+    "initiativeSlug": "double-dose-algebra-chicago",
+    "datasetId": "crdc",
+    "role": "contextual benchmarking",
+    "use": "Compare access to Algebra I and advanced coursework at schools, without treating CRDC as the intervention evaluation."
+  },
+  {
+    "initiativeSlug": "principal-pipeline-initiative",
+    "datasetId": "seda-v5",
+    "role": "outcome benchmarking",
+    "use": "Benchmark school achievement patterns where participating schools can be matched by NCES school ID."
+  },
+  {
+    "initiativeSlug": "dual-language-immersion-programs",
+    "datasetId": "edfacts-ed-data-express",
+    "role": "contextual benchmarking",
+    "use": "Compare chronic-absence context, not bilingual-program effects."
+  },
+  {
+    "initiativeSlug": "early-warning-intervention-monitoring-system",
+    "datasetId": "edfacts-ed-data-express",
+    "role": "outcome context",
+    "use": "Use chronic absence as a common outcome definition alongside the randomized evaluation."
+  },
+  {
+    "initiativeSlug": "ethnic-studies-curriculum-san-francisco",
+    "datasetId": "seda-v5",
+    "role": "outcome context",
+    "use": "Provide school achievement context; the regression-discontinuity study remains the causal source."
+  },
+  {
+    "initiativeSlug": "comprehensive-teacher-induction",
+    "datasetId": "seda-v5",
+    "role": "outcome benchmarking",
+    "use": "Benchmark achievement patterns only; retain the induction trial as the effect estimate."
+  },
+  {
+    "initiativeSlug": "community-eligibility-provision-universal-meals",
+    "datasetId": "edfacts-ed-data-express",
+    "role": "outcome context",
+    "use": "Compare chronic-absence context while avoiding an unsupported academic-effect claim."
+  },
+  {
+    "initiativeSlug": "national-guard-youth-challenge-program",
+    "datasetId": "college-scorecard",
+    "role": "postsecondary context",
+    "use": "Provide institution-level destination context; the randomized program study remains causal evidence."
+  },
+  {
+    "initiativeSlug": "enhanced-reading-opportunities-raals-xtreme-reading",
+    "datasetId": "seda-v5",
+    "role": "outcome benchmarking",
+    "use": "Benchmark school achievement trends; retain the randomized evaluation for intervention findings."
+  },
+  {
+    "initiativeSlug": "21st-century-community-learning-centers",
+    "datasetId": "crdc",
+    "role": "contextual benchmarking",
+    "use": "Compare school climate and discipline context, not after-school-program effects."
+  },
+  {
+    "initiativeSlug": "talent-development-high-schools",
+    "datasetId": "crdc",
+    "role": "contextual benchmarking",
+    "use": "Compare available school access and discipline measures; retain the WWC-reviewed study for outcomes."
+  }
+]

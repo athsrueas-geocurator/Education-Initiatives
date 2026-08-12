@@ -1,0 +1,619 @@
+{
+  "generatedAt": "2026-08-12T01:16:41.234Z",
+  "requested": "all-ready-artifacts",
+  "results": [
+    {
+      "datasetId": "ccd-public-school-directory",
+      "planStatus": "ready",
+      "startedAt": "2026-08-12T01:16:41.235Z",
+      "state": "downloaded",
+      "totalRecords": 101105,
+      "artifacts": [
+        {
+          "fips": "01",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=01",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-01.json",
+          "recordCount": 1528,
+          "state": "already-present",
+          "bytes": 1769001,
+          "sha256": "85163a223096e285631639813cb48e6a8c5e2ebaf674fc95db3278f4dce1f178"
+        },
+        {
+          "fips": "02",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=02",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-02.json",
+          "recordCount": 511,
+          "state": "already-present",
+          "bytes": 595793,
+          "sha256": "ab28bcf5f1388f33f39ad443a1ba282c504c815375bb27322a7b6c46eaef060c"
+        },
+        {
+          "fips": "04",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=04",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-04.json",
+          "recordCount": 2547,
+          "state": "already-present",
+          "bytes": 3027926,
+          "sha256": "372f00e5427a716414043af3af1242b44e56ddc32517753e24b345e22089719a"
+        },
+        {
+          "fips": "05",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=05",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-05.json",
+          "recordCount": 1103,
+          "state": "already-present",
+          "bytes": 1298846,
+          "sha256": "0e25f94ebabc4e849268ec1a4d237e092a6424125f359eefe6ce5f2a02d7ba55"
+        },
+        {
+          "fips": "06",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=06",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-06.json",
+          "recordCount": 10416,
+          "state": "already-present",
+          "bytes": 11753964,
+          "sha256": "c8592b24919c11ba937df219513c9b5abd654c60acabef3126a6672c63066df4"
+        },
+        {
+          "fips": "08",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=08",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-08.json",
+          "recordCount": 1965,
+          "state": "already-present",
+          "bytes": 2349007,
+          "sha256": "c1cab4bc28d81a99840b2368223399d2cdb82a2c476285ce59416885c15706b7"
+        },
+        {
+          "fips": "09",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=09",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-09.json",
+          "recordCount": 1025,
+          "state": "already-present",
+          "bytes": 1207836,
+          "sha256": "04417929e45c8b2eb1b69a1e37115ed070146f521fffebc1744978a338a33ca9"
+        },
+        {
+          "fips": "10",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=10",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-10.json",
+          "recordCount": 235,
+          "state": "already-present",
+          "bytes": 278901,
+          "sha256": "baf0fec8508f0a312b47af54c47ff0f01eef953408232fa38d4b85f88f87aedd"
+        },
+        {
+          "fips": "11",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=11",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-11.json",
+          "recordCount": 244,
+          "state": "already-present",
+          "bytes": 288640,
+          "sha256": "ea446675e41170eaa6920e001f9e58fa36d4e1898624ca5674d261c79da9edba"
+        },
+        {
+          "fips": "12",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=12",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-12.json",
+          "recordCount": 4337,
+          "state": "already-present",
+          "bytes": 5016867,
+          "sha256": "c7a3d14be9af107979e3e5cd5d0960ffb83c918a8aea456c6a9093913abf8e56"
+        },
+        {
+          "fips": "13",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=13",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-13.json",
+          "recordCount": 2332,
+          "state": "already-present",
+          "bytes": 2713177,
+          "sha256": "0cc3f09134c409a2aa7d48164edf70571a0691111495e76a0d8f5469cc7dbda6"
+        },
+        {
+          "fips": "15",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=15",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-15.json",
+          "recordCount": 296,
+          "state": "already-present",
+          "bytes": 348107,
+          "sha256": "0ab999f4e98251ba6709ab839e1025e69a62abcd0e218cfd25e783d7ddb6040b"
+        },
+        {
+          "fips": "16",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=16",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-16.json",
+          "recordCount": 812,
+          "state": "already-present",
+          "bytes": 954882,
+          "sha256": "7d7581494b2aede2f511888f6b224b39626cb01c9ab8d07de9616eb31364cd99"
+        },
+        {
+          "fips": "17",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=17",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-17.json",
+          "recordCount": 4432,
+          "state": "already-present",
+          "bytes": 5247388,
+          "sha256": "9ac14b5f3b17f524458f8f04a2e589f4e131fc9df0a56904445bb35a7e167aed"
+        },
+        {
+          "fips": "18",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=18",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-18.json",
+          "recordCount": 1930,
+          "state": "already-present",
+          "bytes": 2268339,
+          "sha256": "fab9838e8fb1b777cdef778cdcd58facd69edc837c3db657efccd3c2f26c3c0a"
+        },
+        {
+          "fips": "19",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=19",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-19.json",
+          "recordCount": 1336,
+          "state": "already-present",
+          "bytes": 1588264,
+          "sha256": "75bd2098eb3269d9649980b9bf4b969d6ee78ed32401ba49c4f3c1c351ae38d1"
+        },
+        {
+          "fips": "20",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=20",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-20.json",
+          "recordCount": 1364,
+          "state": "already-present",
+          "bytes": 1568971,
+          "sha256": "10b252ea9b0cab15236ff47e5066ae326a4c763062b9bb695b55376cb2e03c43"
+        },
+        {
+          "fips": "21",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=21",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-21.json",
+          "recordCount": 1550,
+          "state": "already-present",
+          "bytes": 1831186,
+          "sha256": "bb101c409d024755265d7a1214a774ace3168aa87db7ee44e748e067cdaf24d3"
+        },
+        {
+          "fips": "22",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=22",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-22.json",
+          "recordCount": 1373,
+          "state": "already-present",
+          "bytes": 1611941,
+          "sha256": "47d79b34f7e0714c916bdb1d002a9766ecd1c745439148bfcfe4eaad7c8b8ce0"
+        },
+        {
+          "fips": "23",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=23",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-23.json",
+          "recordCount": 602,
+          "state": "already-present",
+          "bytes": 697674,
+          "sha256": "1a7b9c353155a8531abbb2c9d9e95eded637738368c6260e1390a1c43b9717da"
+        },
+        {
+          "fips": "24",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=24",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-24.json",
+          "recordCount": 1424,
+          "state": "already-present",
+          "bytes": 1679536,
+          "sha256": "6164828ffd6aab83b35b8508bfcfc7e66cbf08781c4a37f0fd690b4da153c13a"
+        },
+        {
+          "fips": "25",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=25",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-25.json",
+          "recordCount": 1862,
+          "state": "already-present",
+          "bytes": 2171951,
+          "sha256": "647c2e3bdc8eb1d1be91980dca7a5075593c22af55d1da3adb2fb13da9957276"
+        },
+        {
+          "fips": "26",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=26",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-26.json",
+          "recordCount": 3557,
+          "state": "already-present",
+          "bytes": 4192031,
+          "sha256": "d8e886966826da2dc4861fc1069d678217e20b1c3f67e04a5564048b152ecf27"
+        },
+        {
+          "fips": "27",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=27",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-27.json",
+          "recordCount": 2767,
+          "state": "already-present",
+          "bytes": 3286224,
+          "sha256": "f40a12023d9905eb17b241f035e3650ff8863cfafc60fa2e3fc63d0954d34e29"
+        },
+        {
+          "fips": "28",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=28",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-28.json",
+          "recordCount": 1049,
+          "state": "already-present",
+          "bytes": 1239520,
+          "sha256": "be70a817e3dbe54a0f223951069e43cb39fdb642d260b4e1867a6d455278c0e1"
+        },
+        {
+          "fips": "29",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=29",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-29.json",
+          "recordCount": 2483,
+          "state": "already-present",
+          "bytes": 2889496,
+          "sha256": "7b3670fb36a6bb1cdeb961b9f5ab519c560df029d1e9194b2c4797907e975ddb"
+        },
+        {
+          "fips": "30",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=30",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-30.json",
+          "recordCount": 832,
+          "state": "already-present",
+          "bytes": 959830,
+          "sha256": "3a2856ca0d00d3619bbdf88a49895b0fadb45252238d45bf7942d3b471fbb2e5"
+        },
+        {
+          "fips": "31",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=31",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-31.json",
+          "recordCount": 1104,
+          "state": "already-present",
+          "bytes": 1308211,
+          "sha256": "70074c99811afff2ad3545a3c268d67a7e0b71120b7ed20a516ec946359aac2c"
+        },
+        {
+          "fips": "32",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=32",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-32.json",
+          "recordCount": 773,
+          "state": "already-present",
+          "bytes": 909737,
+          "sha256": "aca4df476a4bafaa23fab2e1d965c47f34bfe5923f14578c230f738b324078fd"
+        },
+        {
+          "fips": "33",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=33",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-33.json",
+          "recordCount": 504,
+          "state": "already-present",
+          "bytes": 590817,
+          "sha256": "79db8017f30343ac79780de8c8f098aac0ad4e5a323222839303ff6d8188094f"
+        },
+        {
+          "fips": "34",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=34",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-34.json",
+          "recordCount": 2585,
+          "state": "already-present",
+          "bytes": 3076997,
+          "sha256": "9a587d73f57cda14bb9db56ad0f69bc6c9ae718809bdb5b3af1abab5b66ac041"
+        },
+        {
+          "fips": "35",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=35",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-35.json",
+          "recordCount": 894,
+          "state": "already-present",
+          "bytes": 1043767,
+          "sha256": "a3c417e2d0e10963e0ae492f9ca1ec68d417de2980db43cde3fe4ec90d7fa4d5"
+        },
+        {
+          "fips": "36",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=36",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-36.json",
+          "recordCount": 4847,
+          "state": "already-present",
+          "bytes": 5848740,
+          "sha256": "7d09a58ee92c5980106817cd3bce1b9c526b751bfdfed9d54390c71568fefeb3"
+        },
+        {
+          "fips": "37",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=37",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-37.json",
+          "recordCount": 2771,
+          "state": "already-present",
+          "bytes": 3244799,
+          "sha256": "996cda41d7190a8d6af83962e1b1658594b8a5fdfbb0168ad50165a980c111de"
+        },
+        {
+          "fips": "38",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=38",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-38.json",
+          "recordCount": 523,
+          "state": "already-present",
+          "bytes": 603499,
+          "sha256": "7def45c38da5bebd8fc407d2634236d371297a6fbd2ada9fee44edc32c09388e"
+        },
+        {
+          "fips": "39",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=39",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-39.json",
+          "recordCount": 3695,
+          "state": "already-present",
+          "bytes": 4348458,
+          "sha256": "01c91d54872c13121a7b9d1a8f1f57e5a4b5c52ddee11f7f443ec7968ac1d384"
+        },
+        {
+          "fips": "40",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=40",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-40.json",
+          "recordCount": 1804,
+          "state": "already-present",
+          "bytes": 2084858,
+          "sha256": "2965ddbb5481d5e49c98ebe8be4156b3adbca1d7067186c2891d6c8631895c05"
+        },
+        {
+          "fips": "41",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=41",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-41.json",
+          "recordCount": 1298,
+          "state": "already-present",
+          "bytes": 1557092,
+          "sha256": "9ddd7afb6f6f6b5efe5def58673d88cf54ecb70dd7907eeaeda32ab0e5ed09d1"
+        },
+        {
+          "fips": "42",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=42",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-42.json",
+          "recordCount": 2956,
+          "state": "already-present",
+          "bytes": 3462963,
+          "sha256": "c325969254ad203d459f2fa372d79ff921928a7869c41622d9ff9871153ec7b8"
+        },
+        {
+          "fips": "44",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=44",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-44.json",
+          "recordCount": 317,
+          "state": "already-present",
+          "bytes": 369229,
+          "sha256": "649d49ba1915c9992aa9b31d71d70fa3c898e677e1a6d1ef1c5162e843a0a00d"
+        },
+        {
+          "fips": "45",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=45",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-45.json",
+          "recordCount": 1288,
+          "state": "already-present",
+          "bytes": 1502952,
+          "sha256": "3241e6cb5ac915d8776b54ca143146096871dd2303a7f9799e247fd87ba6a38f"
+        },
+        {
+          "fips": "46",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=46",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-46.json",
+          "recordCount": 744,
+          "state": "already-present",
+          "bytes": 871663,
+          "sha256": "9ad24620de167c7dfd322f17b27d17c072ac9953ac4c92d2e40bde6e277030a1"
+        },
+        {
+          "fips": "47",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=47",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-47.json",
+          "recordCount": 1932,
+          "state": "already-present",
+          "bytes": 2263659,
+          "sha256": "6a48edb787fc4f8cd736be6cfb629efc7bcf33132007a670cb978d7df841e672"
+        },
+        {
+          "fips": "48",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=48",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-48.json",
+          "recordCount": 9692,
+          "state": "already-present",
+          "bytes": 11293588,
+          "sha256": "363fb3368b50746298cf94c6123a8d8b8c7733ac3202f6ba405595d5bd3a36d8"
+        },
+        {
+          "fips": "49",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=49",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-49.json",
+          "recordCount": 1118,
+          "state": "already-present",
+          "bytes": 1294061,
+          "sha256": "2b782d357b180ae75701995863b26086be7d0a6ee13c2d91c573e99f3a770707"
+        },
+        {
+          "fips": "50",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=50",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-50.json",
+          "recordCount": 306,
+          "state": "already-present",
+          "bytes": 365472,
+          "sha256": "927baee6538613e75561ba8f30878623f8c9d52c6d244957da8b619bd8ba9d6f"
+        },
+        {
+          "fips": "51",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=51",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-51.json",
+          "recordCount": 2163,
+          "state": "already-present",
+          "bytes": 2558634,
+          "sha256": "7369b2afe94bf8c78d65db9c80de706eb70d98482bdd7e4785a9e955ffa5a4e2"
+        },
+        {
+          "fips": "53",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=53",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-53.json",
+          "recordCount": 2566,
+          "state": "already-present",
+          "bytes": 3015677,
+          "sha256": "d9bbad703b9b4224496dbb9a9dbf8981021c8520ae0f4f7ebde58059683d595f"
+        },
+        {
+          "fips": "54",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=54",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-54.json",
+          "recordCount": 690,
+          "state": "already-present",
+          "bytes": 819551,
+          "sha256": "01273a74de34be5ac77a575cbf16531ba860876282a611b7894baa1f2cad6872"
+        },
+        {
+          "fips": "55",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=55",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-55.json",
+          "recordCount": 2261,
+          "state": "already-present",
+          "bytes": 2642843,
+          "sha256": "e2f116371fdd98d8d3ad315902d5e73671eb133581cc96a913abb7e9343d7245"
+        },
+        {
+          "fips": "56",
+          "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=56",
+          "path": "research-data/raw/ccd-public-school-directory/2022/ccd-school-directory-2022-fips-56.json",
+          "recordCount": 362,
+          "state": "already-present",
+          "bytes": 428546,
+          "sha256": "ccb2f452ed8c9523e070510698618a661c69ef85339097303357ba986b10355a"
+        }
+      ],
+      "completedAt": "2026-08-12T01:16:41.751Z"
+    },
+    {
+      "datasetId": "seda-v5",
+      "planStatus": "ready",
+      "startedAt": "2026-08-12T01:16:41.751Z",
+      "state": "downloaded",
+      "artifacts": [
+        {
+          "url": "https://stacks.stanford.edu/file/xh833nn4025/seda_school_pool_cs_6.0.csv",
+          "path": "research-data/raw/seda-v6/seda_school_pool_cs_6.0.csv",
+          "state": "already-present",
+          "bytes": 36998499,
+          "sha256": "f262da89e095513e974bdae727021eacb673018c158e5dd6bb81ff77d0cc0120"
+        }
+      ],
+      "completedAt": "2026-08-12T01:16:41.776Z"
+    },
+    {
+      "datasetId": "edfacts-ed-data-express",
+      "planStatus": "ready",
+      "startedAt": "2026-08-12T01:16:41.776Z",
+      "state": "downloaded",
+      "artifacts": [
+        {
+          "url": "https://eddataexpress.ed.gov/sites/default/files/2024-11/SY2223%20Chronic%20Absenteeism%20EDE%20110724.zip",
+          "path": "research-data/raw/edfacts/SY2223-Chronic-Absenteeism-EDE-110724.zip",
+          "state": "already-present",
+          "bytes": 12985206,
+          "sha256": "6fd197a93c36fc9442f75fc5f9c9caf9b88fa704d47f4781a29c270d53d31fad"
+        }
+      ],
+      "completedAt": "2026-08-12T01:16:41.785Z"
+    },
+    {
+      "datasetId": "ipeds",
+      "planStatus": "ready",
+      "startedAt": "2026-08-12T01:16:41.785Z",
+      "state": "downloaded",
+      "artifacts": [
+        {
+          "url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip",
+          "path": "research-data/raw/ipeds-2024/HD2024.zip",
+          "state": "already-present",
+          "bytes": 1088372,
+          "sha256": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345"
+        },
+        {
+          "url": "https://nces.ed.gov/ipeds/datacenter/data/IC2024.zip",
+          "path": "research-data/raw/ipeds-2024/IC2024.zip",
+          "state": "already-present",
+          "bytes": 135305,
+          "sha256": "924f04f0afd953633a34bbc2ad1beaa65fdbf2a7ba25ebe364bac7469a976288"
+        },
+        {
+          "url": "https://nces.ed.gov/ipeds/datacenter/data/C2024_A.zip",
+          "path": "research-data/raw/ipeds-2024/C2024_A.zip",
+          "state": "already-present",
+          "bytes": 4680679,
+          "sha256": "03234cc27fe4e7eb835a66d4f37aaec11bdac8dfa278f971584e1b20d03e1159"
+        },
+        {
+          "url": "https://nces.ed.gov/ipeds/datacenter/data/EFFY2024_HS.zip",
+          "path": "research-data/raw/ipeds-2024/EFFY2024_HS.zip",
+          "state": "already-present",
+          "bytes": 91285,
+          "sha256": "deb13f577560870b848348ee8db4422587a42815d2bfb357fd44a443f6f61b90"
+        }
+      ],
+      "completedAt": "2026-08-12T01:16:41.789Z"
+    },
+    {
+      "datasetId": "crdc",
+      "planStatus": "ready",
+      "startedAt": "2026-08-12T01:16:41.789Z",
+      "state": "downloaded",
+      "artifacts": [
+        {
+          "url": "https://ocrdata.ed.gov/assets/ocr/docs/2021-22-crdc-data.zip",
+          "path": "research-data/raw/crdc/2021-22-crdc-data.zip",
+          "state": "already-present",
+          "bytes": 832409504,
+          "sha256": "5d0b6b2996f06d5ea1ee4fd94b4d6687b9fcd3efaac7e8b0b65533f82765fd4f"
+        }
+      ],
+      "completedAt": "2026-08-12T01:16:42.286Z"
+    },
+    {
+      "datasetId": "census-f33-school-finance",
+      "planStatus": "ready",
+      "startedAt": "2026-08-12T01:16:42.286Z",
+      "state": "downloaded",
+      "artifacts": [
+        {
+          "url": "https://www2.census.gov/programs-surveys/school-finances/tables/2024/secondary-education-finance/elsec24.xlsx",
+          "path": "research-data/raw/census-f33/elsec24.xlsx",
+          "state": "downloaded",
+          "bytes": 12639997,
+          "sha256": "7e69f35a44c1d03c9b5a9127a074bd4feed705e7a950bf028305135241cfd758"
+        }
+      ],
+      "completedAt": "2026-08-12T01:16:43.005Z"
+    },
+    {
+      "datasetId": "naep-data-explorer",
+      "planStatus": "requires-query-definition",
+      "startedAt": "2026-08-12T01:16:43.005Z",
+      "state": "requires-query-definition",
+      "accessUrl": "https://nces.ed.gov/nationsreportcard/naepdata/",
+      "notes": "NAEP is a multidimensional query system, not one bulk national file. An outcome, grade, subject, years, and jurisdictions must be selected before an export is meaningful.",
+      "completedAt": "2026-08-12T01:16:43.005Z"
+    },
+    {
+      "datasetId": "college-scorecard",
+      "planStatus": "ready",
+      "startedAt": "2026-08-12T01:16:43.005Z",
+      "state": "downloaded",
+      "artifacts": [
+        {
+          "url": "https://ed-public-download.scorecard.network/downloads/Most-Recent-Cohorts-Institution_06102026.zip",
+          "path": "research-data/raw/college-scorecard/Most-Recent-Cohorts-Institution_06102026.zip",
+          "state": "already-present",
+          "bytes": 23559465,
+          "sha256": "f56a181b000ca4914e924c16b6b81dcc656e25aeb2ac68ab7d271ac0f29ffd58"
+        }
+      ],
+      "completedAt": "2026-08-12T01:16:43.019Z"
+    },
+    {
+      "datasetId": "urban-education-data-portal",
+      "planStatus": "not-independent-source",
+      "startedAt": "2026-08-12T01:16:43.019Z",
+      "state": "not-independent-source",
+      "accessUrl": "https://educationdata.urban.org/documentation/index.html",
+      "notes": "Urban is an API distribution layer for sources already represented here. CCD is downloaded through its API; do not duplicate all mirrored source files.",
+      "completedAt": "2026-08-12T01:16:43.019Z"
+    },
+    {
+      "datasetId": "what-works-clearinghouse",
+      "planStatus": "requires-query-definition",
+      "startedAt": "2026-08-12T01:16:43.019Z",
+      "state": "requires-query-definition",
+      "accessUrl": "https://ies.ed.gov/ncee/wwc/",
+      "notes": "WWC is an evidence-review repository. Its relevant export must be defined by intervention, topic, grade, and review status.",
+      "completedAt": "2026-08-12T01:16:43.019Z"
+    }
+  ]
+}

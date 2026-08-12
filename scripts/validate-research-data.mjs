@@ -8,6 +8,8 @@ const assert = (condition, message) => { if (!condition) throw new Error(message
 
 const datasets = read("dataset-catalog.json");
 const candidates = read("initiative-candidates.json");
+const downloadPlan = read("download-plan.json");
+const initiativeDatasetLinks = read("initiative-dataset-links.json");
 const existingDichotomies = JSON.parse(fs.readFileSync(path.join(root, "content", "dichotomies.json"), "utf8"));
 const dichotomySlugs = new Set(existingDichotomies.map((item) => item.slug));
 
@@ -30,4 +32,15 @@ for (const candidate of candidates) {
   assert(candidate.relatedDichotomySlugs.every((slug) => dichotomySlugs.has(slug)), `${candidate.slug} references a missing dichotomy.`);
 }
 
-console.log(`Validated ${datasets.length} datasets and ${candidates.length} initiative candidates.`);
+assert(downloadPlan.length >= datasets.length, "The download plan must account for every cataloged source.");
+const planIds = new Set(downloadPlan.map((item) => item.datasetId));
+for (const dataset of datasets) {
+  assert(planIds.has(dataset.id), `Dataset ${dataset.id} is missing from the download plan.`);
+}
+
+for (const link of initiativeDatasetLinks) {
+  assert(link.initiativeSlug && link.datasetId && link.role && link.use, "Each initiative-dataset link needs an initiative, dataset, role, and use.");
+  assert(planIds.has(link.datasetId), `${link.initiativeSlug} links an unknown dataset.`);
+}
+
+console.log(`Validated ${datasets.length} datasets, ${candidates.length} initiative candidates, ${downloadPlan.length} download-plan entries, and ${initiativeDatasetLinks.length} initiative-dataset links.`);

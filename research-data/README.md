@@ -4,7 +4,7 @@ This directory is the evidence intake layer for future initiative additions. It 
 
 - **cataloged datasets**: reproducible external outcome, context, and evidence sources;
 - **snapshots**: small, versioned collection samples that verify access and field shape;
-- **initiative candidates**: evidence-backed additions that are not yet published in `content/initiatives.json`;
+- **initiative candidates**: the historical research intake that prompted new dossier additions;
 - **comparison claims**: the row-level structure required before an initiative can be compared on outcomes, cost, and implementation.
 
 Large national extracts are intentionally excluded from Git. They must be fetched from their primary source, documented with a vintage and codebook, then transformed into a bounded analysis table outside the static website build.
@@ -12,9 +12,13 @@ Large national extracts are intentionally excluded from Git. They must be fetche
 ## Files
 
 - `dataset-catalog.json`: source-of-truth catalog for external datasets and evidence repositories.
-- `initiative-candidates.json`: review queue for missing initiatives, including a primary evidence link and admission status.
+- `initiative-candidates.json`: audited intake history for the seven candidates promoted to the dossier, including their published initiative slugs.
 - `comparison-claims.template.csv`: required fields for a comparable study-outcome claim.
 - `snapshots/urban-ccd-dc-2022.json`: a small, reproducible CCD directory sample used to verify public API access and NCES join fields.
+- `download-plan.json`: current public-download plan and documented constraints for every catalog source.
+- `ingestion-report.json`: generated manifest with paths, record counts, sizes, checksums, and access limitations.
+- `dataset-profiles.json`: generated table and field inventory for acquired raw artifacts.
+- `initiative-dataset-links.json`: explicit, non-causal roles for datasets when comparing published initiatives.
 
 ## Collection
 
@@ -29,6 +33,20 @@ The collector supports an alternate public school-directory slice without modify
 ```bash
 node scripts/collect-research-metadata.mjs --year=2022 --fips=11
 ```
+
+To acquire every currently automatable artifact in the download plan, use:
+
+```bash
+npm run research:download
+```
+
+Then profile the acquired archives and tables:
+
+```bash
+npm run research:profile
+```
+
+Raw files are placed in `research-data/raw/` and excluded from Git because they are third-party source artifacts, not site content. The generated `ingestion-report.json` records their exact checksums and the sources that require an API key or an interactive export.
 
 Use `NCES_ID` / `ncessch` for schools and `LEAID` / `leaid` for districts. Never infer a causal effect by joining outcome trends to an initiative name; comparison claims must retain their study design, comparator, population, and study-period metadata.
 
