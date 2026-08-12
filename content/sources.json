@@ -1354,5 +1354,89 @@
     "finding": "The panel synthesizes evidence on early literacy skills and instructional practices that predict later conventional literacy.",
     "caveat": "It is a synthesis of early-literacy research, not a new evaluation of the National Reading Panel itself.",
     "url": "https://lincs.ed.gov/publications/pdf/NELPReport09.pdf"
+  },
+  {
+    "id": "src-100",
+    "title": "Community Schools as an Effective School Improvement Strategy: A Review of the Evidence",
+    "authors": "Learning Policy Institute",
+    "year": "2017",
+    "method": "Systematic review",
+    "outcomeTags": ["Attendance", "Achievement", "School climate"],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "The evidence review synthesizes evaluations of integrated student supports and community-school strategies.",
+    "caveat": "Community schools are multi-component models, and the review does not identify a single universally effective service bundle.",
+    "url": "https://learningpolicyinstitute.org/product/community-schools-evidence-brief"
+  },
+  {
+    "id": "src-101",
+    "title": "The Effects of Teacher Evaluation on Teacher Performance",
+    "authors": "Thomas S. Dee and James Wyckoff",
+    "year": "2015",
+    "method": "Difference-in-differences",
+    "outcomeTags": ["Teacher performance", "Achievement", "Evaluation"],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "The study evaluates changes in teacher performance associated with a high-stakes teacher evaluation system in Washington, DC.",
+    "caveat": "It estimates effects in one district's system and cannot separate every component of feedback, observation, dismissal, and incentives.",
+    "url": "https://doi.org/10.1257/aer.20151257"
+  },
+  {
+    "id": "src-102",
+    "title": "Project Follow Through",
+    "authors": "National Institute for Direct Instruction",
+    "year": "2024",
+    "method": "Descriptive",
+    "outcomeTags": ["Reading", "Mathematics", "Implementation"],
+    "evidenceStrength": "limited-descriptive",
+    "finding": "The program archive documents the history, models, and published results associated with the federal Project Follow Through initiative.",
+    "caveat": "This is a program-hosted historical resource and should be read alongside independent analyses of the original evaluation.",
+    "url": "https://www.nifdi.org/what-is-di/project-follow-through.html"
+  },
+  {
+    "id": "src-103",
+    "title": "The Harlem Children's Zone: Promise Neighborhoods and the Neighborhood Effects Debate",
+    "authors": "Roland G. Fryer Jr. and Will Dobbie",
+    "year": "2010",
+    "method": "Matched comparison",
+    "outcomeTags": ["Achievement", "Attendance", "Neighborhood supports"],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "The study analyzes student achievement in Harlem Children's Zone schools and considers the role of the school model and neighborhood services.",
+    "caveat": "The design cannot cleanly separate school effects from selection, location, and the surrounding support network.",
+    "url": "https://doi.org/10.1257/aer.100.2.158"
+  },
+  {
+    "id": "src-104",
+    "title": "Student Achievement in Public Magnet, Public Comprehensive, and Private City High Schools",
+    "authors": "Adam Gamoran",
+    "year": "1996",
+    "method": "Matched comparison",
+    "outcomeTags": ["Achievement", "School choice", "Integration"],
+    "evidenceStrength": "limited-descriptive",
+    "finding": "The study compares achievement patterns across magnet, comprehensive public, and private urban high schools.",
+    "caveat": "School enrollment is selective, so observed differences do not establish the causal effect of magnet-school attendance.",
+    "url": "https://doi.org/10.3102/01623737018001001"
+  },
+  {
+    "id": "src-105",
+    "title": "Principal Pipelines: A Feasible, Affordable, and Effective Way for Districts to Improve Schools",
+    "authors": "Susan M. Gates and colleagues",
+    "year": "2019",
+    "method": "Matched comparison",
+    "outcomeTags": ["Achievement", "Principal retention", "Leadership"],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "The report evaluates district principal-pipeline systems using matched comparison schools and implementation evidence.",
+    "caveat": "The package combines multiple leadership investments and cannot isolate one hiring, preparation, or support component.",
+    "url": "https://www.wallacefoundation.org/knowledge-center/pages/principal-pipelines-a-feasible-affordable-and-effective-way-for-districts-to-improve-schools.aspx"
+  },
+  {
+    "id": "src-106",
+    "title": "Learning from Summer: Effects of Voluntary Summer Learning Programs on Low-Income Urban Youth",
+    "authors": "Catherine H. Augustine and colleagues",
+    "year": "2016",
+    "method": "RCT",
+    "outcomeTags": ["Mathematics", "Reading", "Attendance"],
+    "evidenceStrength": "strong-causal",
+    "finding": "The randomized study reports effects of voluntary district summer-learning programs and relates outcomes to attendance and instructional conditions.",
+    "caveat": "Effects depend on participation and local program quality; a voluntary summer offer is not equivalent to mandatory extended schooling.",
+    "url": "https://www.rand.org/pubs/research_reports/RR1557.html"
   }
 ]
