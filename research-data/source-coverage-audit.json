@@ -1,26 +1,15 @@
 {
-  "generatedAt": "2026-08-12T02:41:50.653Z",
+  "generatedAt": "2026-08-12T02:50:28.739Z",
   "targetMinimumLinkedSources": 2,
   "initiativeCount": 76,
-  "sourceCount": 73,
+  "sourceCount": 80,
   "sourceCoverage": {
-    "1": 47,
-    "2": 26,
+    "1": 40,
+    "2": 33,
     "3": 2,
     "4": 1
   },
   "records": [
-    {
-      "initiativeSlug": "21st-century-community-learning-centers",
-      "initiativeName": "21st Century Community Learning Centers",
-      "category": "Time/dosage",
-      "studyDesignAssessment": "strong-causal",
-      "linkedSourceCount": 1,
-      "linkedSourceIds": [
-        "src-065"
-      ],
-      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
-    },
     {
       "initiativeSlug": "algebra-for-all-college-preparatory-curriculum-for-all",
       "initiativeName": "Algebra for All / college-preparatory curriculum for all",
@@ -29,17 +18,6 @@
       "linkedSourceCount": 1,
       "linkedSourceIds": [
         "src-055"
-      ],
-      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
-    },
-    {
-      "initiativeSlug": "attendance-and-chronic-absenteeism-interventions",
-      "initiativeName": "Attendance and chronic absenteeism interventions",
-      "category": "Whole-child/climate",
-      "studyDesignAssessment": "promising-causal-quasi",
-      "linkedSourceCount": 1,
-      "linkedSourceIds": [
-        "src-041"
       ],
       "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
     },
@@ -62,17 +40,6 @@
       "linkedSourceCount": 1,
       "linkedSourceIds": [
         "src-045"
-      ],
-      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
-    },
-    {
-      "initiativeSlug": "career-academies",
-      "initiativeName": "Career Academies",
-      "category": "Postsecondary/CTE",
-      "studyDesignAssessment": "strong-causal",
-      "linkedSourceCount": 1,
-      "linkedSourceIds": [
-        "src-051"
       ],
       "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
     },
@@ -374,17 +341,6 @@
       "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
     },
     {
-      "initiativeSlug": "perry-preschool-abecedarian-style-intensive-early-childhood",
-      "initiativeName": "Perry Preschool / Abecedarian-style intensive early childhood",
-      "category": "Early childhood",
-      "studyDesignAssessment": "strong-causal",
-      "linkedSourceCount": 1,
-      "linkedSourceIds": [
-        "src-043"
-      ],
-      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
-    },
-    {
       "initiativeSlug": "principal-pipeline-initiative",
       "initiativeName": "Principal Pipeline Initiative",
       "category": "School organization/governance",
@@ -436,17 +392,6 @@
       "linkedSourceCount": 1,
       "linkedSourceIds": [
         "src-061"
-      ],
-      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
-    },
-    {
-      "initiativeSlug": "school-improvement-grants",
-      "initiativeName": "School Improvement Grants",
-      "category": "Standards/accountability",
-      "studyDesignAssessment": "mixed-conditional",
-      "linkedSourceCount": 1,
-      "linkedSourceIds": [
-        "src-006"
       ],
       "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
     },
@@ -506,26 +451,16 @@
       "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
     },
     {
-      "initiativeSlug": "teacher-merit-pay-point-and-similar-incentives",
-      "initiativeName": "Teacher merit pay / POINT and similar incentives",
-      "category": "Teacher workforce",
-      "studyDesignAssessment": "mixed-conditional",
-      "linkedSourceCount": 1,
+      "initiativeSlug": "21st-century-community-learning-centers",
+      "initiativeName": "21st Century Community Learning Centers",
+      "category": "Time/dosage",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 2,
       "linkedSourceIds": [
-        "src-025"
+        "src-065",
+        "src-077"
       ],
-      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
-    },
-    {
-      "initiativeSlug": "tennessee-voluntary-pre-k",
-      "initiativeName": "Tennessee Voluntary Pre-K",
-      "category": "Early childhood",
-      "studyDesignAssessment": "mixed-conditional",
-      "linkedSourceCount": 1,
-      "linkedSourceIds": [
-        "src-044"
-      ],
-      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
     },
     {
       "initiativeSlug": "a-nation-at-risk-modern-standards-movement",
@@ -552,6 +487,18 @@
       "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
     },
     {
+      "initiativeSlug": "attendance-and-chronic-absenteeism-interventions",
+      "initiativeName": "Attendance and chronic absenteeism interventions",
+      "category": "Whole-child/climate",
+      "studyDesignAssessment": "promising-causal-quasi",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-041",
+        "src-078"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
       "initiativeSlug": "balanced-literacy-workshop-models",
       "initiativeName": "Balanced literacy / workshop models",
       "category": "Literacy",
@@ -560,6 +507,18 @@
       "linkedSourceIds": [
         "src-014",
         "src-010"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "career-academies",
+      "initiativeName": "Career Academies",
+      "category": "Postsecondary/CTE",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-051",
+        "src-076"
       ],
       "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
     },
@@ -720,6 +679,18 @@
       "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
     },
     {
+      "initiativeSlug": "perry-preschool-abecedarian-style-intensive-early-childhood",
+      "initiativeName": "Perry Preschool / Abecedarian-style intensive early childhood",
+      "category": "Early childhood",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-043",
+        "src-079"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
       "initiativeSlug": "private-school-vouchers-dc-and-louisiana-examples",
       "initiativeName": "Private school vouchers / DC and Louisiana examples",
       "category": "Choice",
@@ -804,6 +775,18 @@
       "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
     },
     {
+      "initiativeSlug": "school-improvement-grants",
+      "initiativeName": "School Improvement Grants",
+      "category": "Standards/accountability",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-006",
+        "src-074"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
       "initiativeSlug": "state-test-based-accountability-before-nclb",
       "initiativeName": "State test-based accountability before NCLB",
       "category": "Standards/accountability",
@@ -824,6 +807,30 @@
       "linkedSourceIds": [
         "src-016",
         "src-002"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "teacher-merit-pay-point-and-similar-incentives",
+      "initiativeName": "Teacher merit pay / POINT and similar incentives",
+      "category": "Teacher workforce",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-025",
+        "src-075"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "tennessee-voluntary-pre-k",
+      "initiativeName": "Tennessee Voluntary Pre-K",
+      "category": "Early childhood",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-044",
+        "src-080"
       ],
       "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
     },

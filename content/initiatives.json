@@ -155,7 +155,8 @@
     "normalizationIssues": "Cutoff-based RD compares schools near eligibility thresholds, not all low-performing schools.",
     "oneLineFinding": "The national evaluation found weak average impacts despite large funding; implementation and model quality varied.",
     "sourceIds": [
-      "src-006"
+      "src-006",
+      "src-074"
     ],
     "tags": "turnaround; federal grants",
     "relatedDichotomySlugs": [
@@ -667,7 +668,8 @@
     "normalizationIssues": "Need account for baseline incentives, test stakes, collaboration vs competition, and whether teachers know how to improve.",
     "oneLineFinding": "Simple test-score bonuses alone have often produced null or modest effects.",
     "sourceIds": [
-      "src-025"
+      "src-025",
+      "src-075"
     ],
     "tags": "incentives; merit pay",
     "relatedDichotomySlugs": [
@@ -1067,7 +1069,8 @@
     "normalizationIssues": "Define chronic absenteeism consistently; compare pre-pandemic and post-pandemic baselines carefully.",
     "oneLineFinding": "Attendance is a crucial mediator after COVID, but interventions vary from low-cost nudges to intensive case management.",
     "sourceIds": [
-      "src-041"
+      "src-041",
+      "src-078"
     ],
     "tags": "attendance; absenteeism",
     "relatedDichotomySlugs": []
@@ -1116,7 +1119,8 @@
     "normalizationIssues": "Historic small samples and unusually intensive models may not generalize to scaled public pre-K.",
     "oneLineFinding": "Classic studies show large long-run benefits, but they are not evidence that every scaled pre-K program will replicate them.",
     "sourceIds": [
-      "src-043"
+      "src-043",
+      "src-079"
     ],
     "tags": "early childhood; long-run",
     "relatedDichotomySlugs": []
@@ -1139,7 +1143,8 @@
     "normalizationIssues": "RCT estimates apply to oversubscribed programs; quality and counterfactual care differ from other states.",
     "oneLineFinding": "A cautionary scaled pre-K case: short-run gains did not translate into broad long-run academic benefits in the evaluation.",
     "sourceIds": [
-      "src-044"
+      "src-044",
+      "src-080"
     ],
     "tags": "pre-K; scale",
     "relatedDichotomySlugs": []
@@ -1358,7 +1363,8 @@
     "normalizationIssues": "Random assignment applies to schools able to implement core features; adult labor outcomes matter more than test scores alone.",
     "oneLineFinding": "One of the strongest CTE-related causal studies, with notable long-run earnings effects especially for young men.",
     "sourceIds": [
-      "src-051"
+      "src-051",
+      "src-076"
     ],
     "tags": "CTE; career academies",
     "relatedDichotomySlugs": [
@@ -1814,7 +1820,7 @@
     "outputsMeasured": "Academic achievement, safety, supervision, behavior, social and emotional development",
     "normalizationIssues": "Attendance intensity was modest and the federal grant is an umbrella for diverse local program designs.",
     "oneLineFinding": "A large, real federal program whose evaluation found few academic impacts, better perceived safety for elementary participants, and mixed developmental effects.",
-    "sourceIds": ["src-065"],
+    "sourceIds": ["src-065", "src-077"],
     "tags": "afterschool; federal program; safety; null results",
     "relatedDichotomySlugs": ["sel-whole-child-vs-academics-first", "early-academics-vs-play-based-pre-k", "data-driven-continuous-improvement-vs-big-bang-reform"]
   },

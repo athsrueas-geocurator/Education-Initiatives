@@ -1042,5 +1042,89 @@
     "finding": "Difference-in-differences evidence links post-1990 finance reforms to gains in district test scores, with larger gains for lower-income districts and narrower achievement gaps in many reform states.",
     "caveat": "Effects vary with the reform's size and design, and a policy-induced association cannot identify the exact school-level uses of additional funding that produced the gains.",
     "url": "https://doi.org/10.1257/app.20160567"
+  },
+  {
+    "id": "src-074",
+    "title": "Case Studies of Schools Receiving School Improvement Grants: Final Report",
+    "authors": "Kerstin Carlson Le Floch and colleagues",
+    "year": "2016",
+    "method": "Descriptive",
+    "outcomeTags": ["Implementation", "School turnaround", "Leadership"],
+    "evidenceStrength": "limited-descriptive",
+    "finding": "Case studies of 25 SIG schools document the implementation choices, capacity constraints, and sustainability challenges that accompanied the federal turnaround grants.",
+    "caveat": "The purposive case-study design supplies implementation context but does not estimate a causal effect on student outcomes.",
+    "url": "https://ies.ed.gov/use-work/resource-library/report/evaluation-report/case-studies-schools-receiving-school-improvement-grants-final-report"
+  },
+  {
+    "id": "src-075",
+    "title": "Evaluation of the Teacher Incentive Fund: Final Report on Implementation and Impacts of Pay-for-Performance Across Four Years",
+    "authors": "Institute of Education Sciences",
+    "year": "2017",
+    "method": "RCT",
+    "outcomeTags": ["Achievement", "Teacher retention", "Compensation"],
+    "evidenceStrength": "strong-causal",
+    "finding": "The randomized Teacher Incentive Fund evaluation found a positive fourth-year average achievement impact alongside substantial implementation and sustainability variation across grantees.",
+    "caveat": "The estimate is for a bundled federal pay-for-performance model, not for every merit-pay plan or for bonuses in isolation.",
+    "url": "https://ies.ed.gov/use-work/evaluations/impact-evaluation-teacher-incentive-fund"
+  },
+  {
+    "id": "src-076",
+    "title": "An Evaluation of California Partnership Academies: Charting the Path from High School to Postsecondary Enrollment",
+    "authors": "Susan Sepanik, Kenny Nguyen, and Bryce Marshall",
+    "year": "2024",
+    "method": "RCT",
+    "outcomeTags": ["Graduation", "College readiness", "Postsecondary enrollment"],
+    "evidenceStrength": "strong-causal",
+    "finding": "A newer randomized evaluation of the career-academy model found no overall effect on college readiness or first-year postsecondary enrollment at the point reported.",
+    "caveat": "The report covers early postsecondary outcomes; longer-term completion and labor-market reports are still pending.",
+    "url": "https://www.mdrc.org/work/publications/evaluation-california-partnership-academies"
+  },
+  {
+    "id": "src-077",
+    "title": "When Schools Stay Open Late: The National Evaluation of the 21st Century Community Learning Centers Program New Findings",
+    "authors": "Mark Dynarski, Susanne James-Burdumy, Mary Moore, and colleagues",
+    "year": "2006",
+    "method": "RCT",
+    "outcomeTags": ["Achievement", "Safety", "Behavior", "Attendance"],
+    "evidenceStrength": "strong-causal",
+    "finding": "The federal evaluation's follow-on findings report separates outcomes for the randomized elementary sample and the matched middle-school sample, including safety and behavior measures.",
+    "caveat": "It is a companion analysis of the same national evaluation period, so it adds outcome detail rather than an independent program replication.",
+    "url": "https://ies.ed.gov/use-work/resource-library/report/evaluation-report/when-schools-stay-open-late-national-evaluation-21st-century-community-learning-centers-program-new?pubid=NCEECLC2004"
+  },
+  {
+    "id": "src-078",
+    "title": "Addressing Chronic Absenteeism in Schools: A Meta-Analysis of Evidence-Based Interventions",
+    "authors": "Katie Eklund, Matthew K. Burns, and Kari A. Oyen",
+    "year": "2020",
+    "method": "Meta-analysis",
+    "outcomeTags": ["Attendance", "Chronic absenteeism"],
+    "evidenceStrength": "strong-causal",
+    "finding": "The meta-analysis synthesizes school-based interventions intended to improve attendance and identifies variation by intervention type and study design.",
+    "caveat": "The reviewed interventions differ substantially in population, implementation, and attendance measure, so the synthesis is not a single program effect.",
+    "url": "https://doi.org/10.1080/2372966X.2020.1789436"
+  },
+  {
+    "id": "src-079",
+    "title": "Multiple Inference and Gender Differences in the Effects of Early Intervention: A Reevaluation of the Abecedarian, Perry Preschool, and Early Training Projects",
+    "authors": "Michael L. Anderson",
+    "year": "2008",
+    "method": "RCT",
+    "outcomeTags": ["Achievement", "Educational attainment", "Adult outcomes"],
+    "evidenceStrength": "strong-causal",
+    "finding": "A reanalysis of landmark randomized early-childhood programs assesses outcome families jointly and finds support for lasting benefits in several domains.",
+    "caveat": "The programs were unusually intensive, small, and historically specific; results do not establish effects for typical contemporary preschool.",
+    "url": "https://doi.org/10.1198/016214508000000841"
+  },
+  {
+    "id": "src-080",
+    "title": "Effects of the Tennessee Prekindergarten Program on Children's Achievement and Behavior Through Third Grade",
+    "authors": "Mark W. Lipsey, Dale C. Farran, and Kelley Durkin",
+    "year": "2018",
+    "method": "RCT",
+    "outcomeTags": ["Achievement", "Behavior", "School progress"],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "Follow-up of Tennessee's randomized pre-K evaluation reported that early advantages did not persist on the measured later achievement outcomes and documented concerning later behavioral patterns.",
+    "caveat": "The results concern Tennessee's program and comparison conditions during the study period, not every public pre-K model.",
+    "url": "https://doi.org/10.1016/j.ecresq.2018.03.005"
   }
 ]
