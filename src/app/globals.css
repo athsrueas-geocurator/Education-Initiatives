@@ -4,7 +4,7 @@
 
 :root {
   --font-sans: Arial, Helvetica, sans-serif;
-  --font-serif: Georgia, "Times New Roman", serif;
+  --font-serif: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -19,14 +19,14 @@ html {
 
 body {
   margin: 0;
-  background: #f7f3ea;
-  color: #171512;
+  background: #ffffff;
+  color: #0f172a;
   max-width: 100%;
   overflow-x: hidden;
 }
 
 ::selection {
-  background: #1f6f68;
+  background: #0e7490;
   color: white;
 }
 

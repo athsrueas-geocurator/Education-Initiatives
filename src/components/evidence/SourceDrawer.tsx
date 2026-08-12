@@ -9,10 +9,10 @@ type Props = {
 
 export function SourceDrawer({ sources, title = "Sources" }: Props) {
   return (
-    <details className="group rounded-lg border border-rule bg-white/80 p-4 shadow-sm">
-      <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-ink">
+    <details className="group border border-slate-200 bg-white p-5">
+      <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-slate-950">
         <span>
-          {title} <span className="text-muted">({sources.length})</span>
+          {title} <span className="text-slate-500">({sources.length})</span>
         </span>
         <ChevronDown className="h-5 w-5 transition group-open:rotate-180" />
       </summary>

@@ -1,36 +1,35 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { BookOpenCheck } from "lucide-react";
+import { BarChart3 } from "lucide-react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "The Education Evidence Dossier",
-  description: "A guided tour through U.S. education reform evidence, mechanisms, and philosophical dichotomies."
+  title: "Education Initiative Evidence",
+  description: "A source-backed view of U.S. education initiatives, findings, study designs, and outcomes."
 };
 
 const navItems = [
-  ["Continuums", "/continuums"],
   ["Initiatives", "/initiatives"],
-  ["Methods", "/methods"],
   ["Sources", "/sources"],
-  ["About", "/about"]
+  ["Methods", "/methods"],
+  ["Data", "/about"]
 ];
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
       <body className="font-sans antialiased">
-        <header className="sticky top-0 z-30 border-b border-rule bg-paper/90 backdrop-blur">
-          <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
-            <Link href="/" className="flex shrink-0 items-center gap-3 font-semibold text-ink">
-              <span className="grid h-9 w-9 place-items-center rounded-full bg-ink text-paper">
-                <BookOpenCheck className="h-5 w-5" />
+        <header className="sticky top-0 z-30 border-b border-slate-200 bg-white/95 backdrop-blur">
+          <div className="mx-auto flex max-w-[1440px] items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
+            <Link href="/" className="flex shrink-0 items-center gap-3 font-semibold text-slate-950">
+              <span className="grid h-8 w-8 place-items-center bg-slate-950 text-white">
+                <BarChart3 className="h-4 w-4" />
               </span>
-              <span className="hidden sm:inline">Education Evidence Dossier</span>
+              <span className="hidden sm:inline">Education Initiative Evidence</span>
             </Link>
-            <nav className="flex min-w-0 flex-wrap items-center justify-end gap-1 text-sm font-medium text-muted">
+            <nav className="flex min-w-0 flex-wrap items-center justify-end gap-1 text-sm font-medium text-slate-600">
               {navItems.map(([label, href]) => (
-                <Link key={href} href={href} className="rounded-full px-3 py-2 hover:bg-white hover:text-ink">
+                <Link key={href} href={href} className="px-3 py-2 hover:bg-slate-100 hover:text-slate-950">
                   {label}
                 </Link>
               ))}
@@ -38,10 +37,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           </div>
         </header>
         {children}
-        <footer className="border-t border-rule bg-ink text-paper">
-          <div className="mx-auto max-w-7xl px-4 py-8 text-sm text-paper/70 sm:px-6 lg:px-8">
-            The evidence rarely says the slogan is right. It usually says this mechanism worked, under these
-            conditions, on these outcomes, with these tradeoffs.
+        <footer className="border-t border-slate-200 bg-white">
+          <div className="mx-auto max-w-[1440px] px-4 py-7 text-sm text-slate-500 sm:px-6 lg:px-8">
+            Initiative records, source links, and research metadata are drawn from the local evidence collection.
           </div>
         </footer>
       </body>
