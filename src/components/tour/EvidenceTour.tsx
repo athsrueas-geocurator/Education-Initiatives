@@ -8,7 +8,6 @@ type TourStop = {
   statement: string;
   detail: string;
   initiativeSlugs: string[];
-  accent: "emerald" | "sky" | "amber" | "rose";
 };
 
 const stops: TourStop[] = [
@@ -16,59 +15,39 @@ const stops: TourStop[] = [
     number: "01",
     statement: "Tutoring beats most education innovation.",
     detail: "Frequent, curriculum-aligned tutoring is one of the clearest short-run learning interventions in the collection.",
-    initiativeSlugs: ["high-dosage-tutoring", "saga-style-and-tech-infused-tutoring"],
-    accent: "emerald"
+    initiativeSlugs: ["high-dosage-tutoring", "saga-style-and-tech-infused-tutoring"]
   },
   {
     number: "02",
     statement: "Money matters. The argument is where it goes.",
     detail: "Causal finance studies reject the idea that sustained, targeted school funding is irrelevant to student outcomes.",
-    initiativeSlugs: ["school-finance-reforms-adequacy-and-equity-funding"],
-    accent: "sky"
+    initiativeSlugs: ["school-finance-reforms-adequacy-and-equity-funding"]
   },
   {
     number: "03",
     statement: "Rigor without support is policy theater.",
     detail: "Ending low tracks can widen access while still increasing failures when schools do not build the instructional capacity to carry students through.",
-    initiativeSlugs: ["algebra-for-all-college-preparatory-curriculum-for-all", "double-dose-algebra-chicago"],
-    accent: "amber"
+    initiativeSlugs: ["algebra-for-all-college-preparatory-curriculum-for-all", "double-dose-algebra-chicago"]
   },
   {
     number: "04",
     statement: "Career pathways deserve more respect.",
     detail: "Career Academies have unusually strong long-run labor-market evidence, especially compared with broad claims about generic college readiness.",
-    initiativeSlugs: ["career-academies", "early-college-high-schools"],
-    accent: "emerald"
+    initiativeSlugs: ["career-academies", "early-college-high-schools"]
   },
   {
     number: "05",
     statement: "Teacher bonuses are not school improvement.",
     detail: "The collection is stronger on sustained coaching and feedback than on simple test-score bonuses.",
-    initiativeSlugs: ["teacher-merit-pay-point-and-similar-incentives", "teacher-coaching", "dc-impact-teacher-evaluation-with-consequences"],
-    accent: "rose"
+    initiativeSlugs: ["teacher-merit-pay-point-and-similar-incentives", "teacher-coaching", "dc-impact-teacher-evaluation-with-consequences"]
   },
   {
     number: "06",
     statement: "AI has not earned the right to replace adults.",
     detail: "The K-12 AI record is early and uneven. Human-led tutoring has a much older and stronger causal base.",
-    initiativeSlugs: ["generative-ai-tutoring-and-ai-school-pilots", "high-dosage-tutoring"],
-    accent: "sky"
+    initiativeSlugs: ["generative-ai-tutoring-and-ai-school-pilots", "high-dosage-tutoring"]
   }
 ];
-
-const accentClass = {
-  emerald: "border-emerald-600 text-emerald-700",
-  sky: "border-sky-600 text-sky-700",
-  amber: "border-amber text-amber",
-  rose: "border-rose-600 text-rose-700"
-};
-
-const barClass = {
-  emerald: "bg-emerald-600",
-  sky: "bg-sky-600",
-  amber: "bg-amber",
-  rose: "bg-rose-600"
-};
 
 function SourcePreview({ source }: { source: Source }) {
   return (
@@ -79,7 +58,7 @@ function SourcePreview({ source }: { source: Source }) {
   );
 }
 
-function EvidenceLedger({ initiatives, sources, accent }: { initiatives: Initiative[]; sources: Source[]; accent: TourStop["accent"] }) {
+function EvidenceLedger({ initiatives, sources }: { initiatives: Initiative[]; sources: Source[] }) {
   const sourceIds = Array.from(new Set(initiatives.flatMap((initiative) => initiative.sourceIds)));
   const linkedSources = sourceIds.map((id) => sources.find((source) => source.id === id)).filter((source): source is Source => Boolean(source));
   const strongCount = initiatives.filter((initiative) => initiative.evidenceStrength === "strong-causal").length;
@@ -99,7 +78,7 @@ function EvidenceLedger({ initiatives, sources, accent }: { initiatives: Initiat
           <p className="text-xs text-slate-500">rated strong causal</p>
         </div>
       </div>
-      <div className="mt-5 h-2 overflow-hidden bg-slate-100" aria-label={`${strongCount} of ${initiatives.length} initiatives rated strong causal`}><div className={`h-full ${barClass[accent]}`} style={{ width: `${(strongCount / max) * 100}%` }} /></div>
+      <div className="mt-5 h-2 overflow-hidden bg-slate-100" aria-label={`${strongCount} of ${initiatives.length} initiatives rated strong causal`}><div className="h-full bg-sky-600" style={{ width: `${(strongCount / max) * 100}%` }} /></div>
       <p className="mt-3 text-xs leading-5 text-slate-500">The bar counts initiative assessments, not sources. More citations do not automatically make an effect causal.</p>
       <div className="mt-5">
         {linkedSources.slice(0, 3).map((source) => <SourcePreview key={source.id} source={source} />)}
@@ -145,7 +124,7 @@ export function EvidenceTour({ initiatives, sources }: { initiatives: Initiative
           <section key={stop.number} id={`stop-${stop.number}`} className="scroll-mt-28 border-b border-slate-200">
             <div className="mx-auto grid max-w-[1180px] gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[minmax(0,1fr)_390px] lg:px-8 lg:py-20">
               <div>
-                <p className={`border-l-2 pl-3 font-mono text-sm ${accentClass[stop.accent]}`}>{stop.number}</p>
+                <p className="border-l-2 border-sky-600 pl-3 font-mono text-sm text-sky-700">{stop.number}</p>
                 <h2 className="mt-5 max-w-3xl text-3xl font-semibold leading-tight text-slate-950 sm:text-5xl">{stop.statement}</h2>
                 <p className="mt-5 max-w-2xl text-base leading-7 text-slate-600">{stop.detail}</p>
                 <div className="mt-9 grid gap-3">
@@ -158,7 +137,7 @@ export function EvidenceTour({ initiatives, sources }: { initiatives: Initiative
                   ))}
                 </div>
               </div>
-              <div className="lg:pt-10"><EvidenceLedger initiatives={records} sources={sources} accent={stop.accent} /></div>
+              <div className="lg:pt-10"><EvidenceLedger initiatives={records} sources={sources} /></div>
             </div>
           </section>
         );
