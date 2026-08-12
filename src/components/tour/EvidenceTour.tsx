@@ -89,16 +89,18 @@ function EvidenceLedger({ initiatives, sources, accent }: { initiatives: Initiat
     <aside className="border border-slate-200 bg-white p-5 shadow-sm">
       <div className="flex items-end justify-between gap-4">
         <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">Evidence ledger</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">Sources</p>
           <p className="mt-1 font-mono text-3xl tabular-nums text-slate-950">{linkedSources.length}</p>
           <p className="text-xs text-slate-500">linked source records</p>
         </div>
         <div className="text-right">
+          <p className="text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">Initiatives</p>
           <p className="font-mono text-2xl tabular-nums text-slate-950">{strongCount}/{initiatives.length}</p>
-          <p className="text-xs text-slate-500">strong causal</p>
+          <p className="text-xs text-slate-500">rated strong causal</p>
         </div>
       </div>
-      <div className="mt-5 h-2 overflow-hidden bg-slate-100"><div className={`h-full ${barClass[accent]}`} style={{ width: `${(strongCount / max) * 100}%` }} /></div>
+      <div className="mt-5 h-2 overflow-hidden bg-slate-100" aria-label={`${strongCount} of ${initiatives.length} initiatives rated strong causal`}><div className={`h-full ${barClass[accent]}`} style={{ width: `${(strongCount / max) * 100}%` }} /></div>
+      <p className="mt-3 text-xs leading-5 text-slate-500">The bar counts initiative assessments, not sources. More citations do not automatically make an effect causal.</p>
       <div className="mt-5">
         {linkedSources.slice(0, 3).map((source) => <SourcePreview key={source.id} source={source} />)}
       </div>
@@ -117,6 +119,17 @@ export function EvidenceTour({ initiatives, sources }: { initiatives: Initiative
           <h1 className="mt-4 max-w-4xl text-4xl font-semibold leading-tight sm:text-6xl">Six conclusions this evidence collection can defend.</h1>
           <p className="mt-6 max-w-2xl text-base leading-7 text-slate-300">Each stop pairs an editorial position with the initiative records and source titles behind it.</p>
           <a href="#stop-01" className="mt-10 inline-flex items-center gap-2 text-sm font-semibold text-white hover:text-cyan-300"><ArrowDownRight className="h-4 w-4" /> Begin</a>
+        </div>
+      </section>
+
+      <section className="border-b border-slate-200 bg-slate-50">
+        <div className="mx-auto grid max-w-[1180px] gap-6 px-4 py-8 sm:px-6 md:grid-cols-3 lg:px-8">
+          <div className="md:col-span-1">
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-sky-700">How to read this</p>
+            <h2 className="mt-2 text-xl font-semibold text-slate-950">Evidence is not a vote count.</h2>
+          </div>
+          <p className="text-sm leading-6 text-slate-600"><strong className="font-semibold text-slate-950">Strong causal</strong> means the study design can reasonably test whether the initiative caused a measured outcome, not merely whether the two moved together.</p>
+          <p className="text-sm leading-6 text-slate-600"><strong className="font-semibold text-slate-950">Not strong causal</strong> does not mean false or useless. It means this collection cannot make as direct a cause-and-effect claim. <Link href="/methods" className="font-medium text-sky-700 hover:text-sky-900">Study designs</Link></p>
         </div>
       </section>
 
