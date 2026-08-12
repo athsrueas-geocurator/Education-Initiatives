@@ -9,6 +9,7 @@ export const metadata: Metadata = {
 };
 
 const navItems = [
+  ["Tour", "/tour"],
   ["Initiatives", "/initiatives"],
   ["Sources", "/sources"],
   ["Methods", "/methods"],
