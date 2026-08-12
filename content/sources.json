@@ -1126,5 +1126,77 @@
     "finding": "Follow-up of Tennessee's randomized pre-K evaluation reported that early advantages did not persist on the measured later achievement outcomes and documented concerning later behavioral patterns.",
     "caveat": "The results concern Tennessee's program and comparison conditions during the study period, not every public pre-K model.",
     "url": "https://doi.org/10.1016/j.ecresq.2018.03.005"
+  },
+  {
+    "id": "src-081",
+    "title": "Success Outcomes of Full-Day Kindergarten: More Positive Behavior and Increased Achievement in the Years After",
+    "authors": "John R. Cryan, Robert Sheehan, and Jane Wiechel",
+    "year": "1992",
+    "method": "Matched comparison",
+    "outcomeTags": ["Achievement", "Behavior", "School adjustment"],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "The study compares full-day and half-day kindergarten participation on later achievement and behavior outcomes.",
+    "caveat": "This is an older nonrandomized comparison, so selection and local program design limit causal interpretation.",
+    "url": "https://doi.org/10.1016/0885-2006(92)90004-I"
+  },
+  {
+    "id": "src-082",
+    "title": "AI Literacy in K-12: A Systematic Literature Review",
+    "authors": "Lorena Casal Otero, Alejandro Catala, and Carmen Fernandez-Morante",
+    "year": "2023",
+    "method": "Systematic review",
+    "outcomeTags": ["AI literacy", "Implementation", "Technology"],
+    "evidenceStrength": "limited-descriptive",
+    "finding": "The review maps K-12 AI-literacy research and implementation approaches, highlighting that the field is newer than the established tutoring evidence base.",
+    "caveat": "It reviews AI literacy rather than proving that generative-AI tutoring improves student learning outcomes.",
+    "url": "https://doi.org/10.1186/s40594-023-00418-7"
+  },
+  {
+    "id": "src-083",
+    "title": "Effects of Dual-Language Immersion Programs on Student Achievement",
+    "authors": "Jennifer Steele, Robert Slater, and Gema Zamarro",
+    "year": "2017",
+    "method": "Lottery",
+    "outcomeTags": ["Achievement", "Literacy", "Bilingualism"],
+    "evidenceStrength": "strong-causal",
+    "finding": "Lottery-based evidence estimates the effects of access to dual-language immersion programs on student achievement.",
+    "caveat": "Results depend on the language model, school context, applicant group, and time spent in the program.",
+    "url": "https://doi.org/10.3102/0002831216634463"
+  },
+  {
+    "id": "src-084",
+    "title": "The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research",
+    "authors": "Richard M. Ingersoll and Michael Strong",
+    "year": "2011",
+    "method": "Systematic review",
+    "outcomeTags": ["Teacher retention", "Instruction", "Achievement"],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "The review finds that induction and mentoring evidence is generally favorable for teacher commitment and practice, while effects vary by program design and outcome.",
+    "caveat": "It synthesizes heterogeneous programs and includes studies with different comparison designs, so it is not an estimate for one comprehensive induction model.",
+    "url": "https://doi.org/10.3102/0034654311403323"
+  },
+  {
+    "id": "src-085",
+    "title": "Free Lunch for All! The Effect of the Community Eligibility Provision on Academic Outcomes",
+    "authors": "John Gordanier, Orgul D. Ozturk, and Breyon Williams",
+    "year": "2020",
+    "method": "Difference-in-differences",
+    "outcomeTags": ["Achievement", "School meals", "Participation"],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "The study estimates academic-outcome changes associated with schools adopting the Community Eligibility Provision.",
+    "caveat": "Adoption is not random, and results depend on the policy setting, eligible schools, and outcome measure.",
+    "url": "https://doi.org/10.1016/j.econedurev.2020.101999"
+  },
+  {
+    "id": "src-086",
+    "title": "Reengaging High School Dropouts: Early Results of the National Guard Youth ChalleNGe Program Evaluation",
+    "authors": "Dan Bloom, Alissa Gardenhire-Crooks, and Conrad Mandsager",
+    "year": "2009",
+    "method": "RCT",
+    "outcomeTags": ["Graduation", "Employment", "Postsecondary"],
+    "evidenceStrength": "strong-causal",
+    "finding": "Early randomized evaluation results document reengagement outcomes for participants in the residential National Guard Youth ChalleNGe program.",
+    "caveat": "The early follow-up does not answer the same longer-run employment and earnings questions as later reports.",
+    "url": "https://doi.org/10.2139/ssrn.1356853"
   }
 ]

@@ -1190,7 +1190,8 @@
     "normalizationIssues": "Need distinguish added instructional time from childcare and from selection into full-day programs.",
     "oneLineFinding": "Often improves short-run early skills, but durability varies with subsequent instruction quality.",
     "sourceIds": [
-      "src-046"
+      "src-046",
+      "src-081"
     ],
     "tags": "kindergarten; time",
     "relatedDichotomySlugs": []
@@ -1336,7 +1337,8 @@
     "normalizationIssues": "K-12 causal evidence is early; compare AI-mediated practice to human tutoring and to no-support screen time.",
     "oneLineFinding": "Treat AI as an emerging tool, not a proven replacement for teacher-led instruction or high-dosage tutoring.",
     "sourceIds": [
-      "src-050"
+      "src-050",
+      "src-082"
     ],
     "tags": "AI; tutoring; emerging",
     "relatedDichotomySlugs": [
@@ -1687,7 +1689,7 @@
     "outputsMeasured": "English literacy, mathematics, science, bilingualism, biliteracy",
     "normalizationIssues": "Programs differ by language pair, entry grade, duration, student composition, and whether bilingualism is counted as an outcome.",
     "oneLineFinding": "Lottery evidence makes dual language a genuine initiative-level case, though results vary by subject and program design.",
-    "sourceIds": ["src-059"],
+    "sourceIds": ["src-059", "src-083"],
     "tags": "dual language; bilingualism; immersion; literacy",
     "relatedDichotomySlugs": ["bilingual-dual-language-vs-english-immersion"]
   },
@@ -1744,7 +1746,7 @@
     "outputsMeasured": "Teacher support, classroom practice, teacher retention, reading and mathematics achievement",
     "normalizationIssues": "One- and two-year offers differ, treatment intensity changed over time, and later positive subset results need separation from the main null results.",
     "oneLineFinding": "A prominent randomized counterexample: more structured induction did not reliably improve retention, practice, or achievement despite changing the support teachers received.",
-    "sourceIds": ["src-062"],
+    "sourceIds": ["src-062", "src-084"],
     "tags": "teacher induction; mentoring; novice teachers; null results",
     "relatedDichotomySlugs": ["teacher-incentives-evaluation-vs-trust-professionalism", "central-curriculum-hqim-vs-teacher-created-materials"]
   },
@@ -1763,7 +1765,7 @@
     "outputsMeasured": "Household food purchases, dietary quality, food insecurity, meal participation",
     "normalizationIssues": "Eligibility is related to local poverty and school composition; the principal evidence is on household resources rather than academic outcomes.",
     "oneLineFinding": "An important whole-child policy with credible food-security evidence, but not yet an academic-effect claim in this dossier.",
-    "sourceIds": ["src-066"],
+    "sourceIds": ["src-066", "src-085"],
     "tags": "school meals; food security; universal access; poverty",
     "relatedDichotomySlugs": ["sel-whole-child-vs-academics-first", "more-money-resources-vs-money-does-not-matter"]
   },
@@ -1782,7 +1784,7 @@
     "outputsMeasured": "Diploma or GED attainment, college credits, employment, earnings, youth development outcomes",
     "normalizationIssues": "A selective, intensive residential alternative cannot be compared directly with ordinary school reforms on cost, population, or dosage.",
     "oneLineFinding": "One of the strongest alternative-pathway evaluations, with positive education, employment, and earnings outcomes for a highly disadvantaged population.",
-    "sourceIds": ["src-063"],
+    "sourceIds": ["src-063", "src-086"],
     "tags": "alternative education; dropout recovery; employment; residential",
     "relatedDichotomySlugs": ["college-for-all-vs-cte-career-pathways", "remediation-readiness-vs-grade-level-acceleration"]
   },
