@@ -12,6 +12,7 @@ const navItems = [
   ["Initiatives", "/initiatives"],
   ["Sources", "/sources"],
   ["Methods", "/methods"],
+  ["Glossary", "/glossary"],
   ["Data", "/about"]
 ];
 

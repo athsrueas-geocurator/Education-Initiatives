@@ -56,6 +56,7 @@ export default async function InitiativeDetailPage({ params }: Props) {
       <section className="mx-auto max-w-[1120px] px-4 py-8 sm:px-6 lg:px-8">
         <div className="grid gap-8">
           <section className="border border-slate-200 bg-white p-6">
+            <p className="text-xs font-semibold uppercase tracking-[0.1em] text-slate-500">Study-design assessment</p>
             <div className="flex flex-wrap gap-2">
               <EvidenceStrengthBadge strength={initiative.evidenceStrength} />
               {initiative.methodTags.map((method) => (

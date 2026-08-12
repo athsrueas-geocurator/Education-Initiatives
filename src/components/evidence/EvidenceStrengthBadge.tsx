@@ -15,6 +15,8 @@ export function EvidenceStrengthBadge({ strength, compact = false }: Props) {
         strengthTone(strength),
         compact && "px-2 py-0.5 text-[10px]"
       )}
+      aria-label={`Study-design assessment: ${evidenceLabels[strength]}`}
+      title={`Study-design assessment: ${evidenceLabels[strength]}`}
     >
       {evidenceLabels[strength]}
     </span>

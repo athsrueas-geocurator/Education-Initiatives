@@ -121,8 +121,8 @@ export function EvidenceDashboard({ initiatives, sources }: Props) {
 
       <section className="mx-auto grid max-w-[1440px] gap-8 px-4 py-10 sm:px-6 lg:grid-cols-3 lg:px-8">
         <article className="border-t-2 border-emerald-600 pt-4">
-          <h2 className="text-sm font-semibold text-slate-950">Initiatives by recorded evidence</h2>
-          <p className="mt-1 text-sm leading-6 text-slate-500">The rating attached to each initiative record.</p>
+          <h2 className="text-sm font-semibold text-slate-950">Initiatives by study-design assessment</h2>
+          <p className="mt-1 text-sm leading-6 text-slate-500">A classification of the linked study evidence, not a property of the dataset.</p>
           <div className="mt-6 space-y-3">
             {strengthOrder.map((item) => {
               const count = initiativeStrengths[item] ?? 0;
@@ -178,9 +178,9 @@ export function EvidenceDashboard({ initiatives, sources }: Props) {
               </select>
             </label>
             <label className="relative block">
-              <span className="sr-only">Filter by evidence rating</span>
+              <span className="sr-only">Filter by study-design assessment</span>
               <select value={strength} onChange={(event) => setStrength(event.target.value)} className="w-full border-slate-300 bg-white py-2.5 text-sm text-slate-700 focus:border-sky-600 focus:ring-sky-600">
-                <option value="all">All evidence ratings</option>{strengthOrder.map((item) => <option key={item} value={item}>{evidenceLabels[item]}</option>)}
+                <option value="all">All study-design assessments</option>{strengthOrder.map((item) => <option key={item} value={item}>{evidenceLabels[item]}</option>)}
               </select>
             </label>
             <label className="relative block">
@@ -197,7 +197,7 @@ export function EvidenceDashboard({ initiatives, sources }: Props) {
         <div className="overflow-x-auto border border-slate-200">
           <table className="min-w-[1050px] w-full border-collapse text-left">
             <thead className="bg-slate-950 text-xs font-semibold uppercase tracking-[0.08em] text-slate-300">
-              <tr><th className="px-5 py-3">Initiative</th><th className="px-5 py-3">Finding</th><th className="px-5 py-3">Evidence</th><th className="px-5 py-3">Study design</th><th className="px-5 py-3">Sources</th></tr>
+              <tr><th className="px-5 py-3">Initiative</th><th className="px-5 py-3">Finding</th><th className="px-5 py-3">Study-design assessment</th><th className="px-5 py-3">Study design</th><th className="px-5 py-3">Sources</th></tr>
             </thead>
             <tbody className="divide-y divide-slate-200">
               {filtered.map((initiative) => (
