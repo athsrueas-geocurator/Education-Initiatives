@@ -54,6 +54,14 @@ const profile = {
       joinKeys: ["LEAID", "state", "district name"],
       format: "XLSX workbook; use its data dictionary and table labels when creating a bounded analysis extract."
     },
+    ...fs.readdirSync(path.join(rawRoot, "naep-2022")).filter((file) => file.endsWith(".xlsx")).map((file) => ({
+      datasetId: "naep-data-explorer",
+      purpose: "Public national, state, and participating urban-district mathematics benchmark tables for grades 4 and 8.",
+      path: relative(path.join(rawRoot, "naep-2022", file)),
+      bytes: bytes(path.join(rawRoot, "naep-2022", file)),
+      joinKeys: ["jurisdiction", "assessment year", "grade", "subject", "student group"],
+      format: "XLSX workbook; preserve NAEP significance flags, accommodation status, and reporting notes."
+    })),
     ...[
       ["edfacts-ed-data-express", edfactsFile, "Chronic-absence outcome context by SEA, LEA, and school.", ["LEAID", "NCESSCH", "ST_LEAID"]],
       ["crdc", crdcFile, "Civil-rights access and discipline context by LEA and school.", ["LEAID", "NCESSCH"]],
@@ -67,7 +75,14 @@ const profile = {
       const archive = path.join(ipedsDirectory, file);
       const entry = listZip(archive).find((name) => name.toLowerCase().endsWith(".csv"));
       return { datasetId: "ipeds", purpose: "Postsecondary directory, characteristics, completions, and dual-enrollment context.", path: relative(archive), bytes: bytes(archive), csvSchemas: entry ? [{ entry, columns: readZipHeader(archive, entry) }] : [], joinKeys: ["UNITID"] };
-    })
+    }),
+    {
+      datasetId: "what-works-clearinghouse",
+      purpose: "Versioned local capture of every WWC record cited in this dossier, indexed by source and supported initiative.",
+      artifacts: fs.readdirSync(path.join(rawRoot, "wwc-dossier-corpus")).filter((file) => file.endsWith(".html")).map((file) => ({ path: relative(path.join(rawRoot, "wwc-dossier-corpus", file)), bytes: bytes(path.join(rawRoot, "wwc-dossier-corpus", file)) })),
+      indexPath: "research-data/wwc-dossier-index.json",
+      joinKeys: ["source ID", "intervention name", "study citation", "WWC review identifier"]
+    }
   ]
 };
 
