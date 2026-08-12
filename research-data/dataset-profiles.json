@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T01:16:43.580Z",
+  "generatedAt": "2026-08-12T01:24:03.723Z",
   "profiles": [
     {
       "datasetId": "ccd-public-school-directory",
@@ -133,6 +133,48 @@
         "district name"
       ],
       "format": "XLSX workbook; use its data dictionary and table labels when creating a bounded analysis extract."
+    },
+    {
+      "datasetId": "naep-data-explorer",
+      "purpose": "Public national, state, and participating urban-district mathematics benchmark tables for grades 4 and 8.",
+      "path": "research-data/raw/naep-2022/2022_NAEP_Math_National_Results.xlsx",
+      "bytes": 1433178,
+      "joinKeys": [
+        "jurisdiction",
+        "assessment year",
+        "grade",
+        "subject",
+        "student group"
+      ],
+      "format": "XLSX workbook; preserve NAEP significance flags, accommodation status, and reporting notes."
+    },
+    {
+      "datasetId": "naep-data-explorer",
+      "purpose": "Public national, state, and participating urban-district mathematics benchmark tables for grades 4 and 8.",
+      "path": "research-data/raw/naep-2022/2022_NAEP_Math_State_Results.xlsx",
+      "bytes": 63226834,
+      "joinKeys": [
+        "jurisdiction",
+        "assessment year",
+        "grade",
+        "subject",
+        "student group"
+      ],
+      "format": "XLSX workbook; preserve NAEP significance flags, accommodation status, and reporting notes."
+    },
+    {
+      "datasetId": "naep-data-explorer",
+      "purpose": "Public national, state, and participating urban-district mathematics benchmark tables for grades 4 and 8.",
+      "path": "research-data/raw/naep-2022/2022_NAEP_Math_TUDA_Results.xlsx",
+      "bytes": 17604577,
+      "joinKeys": [
+        "jurisdiction",
+        "assessment year",
+        "grade",
+        "subject",
+        "student group"
+      ],
+      "format": "XLSX workbook; preserve NAEP significance flags, accommodation status, and reporting notes."
     },
     {
       "datasetId": "edfacts-ed-data-express",
@@ -650,6 +692,43 @@
       ],
       "joinKeys": [
         "UNITID"
+      ]
+    },
+    {
+      "datasetId": "what-works-clearinghouse",
+      "purpose": "Versioned local capture of every WWC record cited in this dossier, indexed by source and supported initiative.",
+      "artifacts": [
+        {
+          "path": "research-data/raw/wwc-dossier-corpus/src-002-wwc-home.html",
+          "bytes": 28560
+        },
+        {
+          "path": "research-data/raw/wwc-dossier-corpus/src-007-wwc-essa.html",
+          "bytes": 26266
+        },
+        {
+          "path": "research-data/raw/wwc-dossier-corpus/src-008-wwc-handbooks.html",
+          "bytes": 35130
+        },
+        {
+          "path": "research-data/raw/wwc-dossier-corpus/src-016-success-for-all.html",
+          "bytes": 64703
+        },
+        {
+          "path": "research-data/raw/wwc-dossier-corpus/src-059-dual-language-study.html",
+          "bytes": 277056
+        },
+        {
+          "path": "research-data/raw/wwc-dossier-corpus/src-067-talent-development.html",
+          "bytes": 43719
+        }
+      ],
+      "indexPath": "research-data/wwc-dossier-index.json",
+      "joinKeys": [
+        "source ID",
+        "intervention name",
+        "study citation",
+        "WWC review identifier"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-12T01:16:41.234Z",
+  "generatedAt": "2026-08-12T01:24:02.046Z",
   "requested": "all-ready-artifacts",
   "results": [
     {
       "datasetId": "ccd-public-school-directory",
       "planStatus": "ready",
-      "startedAt": "2026-08-12T01:16:41.235Z",
+      "startedAt": "2026-08-12T01:24:02.046Z",
       "state": "downloaded",
       "totalRecords": 101105,
       "artifacts": [
@@ -469,12 +469,12 @@
           "sha256": "ccb2f452ed8c9523e070510698618a661c69ef85339097303357ba986b10355a"
         }
       ],
-      "completedAt": "2026-08-12T01:16:41.751Z"
+      "completedAt": "2026-08-12T01:24:02.560Z"
     },
     {
       "datasetId": "seda-v5",
       "planStatus": "ready",
-      "startedAt": "2026-08-12T01:16:41.751Z",
+      "startedAt": "2026-08-12T01:24:02.560Z",
       "state": "downloaded",
       "artifacts": [
         {
@@ -485,12 +485,12 @@
           "sha256": "f262da89e095513e974bdae727021eacb673018c158e5dd6bb81ff77d0cc0120"
         }
       ],
-      "completedAt": "2026-08-12T01:16:41.776Z"
+      "completedAt": "2026-08-12T01:24:02.583Z"
     },
     {
       "datasetId": "edfacts-ed-data-express",
       "planStatus": "ready",
-      "startedAt": "2026-08-12T01:16:41.776Z",
+      "startedAt": "2026-08-12T01:24:02.583Z",
       "state": "downloaded",
       "artifacts": [
         {
@@ -501,12 +501,12 @@
           "sha256": "6fd197a93c36fc9442f75fc5f9c9caf9b88fa704d47f4781a29c270d53d31fad"
         }
       ],
-      "completedAt": "2026-08-12T01:16:41.785Z"
+      "completedAt": "2026-08-12T01:24:02.590Z"
     },
     {
       "datasetId": "ipeds",
       "planStatus": "ready",
-      "startedAt": "2026-08-12T01:16:41.785Z",
+      "startedAt": "2026-08-12T01:24:02.590Z",
       "state": "downloaded",
       "artifacts": [
         {
@@ -538,12 +538,12 @@
           "sha256": "deb13f577560870b848348ee8db4422587a42815d2bfb357fd44a443f6f61b90"
         }
       ],
-      "completedAt": "2026-08-12T01:16:41.789Z"
+      "completedAt": "2026-08-12T01:24:02.601Z"
     },
     {
       "datasetId": "crdc",
       "planStatus": "ready",
-      "startedAt": "2026-08-12T01:16:41.789Z",
+      "startedAt": "2026-08-12T01:24:02.601Z",
       "state": "downloaded",
       "artifacts": [
         {
@@ -554,37 +554,58 @@
           "sha256": "5d0b6b2996f06d5ea1ee4fd94b4d6687b9fcd3efaac7e8b0b65533f82765fd4f"
         }
       ],
-      "completedAt": "2026-08-12T01:16:42.286Z"
+      "completedAt": "2026-08-12T01:24:03.084Z"
     },
     {
       "datasetId": "census-f33-school-finance",
       "planStatus": "ready",
-      "startedAt": "2026-08-12T01:16:42.286Z",
+      "startedAt": "2026-08-12T01:24:03.084Z",
       "state": "downloaded",
       "artifacts": [
         {
           "url": "https://www2.census.gov/programs-surveys/school-finances/tables/2024/secondary-education-finance/elsec24.xlsx",
           "path": "research-data/raw/census-f33/elsec24.xlsx",
-          "state": "downloaded",
+          "state": "already-present",
           "bytes": 12639997,
           "sha256": "7e69f35a44c1d03c9b5a9127a074bd4feed705e7a950bf028305135241cfd758"
         }
       ],
-      "completedAt": "2026-08-12T01:16:43.005Z"
+      "completedAt": "2026-08-12T01:24:03.091Z"
     },
     {
       "datasetId": "naep-data-explorer",
-      "planStatus": "requires-query-definition",
-      "startedAt": "2026-08-12T01:16:43.005Z",
-      "state": "requires-query-definition",
-      "accessUrl": "https://nces.ed.gov/nationsreportcard/naepdata/",
-      "notes": "NAEP is a multidimensional query system, not one bulk national file. An outcome, grade, subject, years, and jurisdictions must be selected before an export is meaningful.",
-      "completedAt": "2026-08-12T01:16:43.005Z"
+      "planStatus": "ready",
+      "startedAt": "2026-08-12T01:24:03.091Z",
+      "state": "downloaded",
+      "artifacts": [
+        {
+          "url": "https://www.nationsreportcard.gov/mathematics/supportive_files/2022_NAEP_Math_National_Results.xlsx",
+          "path": "research-data/raw/naep-2022/2022_NAEP_Math_National_Results.xlsx",
+          "state": "already-present",
+          "bytes": 1433178,
+          "sha256": "2dcfbd26f52e020fdc431e8ecc654d461bfd09869e880d7c7b0030c7109ebef7"
+        },
+        {
+          "url": "https://www.nationsreportcard.gov/mathematics/supportive_files/2022_NAEP_Math_State_Results.xlsx",
+          "path": "research-data/raw/naep-2022/2022_NAEP_Math_State_Results.xlsx",
+          "state": "already-present",
+          "bytes": 63226834,
+          "sha256": "5cb6186957a35f62b0690f19397ebaea5bff9dfc3263032fdb4976da264ad586"
+        },
+        {
+          "url": "https://www.nationsreportcard.gov/mathematics/supportive_files/2022_NAEP_Math_TUDA_Results.xlsx",
+          "path": "research-data/raw/naep-2022/2022_NAEP_Math_TUDA_Results.xlsx",
+          "state": "already-present",
+          "bytes": 17604577,
+          "sha256": "dca018c01ded5fa1d23d56808910682939e323f200b984621eccdfef2c754baf"
+        }
+      ],
+      "completedAt": "2026-08-12T01:24:03.148Z"
     },
     {
       "datasetId": "college-scorecard",
       "planStatus": "ready",
-      "startedAt": "2026-08-12T01:16:43.005Z",
+      "startedAt": "2026-08-12T01:24:03.148Z",
       "state": "downloaded",
       "artifacts": [
         {
@@ -595,25 +616,67 @@
           "sha256": "f56a181b000ca4914e924c16b6b81dcc656e25aeb2ac68ab7d271ac0f29ffd58"
         }
       ],
-      "completedAt": "2026-08-12T01:16:43.019Z"
+      "completedAt": "2026-08-12T01:24:03.163Z"
     },
     {
       "datasetId": "urban-education-data-portal",
       "planStatus": "not-independent-source",
-      "startedAt": "2026-08-12T01:16:43.019Z",
+      "startedAt": "2026-08-12T01:24:03.163Z",
       "state": "not-independent-source",
       "accessUrl": "https://educationdata.urban.org/documentation/index.html",
       "notes": "Urban is an API distribution layer for sources already represented here. CCD is downloaded through its API; do not duplicate all mirrored source files.",
-      "completedAt": "2026-08-12T01:16:43.019Z"
+      "completedAt": "2026-08-12T01:24:03.163Z"
     },
     {
       "datasetId": "what-works-clearinghouse",
-      "planStatus": "requires-query-definition",
-      "startedAt": "2026-08-12T01:16:43.019Z",
-      "state": "requires-query-definition",
-      "accessUrl": "https://ies.ed.gov/ncee/wwc/",
-      "notes": "WWC is an evidence-review repository. Its relevant export must be defined by intervention, topic, grade, and review status.",
-      "completedAt": "2026-08-12T01:16:43.019Z"
+      "planStatus": "ready",
+      "startedAt": "2026-08-12T01:24:03.163Z",
+      "state": "downloaded",
+      "artifacts": [
+        {
+          "url": "https://ies.ed.gov/ncee/wwc/",
+          "path": "research-data/raw/wwc-dossier-corpus/src-002-wwc-home.html",
+          "state": "already-present",
+          "bytes": 28560,
+          "sha256": "bf33e872ddf246e3abaa747d9df0989b8f0c581e3f3c36436ba1b4c20b06aa8f"
+        },
+        {
+          "url": "https://ies.ed.gov/ncee/wwc/essa",
+          "path": "research-data/raw/wwc-dossier-corpus/src-007-wwc-essa.html",
+          "state": "already-present",
+          "bytes": 26266,
+          "sha256": "d7ee8a188c60163587b219f4b884268dcbff628d723f0d53f0b23955cb330746"
+        },
+        {
+          "url": "https://ies.ed.gov/ncee/wwc/Handbooks",
+          "path": "research-data/raw/wwc-dossier-corpus/src-008-wwc-handbooks.html",
+          "state": "already-present",
+          "bytes": 35130,
+          "sha256": "a9aa3746d885ded79a8bd26e8f773519fd3faedb1895a055ead85803c626c602"
+        },
+        {
+          "url": "https://ies.ed.gov/ncee/wwc/Intervention/214",
+          "path": "research-data/raw/wwc-dossier-corpus/src-016-success-for-all.html",
+          "state": "already-present",
+          "bytes": 64703,
+          "sha256": "c9531ef280fb7b882840df34dc3d58f73803dcbbb2f060ae1305387e16ab42bc"
+        },
+        {
+          "url": "https://ies.ed.gov/ncee/WWC/Study/85526",
+          "path": "research-data/raw/wwc-dossier-corpus/src-059-dual-language-study.html",
+          "state": "already-present",
+          "bytes": 277056,
+          "sha256": "a002bb238fd3aaa9d4f3cec58622a0de66fd481de86b5f4644f70594d834a53d"
+        },
+        {
+          "url": "https://ies.ed.gov/ncee/wwc/EvidenceSnapshot/506",
+          "path": "research-data/raw/wwc-dossier-corpus/src-067-talent-development.html",
+          "state": "already-present",
+          "bytes": 43719,
+          "sha256": "d3105bd8a78c51448ded0ca10cc918c915b1b87b53b78a3628e8cf3cb7b057b3"
+        }
+      ],
+      "completedAt": "2026-08-12T01:24:03.167Z"
     }
   ]
 }

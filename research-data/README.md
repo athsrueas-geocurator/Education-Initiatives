@@ -19,6 +19,7 @@ Large national extracts are intentionally excluded from Git. They must be fetche
 - `ingestion-report.json`: generated manifest with paths, record counts, sizes, checksums, and access limitations.
 - `dataset-profiles.json`: generated table and field inventory for acquired raw artifacts.
 - `initiative-dataset-links.json`: explicit, non-causal roles for datasets when comparing published initiatives.
+- `wwc-dossier-index.json`: complete list of cited What Works Clearinghouse records, mapped to their source IDs and related initiatives.
 
 ## Collection
 
@@ -46,7 +47,13 @@ Then profile the acquired archives and tables:
 npm run research:profile
 ```
 
-Raw files are placed in `research-data/raw/` and excluded from Git because they are third-party source artifacts, not site content. The generated `ingestion-report.json` records their exact checksums and the sources that require an API key or an interactive export.
+Raw files are placed in `research-data/raw/` and excluded from Git because they are third-party source artifacts, not site content. The generated `ingestion-report.json` records each exact artifact URL, size, and checksum.
+
+To verify the manifest against a local acquisition, run:
+
+```bash
+node scripts/validate-research-data.mjs --verify-raw
+```
 
 Use `NCES_ID` / `ncessch` for schools and `LEAID` / `leaid` for districts. Never infer a causal effect by joining outcome trends to an initiative name; comparison claims must retain their study design, comparator, population, and study-period metadata.
 

@@ -10,6 +10,7 @@ const datasets = read("dataset-catalog.json");
 const candidates = read("initiative-candidates.json");
 const downloadPlan = read("download-plan.json");
 const initiativeDatasetLinks = read("initiative-dataset-links.json");
+const ingestionReport = read("ingestion-report.json");
 const existingDichotomies = JSON.parse(fs.readFileSync(path.join(root, "content", "dichotomies.json"), "utf8"));
 const dichotomySlugs = new Set(existingDichotomies.map((item) => item.slug));
 
@@ -38,9 +39,30 @@ for (const dataset of datasets) {
   assert(planIds.has(dataset.id), `Dataset ${dataset.id} is missing from the download plan.`);
 }
 
+const reportByDataset = new Map(ingestionReport.results.map((result) => [result.datasetId, result]));
+for (const item of downloadPlan) {
+  const result = reportByDataset.get(item.datasetId);
+  assert(result, `Download report is missing ${item.datasetId}.`);
+  if (item.status === "ready") {
+    assert(result.state === "downloaded", `${item.datasetId} should be downloaded, but report state is ${result.state}.`);
+    assert(Array.isArray(result.artifacts) && result.artifacts.length > 0, `${item.datasetId} has no downloaded artifacts.`);
+  }
+}
+
+if (process.argv.includes("--verify-raw")) {
+  for (const result of ingestionReport.results.filter((item) => item.state === "downloaded")) {
+    for (const artifact of result.artifacts ?? []) {
+      assert(artifact.path, `${result.datasetId} has an artifact without a path.`);
+      const artifactPath = path.join(root, artifact.path);
+      assert(fs.existsSync(artifactPath), `Missing local raw artifact: ${artifact.path}`);
+      assert(fs.statSync(artifactPath).size === artifact.bytes, `Size mismatch for local raw artifact: ${artifact.path}`);
+    }
+  }
+}
+
 for (const link of initiativeDatasetLinks) {
   assert(link.initiativeSlug && link.datasetId && link.role && link.use, "Each initiative-dataset link needs an initiative, dataset, role, and use.");
   assert(planIds.has(link.datasetId), `${link.initiativeSlug} links an unknown dataset.`);
 }
 
-console.log(`Validated ${datasets.length} datasets, ${candidates.length} initiative candidates, ${downloadPlan.length} download-plan entries, and ${initiativeDatasetLinks.length} initiative-dataset links.`);
+console.log(`Validated ${datasets.length} datasets, ${candidates.length} initiative candidates, ${downloadPlan.length} download-plan entries, ${initiativeDatasetLinks.length} initiative-dataset links, and ${ingestionReport.results.length} ingestion results.`);

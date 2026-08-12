@@ -53,10 +53,14 @@
   },
   {
     "datasetId": "naep-data-explorer",
-    "mode": "interactive-query",
-    "status": "requires-query-definition",
-    "accessUrl": "https://nces.ed.gov/nationsreportcard/naepdata/",
-    "notes": "NAEP is a multidimensional query system, not one bulk national file. An outcome, grade, subject, years, and jurisdictions must be selected before an export is meaningful."
+    "mode": "files",
+    "status": "ready",
+    "artifacts": [
+      { "url": "https://www.nationsreportcard.gov/mathematics/supportive_files/2022_NAEP_Math_National_Results.xlsx", "outputFile": "research-data/raw/naep-2022/2022_NAEP_Math_National_Results.xlsx" },
+      { "url": "https://www.nationsreportcard.gov/mathematics/supportive_files/2022_NAEP_Math_State_Results.xlsx", "outputFile": "research-data/raw/naep-2022/2022_NAEP_Math_State_Results.xlsx" },
+      { "url": "https://www.nationsreportcard.gov/mathematics/supportive_files/2022_NAEP_Math_TUDA_Results.xlsx", "outputFile": "research-data/raw/naep-2022/2022_NAEP_Math_TUDA_Results.xlsx" }
+    ],
+    "notes": "Official 2022 NAEP mathematics report-table workbooks for grades 4 and 8, spanning national, state, and participating urban district results. These are the reproducible public benchmark extract; microdata remains subject to NCES data-use terms."
   },
   {
     "datasetId": "college-scorecard",
@@ -75,9 +79,16 @@
   },
   {
     "datasetId": "what-works-clearinghouse",
-    "mode": "interactive-export",
-    "status": "requires-query-definition",
-    "accessUrl": "https://ies.ed.gov/ncee/wwc/",
-    "notes": "WWC is an evidence-review repository. Its relevant export must be defined by intervention, topic, grade, and review status."
+    "mode": "files",
+    "status": "ready",
+    "artifacts": [
+      { "url": "https://ies.ed.gov/ncee/wwc/", "outputFile": "research-data/raw/wwc-dossier-corpus/src-002-wwc-home.html" },
+      { "url": "https://ies.ed.gov/ncee/wwc/essa", "outputFile": "research-data/raw/wwc-dossier-corpus/src-007-wwc-essa.html" },
+      { "url": "https://ies.ed.gov/ncee/wwc/Handbooks", "outputFile": "research-data/raw/wwc-dossier-corpus/src-008-wwc-handbooks.html" },
+      { "url": "https://ies.ed.gov/ncee/wwc/Intervention/214", "outputFile": "research-data/raw/wwc-dossier-corpus/src-016-success-for-all.html" },
+      { "url": "https://ies.ed.gov/ncee/WWC/Study/85526", "outputFile": "research-data/raw/wwc-dossier-corpus/src-059-dual-language-study.html" },
+      { "url": "https://ies.ed.gov/ncee/wwc/EvidenceSnapshot/506", "outputFile": "research-data/raw/wwc-dossier-corpus/src-067-talent-development.html" }
+    ],
+    "notes": "Bounded reproducible corpus of every WWC record cited by the dossier. WWC is continuously updated, so a dossier-specific corpus is preferable to an unsupported claim of a complete repository mirror. The tracked index maps each saved record to the source and initiative it supports."
   }
 ]

@@ -13,7 +13,7 @@
     "joinKeys": ["ncessch", "leaid", "state_leaid", "fips"],
     "primaryMeasures": ["directory", "enrollment", "staffing", "grade span", "locale", "charter and magnet flags"],
     "supportsComparisons": ["cohort definition", "geographic joins", "school and district characteristics"],
-    "collectionStatus": "sample-collected",
+    "collectionStatus": "downloaded-complete-2022",
     "priority": 1,
     "notes": "Use as the canonical public-school identifier backbone. CCD is descriptive and is not an intervention-effect dataset."
   },
@@ -31,7 +31,7 @@
     "joinKeys": ["NCES-derived school and district identifiers where supplied", "geographic codes"],
     "primaryMeasures": ["standardized achievement", "achievement gaps", "demographic and socioeconomic context"],
     "supportsComparisons": ["cross-state achievement", "growth and gaps", "equity context"],
-    "collectionStatus": "cataloged",
+    "collectionStatus": "downloaded-v6",
     "priority": 1,
     "notes": "Best national comparability layer for achievement; retain SEDA version and aggregation level in every derived claim."
   },
@@ -49,7 +49,7 @@
     "joinKeys": ["state", "LEA ID", "school ID", "school year", "subgroup"],
     "primaryMeasures": ["assessment", "graduation", "chronic absence", "accountability", "CTE", "English learner progress"],
     "supportsComparisons": ["attendance", "graduation", "subgroup outcomes", "implementation and accountability context"],
-    "collectionStatus": "cataloged",
+    "collectionStatus": "downloaded-sy2022-23",
     "priority": 1,
     "notes": "Preserve file specification, data group, data notes, suppression rules, and denominator with each extract."
   },
@@ -67,7 +67,7 @@
     "joinKeys": ["LEA ID", "school ID", "school year", "subgroup"],
     "primaryMeasures": ["discipline", "restraint and seclusion", "advanced-course access", "staffing", "preschool", "harassment and bullying"],
     "supportsComparisons": ["equity", "school climate", "opportunity to learn", "implementation risk"],
-    "collectionStatus": "cataloged",
+    "collectionStatus": "downloaded-2021-22",
     "priority": 1,
     "notes": "Treat changing collection definitions and suppressed values as part of the analytic record."
   },
@@ -85,7 +85,7 @@
     "joinKeys": ["school district identifier", "state", "fiscal year"],
     "primaryMeasures": ["revenue by source", "expenditure by function", "debt", "assets", "enrollment"],
     "supportsComparisons": ["cost", "resource intensity", "finance context"],
-    "collectionStatus": "cataloged-api-key-required",
+    "collectionStatus": "downloaded-2024-workbook",
     "priority": 1,
     "notes": "Deflate monetary values and document fiscal-year alignment before comparing programs."
   },
@@ -103,7 +103,7 @@
     "joinKeys": ["jurisdiction", "assessment year", "grade", "subject", "subgroup"],
     "primaryMeasures": ["scale scores", "achievement levels", "questionnaire context"],
     "supportsComparisons": ["national and state benchmarks", "achievement trend context"],
-    "collectionStatus": "cataloged",
+    "collectionStatus": "downloaded-2022-mathematics-benchmark",
     "priority": 2,
     "notes": "NAEP is not school-level and should not be used alone to attribute initiative effects."
   },
@@ -121,7 +121,7 @@
     "joinKeys": ["UNITID", "state", "reporting year"],
     "primaryMeasures": ["enrollment", "awards", "graduation", "finance", "staffing"],
     "supportsComparisons": ["postsecondary pathway supply", "completion context"],
-    "collectionStatus": "cataloged",
+    "collectionStatus": "downloaded-2024-components",
     "priority": 2,
     "notes": "Institutional outcomes are not direct student-level follow-up for a K-12 initiative."
   },
@@ -139,7 +139,7 @@
     "joinKeys": ["UNITID", "OPEID", "state", "reporting year"],
     "primaryMeasures": ["completion", "earnings", "debt", "repayment", "aid"],
     "supportsComparisons": ["career pathway context", "postsecondary return context"],
-    "collectionStatus": "cataloged",
+    "collectionStatus": "downloaded-2026-institution-release",
     "priority": 2,
     "notes": "Use cohort definitions exactly as released and do not treat institution-level averages as individual program effects."
   },
@@ -157,7 +157,7 @@
     "joinKeys": ["ncessch", "leaid", "UNITID", "fips", "year"],
     "primaryMeasures": ["Convenient access to CCD, CRDC, EDFacts, IPEDS, and related public data"],
     "supportsComparisons": ["programmatic extraction", "rapid field-shape validation", "prototype queries"],
-    "collectionStatus": "sample-collected",
+    "collectionStatus": "used-as-ccd-delivery-layer",
     "priority": 2,
     "notes": "Use the originating agency as the authoritative provenance in published claims."
   },
@@ -175,7 +175,7 @@
     "joinKeys": ["intervention name", "study citation", "WWC review identifier"],
     "primaryMeasures": ["study quality", "outcome domain", "effect direction", "evidence tier"],
     "supportsComparisons": ["study-quality normalization", "evidence discovery"],
-    "collectionStatus": "cataloged",
+    "collectionStatus": "downloaded-dossier-corpus",
     "priority": 1,
     "notes": "A review repository, not an outcome dataset; preserve the primary study alongside any WWC assessment."
   }

@@ -1,0 +1,44 @@
+[
+  {
+    "sourceId": "src-002",
+    "title": "What Works Clearinghouse home and evidence standards",
+    "url": "https://ies.ed.gov/ncee/wwc/",
+    "role": "methods and evidence-review context",
+    "initiativeSlugs": []
+  },
+  {
+    "sourceId": "src-007",
+    "title": "WWC ESSA evidence resources",
+    "url": "https://ies.ed.gov/ncee/wwc/essa",
+    "role": "methods and evidence-review context",
+    "initiativeSlugs": []
+  },
+  {
+    "sourceId": "src-008",
+    "title": "WWC procedures and standards handbooks",
+    "url": "https://ies.ed.gov/ncee/wwc/Handbooks",
+    "role": "methods and evidence-review context",
+    "initiativeSlugs": []
+  },
+  {
+    "sourceId": "src-016",
+    "title": "Success for All intervention report",
+    "url": "https://ies.ed.gov/ncee/wwc/Intervention/214",
+    "role": "intervention evidence record",
+    "initiativeSlugs": ["success-for-all"]
+  },
+  {
+    "sourceId": "src-059",
+    "title": "Dual-language immersion lottery study review",
+    "url": "https://ies.ed.gov/ncee/WWC/Study/85526",
+    "role": "study evidence record",
+    "initiativeSlugs": ["dual-language-immersion-programs"]
+  },
+  {
+    "sourceId": "src-067",
+    "title": "Talent Development High Schools evidence snapshot",
+    "url": "https://ies.ed.gov/ncee/wwc/EvidenceSnapshot/506",
+    "role": "intervention evidence record",
+    "initiativeSlugs": ["talent-development-high-schools"]
+  }
+]
