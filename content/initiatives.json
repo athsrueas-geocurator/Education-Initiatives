@@ -439,7 +439,8 @@
     "normalizationIssues": "Effects may reflect school model plus curriculum; generalizing outside participating schools requires care.",
     "oneLineFinding": "Recent causal work finds promising long-term reading gains, supporting a content-rich view of comprehension.",
     "sourceIds": [
-      "src-019"
+      "src-019",
+      "src-087"
     ],
     "tags": "knowledge-rich; curriculum",
     "relatedDichotomySlugs": []
@@ -566,7 +567,8 @@
     "normalizationIssues": "Normalize by coaching cycles, coach expertise, content focus, and program scale; scaling effects are often smaller.",
     "oneLineFinding": "Coaching has stronger evidence than generic PD, especially at smaller scale and with clear instructional focus.",
     "sourceIds": [
-      "src-023"
+      "src-023",
+      "src-088"
     ],
     "tags": "teacher development; coaching",
     "relatedDichotomySlugs": [
@@ -618,7 +620,8 @@
     "normalizationIssues": "Teacher assignment is not random in most settings; subject, grade, and retention matter.",
     "oneLineFinding": "Some evaluations show positive math effects, but reading effects and turnover tradeoffs vary by context.",
     "sourceIds": [
-      "src-024"
+      "src-024",
+      "src-089"
     ],
     "tags": "teacher pipeline; alternative certification",
     "relatedDichotomySlugs": [
@@ -795,7 +798,8 @@
     "normalizationIssues": "The treatment is a heterogeneous school model, not just software; compare active usage and teacher mediation.",
     "oneLineFinding": "Early RAND evidence was promising, but heterogeneity and later critiques caution against treating personalized learning as one proven model.",
     "sourceIds": [
-      "src-030"
+      "src-030",
+      "src-090"
     ],
     "tags": "Gates; personalized learning; edtech",
     "relatedDichotomySlugs": [
@@ -1439,7 +1443,8 @@
     "normalizationIssues": "Selection is large; researchers use eligibility cutoffs, school fixed effects, and prior achievement controls.",
     "oneLineFinding": "Advanced access can help, but expansion must track pass rates, credit quality, and whether support keeps up with access.",
     "sourceIds": [
-      "src-054"
+      "src-054",
+      "src-092"
     ],
     "tags": "dual enrollment; AP",
     "relatedDichotomySlugs": []
@@ -1462,7 +1467,8 @@
     "normalizationIssues": "Access metrics can improve while learning falls if supports are insufficient; compare course standards and failure rates.",
     "oneLineFinding": "The Chicago case reduced course-taking inequities but increased failures and did not clearly improve achievement or college outcomes.",
     "sourceIds": [
-      "src-055"
+      "src-055",
+      "src-091"
     ],
     "tags": "detracking; algebra; rigor",
     "relatedDichotomySlugs": []

@@ -1198,5 +1198,77 @@
     "finding": "Early randomized evaluation results document reengagement outcomes for participants in the residential National Guard Youth ChalleNGe program.",
     "caveat": "The early follow-up does not answer the same longer-run employment and earnings questions as later reports.",
     "url": "https://doi.org/10.2139/ssrn.1356853"
+  },
+  {
+    "id": "src-087",
+    "title": "Core Knowledge Language Arts",
+    "authors": "What Works Clearinghouse",
+    "year": "2019",
+    "method": "Systematic review",
+    "outcomeTags": ["Reading", "Literacy", "Curriculum"],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "The What Works Clearinghouse intervention report reviews eligible research on Core Knowledge Language Arts and its literacy outcomes.",
+    "caveat": "A clearinghouse review is limited to the studies meeting its screening rules and should not be read as an effect for every knowledge-rich curriculum.",
+    "url": "https://ies.ed.gov/ncee/wwc/Docs/InterventionReports/wwc_ckla_05212019.pdf"
+  },
+  {
+    "id": "src-088",
+    "title": "The Effect of Teacher Coaching on Instruction and Achievement: A Meta-Analysis of the Causal Evidence",
+    "authors": "Matthew A. Kraft, David Blazar, and Dylan Hogan",
+    "year": "2018",
+    "method": "Meta-analysis",
+    "outcomeTags": ["Instruction", "Achievement", "Teacher development"],
+    "evidenceStrength": "strong-causal",
+    "finding": "The meta-analysis pools causal evaluations of teacher coaching and reports larger effects on instructional practice than on student achievement.",
+    "caveat": "Average results mask variation in coaching dose, subject focus, coach expertise, and scale.",
+    "url": "https://doi.org/10.3102/0034654318759268"
+  },
+  {
+    "id": "src-089",
+    "title": "Does Teacher Preparation Matter? Evidence about Teacher Certification, Teach for America, and Teacher Effectiveness",
+    "authors": "Linda Darling-Hammond, Deborah Holtzman, and Su Jin Gatlin",
+    "year": "2005",
+    "method": "Matched comparison",
+    "outcomeTags": ["Achievement", "Teacher preparation", "Teacher effectiveness"],
+    "evidenceStrength": "limited-descriptive",
+    "finding": "The analysis compares teacher preparation pathways and reported student-achievement differences in the California context.",
+    "caveat": "This is not a randomized comparison and has been debated; it is included as a contrasting pathway study, not a decisive estimate.",
+    "url": "https://doi.org/10.14507/epaa.v13n42.2005"
+  },
+  {
+    "id": "src-090",
+    "title": "Continued Progress: Promising Evidence on Personalized Learning",
+    "authors": "John F. Pane, Elizabeth D. Steiner, Matthew Baird, and Laura S. Hamilton",
+    "year": "2015",
+    "method": "Matched comparison",
+    "outcomeTags": ["Achievement", "Implementation", "Technology"],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "RAND's follow-up report compares participating personalized-learning schools with matched comparison schools and describes implementation conditions alongside achievement findings.",
+    "caveat": "The participating schools were early adopters and the study does not isolate one product, platform, or practice as the cause of observed differences.",
+    "url": "https://doi.org/10.7249/RR1365"
+  },
+  {
+    "id": "src-091",
+    "title": "College Preparatory Curriculum for All: Academic Consequences of Requiring Algebra and English I for Ninth Graders in Chicago",
+    "authors": "Elaine Allensworth, Takako Nomi, Nicholas Montgomery, and Valerie E. Lee",
+    "year": "2009",
+    "method": "Difference-in-differences",
+    "outcomeTags": ["Course passing", "Achievement", "College preparation"],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "The peer-reviewed analysis examines Chicago's ninth-grade college-preparatory requirement, including course performance and academic consequences.",
+    "caveat": "The district policy changed several elements at once and does not establish the effect of Algebra I alone in every setting.",
+    "url": "https://doi.org/10.3102/0162373709343471"
+  },
+  {
+    "id": "src-092",
+    "title": "The Postsecondary Achievement of Participants in Dual Enrollment: An Analysis of Student Outcomes in Two States",
+    "authors": "Melinda Mechur Karp, Juan Carlos Calcagno, and Katherine L. Hughes",
+    "year": "2007",
+    "method": "Matched comparison",
+    "outcomeTags": ["Postsecondary enrollment", "Degree attainment", "Credit accumulation"],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "The study compares postsecondary outcomes for dual-enrollment participants and similar nonparticipants in two states.",
+    "caveat": "Participation is not randomly assigned, and the estimate is sensitive to the comparison construction and state policy context.",
+    "url": "https://doi.org/10.7916/f3ex-vd60"
   }
 ]
