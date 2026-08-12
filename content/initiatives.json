@@ -485,7 +485,8 @@
     "normalizationIssues": "Normalize by cumulative hours, frequency, tutor type, group size, and whether tutoring occurs during the school day.",
     "oneLineFinding": "One of the strongest short-run academic interventions when frequent, sustained, curriculum-aligned, and attended.",
     "sourceIds": [
-      "src-021"
+      "src-021",
+      "src-068"
     ],
     "tags": "tutoring; dosage",
     "relatedDichotomySlugs": [
@@ -1016,7 +1017,8 @@
     "normalizationIssues": "Discipline data are partly reporting artifacts; fidelity tools are needed to distinguish adoption from use.",
     "oneLineFinding": "Good evidence for behavior/climate improvements; academic effects are often indirect through instructional time.",
     "sourceIds": [
-      "src-039"
+      "src-039",
+      "src-069"
     ],
     "tags": "PBIS; behavior; MTSS",
     "relatedDichotomySlugs": []
@@ -1039,7 +1041,8 @@
     "normalizationIssues": "Suspension outcomes change when reporting and discipline policy change; academic effects may vary by grade level.",
     "oneLineFinding": "Can reduce suspensions and improve climate, but academic effects are not automatically positive and depend on execution.",
     "sourceIds": [
-      "src-040"
+      "src-040",
+      "src-072"
     ],
     "tags": "discipline; restorative",
     "relatedDichotomySlugs": [
@@ -1087,7 +1090,8 @@
     "normalizationIssues": "Control children may access other care; fadeout on tests does not rule out later non-test effects.",
     "oneLineFinding": "The national RCT found early positive impacts with substantial fadeout on many early academic measures.",
     "sourceIds": [
-      "src-042"
+      "src-042",
+      "src-071"
     ],
     "tags": "early childhood; federal",
     "relatedDichotomySlugs": [
@@ -1403,7 +1407,8 @@
     "normalizationIssues": "Lottery/randomized access estimates are strong; compare credit quality and transferability.",
     "oneLineFinding": "One of the strongest causal postsecondary-readiness models, with positive impacts on college enrollment and degree attainment.",
     "sourceIds": [
-      "src-053"
+      "src-053",
+      "src-070"
     ],
     "tags": "early college; dual enrollment",
     "relatedDichotomySlugs": []
@@ -1495,7 +1500,8 @@
     "normalizationIssues": "Use inflation-adjusted per-pupil spending, exposure years, district fixed effects, and pre-trend checks.",
     "oneLineFinding": "Modern causal finance research rejects the simple 'money does not matter' claim: sustained targeted dollars can matter.",
     "sourceIds": [
-      "src-056"
+      "src-056",
+      "src-073"
     ],
     "tags": "finance; resources",
     "relatedDichotomySlugs": []

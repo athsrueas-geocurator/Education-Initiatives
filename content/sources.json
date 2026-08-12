@@ -970,5 +970,77 @@
     "finding": "The reviewed evidence did not show a discernible effect on progressing in school, despite a real large-high-school restructuring model aimed at attendance, achievement, and dropout prevention.",
     "caveat": "The review covers a limited evidence base and should not be read as a verdict on every ninth-grade academy or small-learning-community implementation.",
     "url": "https://ies.ed.gov/ncee/wwc/EvidenceSnapshot/506"
+  },
+  {
+    "id": "src-068",
+    "title": "The Impressive Effects of Tutoring on PreK-12 Learning: A Systematic Review and Meta-Analysis of the Experimental Evidence",
+    "authors": "Andre Nickow, Philip Oreopoulos, and Vincent Quan",
+    "year": "2020",
+    "method": "Meta-analysis",
+    "outcomeTags": ["Achievement", "Tutoring", "Dosage"],
+    "evidenceStrength": "strong-causal",
+    "finding": "Across experimental tutoring studies, tutoring produced meaningful average learning gains, with larger effects when programs were delivered during the school day, frequently, and by trained adults or near peers.",
+    "caveat": "The pooled estimate spans different grades, subjects, delivery models, and study settings; it does not establish that every tutoring implementation achieves the average effect.",
+    "url": "https://doi.org/10.3386/w27476"
+  },
+  {
+    "id": "src-069",
+    "title": "Examining the Effects of Schoolwide Positive Behavioral Interventions and Supports on Student Outcomes",
+    "authors": "Catherine P. Bradshaw, Mary M. Mitchell, and Philip J. Leaf",
+    "year": "2009",
+    "method": "RCT",
+    "outcomeTags": ["Suspension", "Discipline", "School climate", "Achievement"],
+    "evidenceStrength": "strong-causal",
+    "finding": "In a five-year randomized trial across 37 elementary schools, trained schools implemented PBIS with high fidelity and had lower suspensions and office discipline referrals.",
+    "caveat": "The study's clearest impacts were behavioral and disciplinary; it should not be read as direct proof of broad academic gains in every PBIS implementation.",
+    "url": "https://doi.org/10.1177/1098300709334798"
+  },
+  {
+    "id": "src-070",
+    "title": "Early College, Continued Success: Longer-Term Impact of Early College High Schools",
+    "authors": "Mengli Song, Kristina Zeiser, Drew Atchison, and Iliana Brodziak de los Reyes",
+    "year": "2021",
+    "method": "Lottery",
+    "outcomeTags": ["Postsecondary", "Degree attainment", "Credit accumulation"],
+    "evidenceStrength": "strong-causal",
+    "finding": "Longer-term follow-up of early college admissions found sustained postsecondary benefits, including college enrollment and credential outcomes, for students offered access through oversubscribed schools.",
+    "caveat": "The design estimates effects for applicants to participating early colleges and does not automatically generalize to every dual-enrollment or early-college model.",
+    "url": "https://doi.org/10.1080/19345747.2020.1862374"
+  },
+  {
+    "id": "src-071",
+    "title": "Head Start Impact Study: Final Report",
+    "authors": "U.S. Department of Health and Human Services, Administration for Children and Families",
+    "year": "2010",
+    "method": "RCT",
+    "outcomeTags": ["School readiness", "Achievement", "Social-emotional development"],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "The national randomized study found initial improvements in selected preschool outcomes, while many measured differences had narrowed by the end of kindergarten or first grade.",
+    "caveat": "Children assigned to the control group often used other early-childhood services, and the report's measured early-test convergence does not settle possible longer-run or non-test effects.",
+    "url": "https://acf.gov/opre/report/head-start-impact-study-final-report"
+  },
+  {
+    "id": "src-072",
+    "title": "The Impact of Restorative Practices on Student Outcomes in Pittsburgh Public Schools",
+    "authors": "Catherine H. Augustine and colleagues",
+    "year": "2018",
+    "method": "RCT",
+    "outcomeTags": ["Suspension", "School climate", "Achievement", "Safety"],
+    "evidenceStrength": "mixed-conditional",
+    "finding": "A randomized evaluation of Pittsburgh's whole-school restorative-practices program found implementation and climate changes but did not find the expected broad reductions in suspension or improvement in academic outcomes during the study period.",
+    "caveat": "This evaluates a particular district rollout with uneven implementation; it does not establish that every restorative practice or narrower discipline intervention has the same effects.",
+    "url": "https://www.rand.org/pubs/research_reports/RR1990.html"
+  },
+  {
+    "id": "src-073",
+    "title": "School Finance Reform and the Distribution of Student Achievement",
+    "authors": "Julien Lafortune, Jesse Rothstein, and Diane Whitmore Schanzenbach",
+    "year": "2018",
+    "method": "Difference-in-differences",
+    "outcomeTags": ["Achievement", "Equity", "School spending", "Finance reform"],
+    "evidenceStrength": "promising-causal-quasi",
+    "finding": "Difference-in-differences evidence links post-1990 finance reforms to gains in district test scores, with larger gains for lower-income districts and narrower achievement gaps in many reform states.",
+    "caveat": "Effects vary with the reform's size and design, and a policy-induced association cannot identify the exact school-level uses of additional funding that produced the gains.",
+    "url": "https://doi.org/10.1257/app.20160567"
   }
 ]

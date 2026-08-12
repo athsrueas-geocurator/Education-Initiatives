@@ -22,7 +22,7 @@ const strengthOrder: EvidenceStrength[] = [
 const strengthClass: Record<EvidenceStrength, string> = {
   "strong-causal": "bg-emerald-600",
   "promising-causal-quasi": "bg-sky-600",
-  "mixed-conditional": "bg-amber-500",
+  "mixed-conditional": "bg-amber",
   "limited-descriptive": "bg-slate-400",
   "not-outcome-intervention": "bg-slate-700"
 };
@@ -84,6 +84,8 @@ export function EvidenceDashboard({ initiatives, sources }: Props) {
   }, [category, initiatives, method, query, strength]);
 
   const sourceCount = (initiative: Initiative) => initiative.sourceIds.filter((id) => sources.some((source) => source.id === id)).length;
+  const initiativesWithMultipleSources = initiatives.filter((initiative) => sourceCount(initiative) >= 2).length;
+  const singleSourceInitiatives = initiatives.length - initiativesWithMultipleSources;
   const initiativeStrengths = countBy(initiatives, (initiative) => initiative.evidenceStrength);
   const sourceMethods = countBy(sources, (source) => source.method);
   const categoriesByCount = Object.entries(countBy(initiatives, (initiative) => initiative.category)).sort((a, b) => b[1] - a[1]);
@@ -147,7 +149,7 @@ export function EvidenceDashboard({ initiatives, sources }: Props) {
         <article className="border-t-2 border-amber-500 pt-4">
           <h2 className="text-sm font-semibold text-slate-950">Initiatives by category</h2>
           <p className="mt-1 text-sm leading-6 text-slate-500">The categories present in the dataset.</p>
-          <div className="mt-6"><Bars entries={categoriesByCount.slice(0, 6)} className="bg-amber-500" /></div>
+          <div className="mt-6"><Bars entries={categoriesByCount.slice(0, 6)} className="bg-amber" /></div>
         </article>
       </section>
 
@@ -156,7 +158,7 @@ export function EvidenceDashboard({ initiatives, sources }: Props) {
           <div className="flex flex-wrap items-center justify-between gap-3">
             <div>
               <h2 className="text-xl font-semibold text-slate-950">Initiative records</h2>
-              <p className="mt-1 text-sm text-slate-500"><span className="font-mono tabular-nums text-slate-950">{filtered.length}</span> of {initiatives.length} shown</p>
+              <p className="mt-1 text-sm text-slate-500"><span className="font-mono tabular-nums text-slate-950">{filtered.length}</span> of {initiatives.length} shown. <span className="font-mono tabular-nums text-slate-950">{initiativesWithMultipleSources}</span> records have 2+ linked sources; {singleSourceInitiatives} remain in the source-expansion queue.</p>
             </div>
             {activeFilters > 0 ? (
               <button onClick={() => { setQuery(""); setCategory("all"); setStrength("all"); setMethod("all"); }} className="inline-flex items-center gap-2 text-sm font-medium text-slate-600 hover:text-slate-950">

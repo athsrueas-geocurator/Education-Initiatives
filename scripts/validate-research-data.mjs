@@ -12,6 +12,9 @@ const downloadPlan = read("download-plan.json");
 const initiativeDatasetLinks = read("initiative-dataset-links.json");
 const ingestionReport = read("ingestion-report.json");
 const existingDichotomies = JSON.parse(fs.readFileSync(path.join(root, "content", "dichotomies.json"), "utf8"));
+const existingInitiatives = JSON.parse(fs.readFileSync(path.join(root, "content", "initiatives.json"), "utf8"));
+const existingSources = JSON.parse(fs.readFileSync(path.join(root, "content", "sources.json"), "utf8"));
+const sourceCoverageAudit = read("source-coverage-audit.json");
 const dichotomySlugs = new Set(existingDichotomies.map((item) => item.slug));
 
 assert(datasets.length >= 8, "Expected at least eight cataloged datasets or evidence repositories.");
@@ -65,4 +68,12 @@ for (const link of initiativeDatasetLinks) {
   assert(planIds.has(link.datasetId), `${link.initiativeSlug} links an unknown dataset.`);
 }
 
-console.log(`Validated ${datasets.length} datasets, ${candidates.length} initiative candidates, ${downloadPlan.length} download-plan entries, ${initiativeDatasetLinks.length} initiative-dataset links, and ${ingestionReport.results.length} ingestion results.`);
+assert(sourceCoverageAudit.initiativeCount === existingInitiatives.length, "Source coverage audit initiative count is stale.");
+assert(sourceCoverageAudit.sourceCount === existingSources.length, "Source coverage audit source count is stale.");
+assert(sourceCoverageAudit.records.length === existingInitiatives.length, "Source coverage audit needs one record per initiative.");
+for (const record of sourceCoverageAudit.records) {
+  assert(record.initiativeSlug && record.initiativeName, "Each source coverage record needs an initiative identity.");
+  assert(record.linkedSourceCount === record.linkedSourceIds.length, `${record.initiativeSlug} has an incorrect linked source count.`);
+}
+
+console.log(`Validated ${datasets.length} datasets, ${candidates.length} initiative candidates, ${downloadPlan.length} download-plan entries, ${initiativeDatasetLinks.length} initiative-dataset links, ${ingestionReport.results.length} ingestion results, and source coverage for ${sourceCoverageAudit.initiativeCount} initiatives.`);

@@ -1,0 +1,883 @@
+{
+  "generatedAt": "2026-08-12T02:41:50.653Z",
+  "targetMinimumLinkedSources": 2,
+  "initiativeCount": 76,
+  "sourceCount": 73,
+  "sourceCoverage": {
+    "1": 47,
+    "2": 26,
+    "3": 2,
+    "4": 1
+  },
+  "records": [
+    {
+      "initiativeSlug": "21st-century-community-learning-centers",
+      "initiativeName": "21st Century Community Learning Centers",
+      "category": "Time/dosage",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-065"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "algebra-for-all-college-preparatory-curriculum-for-all",
+      "initiativeName": "Algebra for All / college-preparatory curriculum for all",
+      "category": "Postsecondary/CTE",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-055"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "attendance-and-chronic-absenteeism-interventions",
+      "initiativeName": "Attendance and chronic absenteeism interventions",
+      "category": "Whole-child/climate",
+      "studyDesignAssessment": "promising-causal-quasi",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-041"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "avid-and-college-readiness-support-models",
+      "initiativeName": "AVID and college-readiness support models",
+      "category": "Postsecondary/CTE",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-002"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "boston-universal-pre-k",
+      "initiativeName": "Boston universal pre-K",
+      "category": "Early childhood",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-045"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "career-academies",
+      "initiativeName": "Career Academies",
+      "category": "Postsecondary/CTE",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-051"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "double-dose-algebra-chicago",
+      "initiativeName": "Chicago double-dose algebra",
+      "category": "Curriculum/pedagogy",
+      "studyDesignAssessment": "promising-causal-quasi",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-057"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "community-eligibility-provision-universal-meals",
+      "initiativeName": "Community Eligibility Provision / universal free school meals",
+      "category": "Whole-child/climate",
+      "studyDesignAssessment": "promising-causal-quasi",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-066"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "community-schools-nyc-community-schools",
+      "initiativeName": "Community schools / NYC Community Schools",
+      "category": "Whole-child/climate",
+      "studyDesignAssessment": "promising-causal-quasi",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-037"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "comprehensive-teacher-induction",
+      "initiativeName": "Comprehensive teacher induction",
+      "category": "Teacher workforce",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-062"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "core-knowledge-knowledge-rich-curriculum",
+      "initiativeName": "Core Knowledge / knowledge-rich curriculum",
+      "category": "Curriculum/pedagogy",
+      "studyDesignAssessment": "promising-causal-quasi",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-019"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "dc-impact-teacher-evaluation-with-consequences",
+      "initiativeName": "DC IMPACT / teacher evaluation with consequences",
+      "category": "Teacher workforce",
+      "studyDesignAssessment": "promising-causal-quasi",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-026"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "direct-instruction-project-follow-through",
+      "initiativeName": "Direct Instruction / Project Follow Through",
+      "category": "Curriculum/pedagogy",
+      "studyDesignAssessment": "promising-causal-quasi",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-018"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "dual-enrollment-ap-and-advanced-coursework-expansion",
+      "initiativeName": "Dual enrollment / AP and advanced coursework expansion",
+      "category": "Postsecondary/CTE",
+      "studyDesignAssessment": "promising-causal-quasi",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-054"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "dual-language-immersion-programs",
+      "initiativeName": "Dual-language immersion programs",
+      "category": "Curriculum/pedagogy",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-059"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "early-warning-intervention-monitoring-system",
+      "initiativeName": "Early Warning Intervention and Monitoring System (EWIMS)",
+      "category": "Evidence infrastructure",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-060"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "enhanced-reading-opportunities-raals-xtreme-reading",
+      "initiativeName": "Enhanced Reading Opportunities / Reading Apprenticeship and Xtreme Reading",
+      "category": "Literacy",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-064"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "extended-learning-time-longer-day-or-year",
+      "initiativeName": "Extended learning time / longer day or year",
+      "category": "Time/dosage",
+      "studyDesignAssessment": "promising-causal-quasi",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-046"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "family-engagement-and-parent-information-interventions",
+      "initiativeName": "Family engagement and parent information interventions",
+      "category": "Whole-child/climate",
+      "studyDesignAssessment": "promising-causal-quasi",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-002"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "four-day-school-week",
+      "initiativeName": "Four-day school week",
+      "category": "Time/dosage",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-046"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "full-day-kindergarten",
+      "initiativeName": "Full-day kindergarten",
+      "category": "Time/dosage",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-046"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "gates-intensive-partnerships-for-effective-teaching",
+      "initiativeName": "Gates Intensive Partnerships for Effective Teaching",
+      "category": "Teacher workforce",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-028"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "gates-measures-of-effective-teaching-project",
+      "initiativeName": "Gates Measures of Effective Teaching Project",
+      "category": "Teacher workforce",
+      "studyDesignAssessment": "not-outcome-intervention",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-027"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "gates-personalized-learning-next-generation-learning-challenges",
+      "initiativeName": "Gates personalized learning / Next Generation Learning Challenges",
+      "category": "Technology",
+      "studyDesignAssessment": "promising-causal-quasi",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-030"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "gates-funded-small-high-schools-nyc-small-schools-of-choice",
+      "initiativeName": "Gates-funded small high schools / NYC Small Schools of Choice",
+      "category": "School organization/governance",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-029"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "generative-ai-tutoring-and-ai-school-pilots",
+      "initiativeName": "Generative AI tutoring and AI-school pilots",
+      "category": "Technology",
+      "studyDesignAssessment": "limited-descriptive",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-050"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "harlem-children-s-zone-promise-neighborhoods",
+      "initiativeName": "Harlem Children's Zone / Promise Neighborhoods",
+      "category": "Whole-child/climate",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-002"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "high-quality-instructional-materials-initiatives",
+      "initiativeName": "High-quality instructional materials initiatives",
+      "category": "Curriculum/pedagogy",
+      "studyDesignAssessment": "promising-causal-quasi",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-020"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "magnet-schools-and-controlled-choice-desegregation-plans",
+      "initiativeName": "Magnet schools and controlled choice/desegregation plans",
+      "category": "Choice",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-002"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "modern-cte-pathways-and-concentrator-programs",
+      "initiativeName": "Modern CTE pathways and concentrator programs",
+      "category": "Postsecondary/CTE",
+      "studyDesignAssessment": "promising-causal-quasi",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-052"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "national-board-certification-and-advanced-credentials",
+      "initiativeName": "National Board Certification and advanced credentials",
+      "category": "Teacher workforce",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-002"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "national-guard-youth-challenge-program",
+      "initiativeName": "National Guard Youth ChalleNGe Program",
+      "category": "Postsecondary/CTE",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-063"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "national-reading-panel-synthesis",
+      "initiativeName": "National Reading Panel synthesis",
+      "category": "Evidence infrastructure",
+      "studyDesignAssessment": "not-outcome-intervention",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-014"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "perry-preschool-abecedarian-style-intensive-early-childhood",
+      "initiativeName": "Perry Preschool / Abecedarian-style intensive early childhood",
+      "category": "Early childhood",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-043"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "principal-pipeline-initiative",
+      "initiativeName": "Principal Pipeline Initiative",
+      "category": "School organization/governance",
+      "studyDesignAssessment": "promising-causal-quasi",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-058"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "project-star-class-size-reduction",
+      "initiativeName": "Project STAR / class-size reduction",
+      "category": "Teacher workforce",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-022"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "project-based-learning-and-inquiry-oriented-reform",
+      "initiativeName": "Project-based learning and inquiry-oriented reform",
+      "category": "Curriculum/pedagogy",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-002"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "saga-style-and-tech-infused-tutoring",
+      "initiativeName": "Saga-style and tech-infused tutoring",
+      "category": "Time/dosage",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-021"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "ethnic-studies-curriculum-san-francisco",
+      "initiativeName": "San Francisco ethnic studies curriculum pilot",
+      "category": "Curriculum/pedagogy",
+      "studyDesignAssessment": "promising-causal-quasi",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-061"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "school-improvement-grants",
+      "initiativeName": "School Improvement Grants",
+      "category": "Standards/accountability",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-006"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "social-and-emotional-learning-programs",
+      "initiativeName": "Social and emotional learning programs",
+      "category": "Whole-child/climate",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-038"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "summer-learning-programs",
+      "initiativeName": "Summer learning programs",
+      "category": "Time/dosage",
+      "studyDesignAssessment": "promising-causal-quasi",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-047"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "talent-development-high-schools",
+      "initiativeName": "Talent Development High Schools",
+      "category": "School organization/governance",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-067"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "teach-for-america-and-alternate-route-pipelines",
+      "initiativeName": "Teach For America and alternate-route pipelines",
+      "category": "Teacher workforce",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-024"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "teacher-coaching",
+      "initiativeName": "Teacher coaching",
+      "category": "Teacher workforce",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-023"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "teacher-merit-pay-point-and-similar-incentives",
+      "initiativeName": "Teacher merit pay / POINT and similar incentives",
+      "category": "Teacher workforce",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-025"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "tennessee-voluntary-pre-k",
+      "initiativeName": "Tennessee Voluntary Pre-K",
+      "category": "Early childhood",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 1,
+      "linkedSourceIds": [
+        "src-044"
+      ],
+      "recommendedNextStep": "Find an independent primary evaluation, systematic review, or official implementation/evaluation report."
+    },
+    {
+      "initiativeSlug": "a-nation-at-risk-modern-standards-movement",
+      "initiativeName": "A Nation at Risk / modern standards movement",
+      "category": "Standards/accountability",
+      "studyDesignAssessment": "limited-descriptive",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-001",
+        "src-002"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "adaptive-and-personalized-learning-platforms",
+      "initiativeName": "Adaptive and personalized learning platforms",
+      "category": "Technology",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-030",
+        "src-049"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "balanced-literacy-workshop-models",
+      "initiativeName": "Balanced literacy / workshop models",
+      "category": "Literacy",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-014",
+        "src-010"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "charter-schools-overall",
+      "initiativeName": "Charter schools overall",
+      "category": "Choice",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-033",
+        "src-034"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "common-core-state-standards-and-aligned-assessments",
+      "initiativeName": "Common Core State Standards and aligned assessments",
+      "category": "Standards/accountability",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-005",
+        "src-009"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "competency-based-mastery-based-learning",
+      "initiativeName": "Competency-based / mastery-based learning",
+      "category": "School organization/governance",
+      "studyDesignAssessment": "limited-descriptive",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-030",
+        "src-002"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "early-college-high-schools",
+      "initiativeName": "Early College High Schools",
+      "category": "Postsecondary/CTE",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-053",
+        "src-070"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "esser-and-pandemic-recovery-initiatives",
+      "initiativeName": "ESSER and pandemic recovery initiatives",
+      "category": "Finance/recovery",
+      "studyDesignAssessment": "promising-causal-quasi",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-041",
+        "src-001"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "gates-networks-for-school-improvement",
+      "initiativeName": "Gates Networks for School Improvement",
+      "category": "School organization/governance",
+      "studyDesignAssessment": "promising-causal-quasi",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-031",
+        "src-032"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "goals-2000-standards-based-reform",
+      "initiativeName": "Goals 2000 / standards-based reform",
+      "category": "Standards/accountability",
+      "studyDesignAssessment": "limited-descriptive",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-001",
+        "src-002"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "head-start",
+      "initiativeName": "Head Start",
+      "category": "Early childhood",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-042",
+        "src-071"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "high-dosage-tutoring",
+      "initiativeName": "High-dosage tutoring",
+      "category": "Time/dosage",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-021",
+        "src-068"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "no-child-left-behind",
+      "initiativeName": "No Child Left Behind",
+      "category": "Standards/accountability",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-003",
+        "src-001"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "no-excuses-charter-networks-and-high-performing-cmos",
+      "initiativeName": "No-excuses charter networks and high-performing CMOs",
+      "category": "Choice",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-033",
+        "src-034"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "one-to-one-devices-laptop-initiatives",
+      "initiativeName": "One-to-one devices / laptop initiatives",
+      "category": "Technology",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-048",
+        "src-049"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "pbis-mtss-behavior-systems",
+      "initiativeName": "PBIS / MTSS behavior systems",
+      "category": "Whole-child/climate",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-039",
+        "src-069"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "private-school-vouchers-dc-and-louisiana-examples",
+      "initiativeName": "Private school vouchers / DC and Louisiana examples",
+      "category": "Choice",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-035",
+        "src-036"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "race-to-the-top",
+      "initiativeName": "Race to the Top",
+      "category": "Standards/accountability",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-004",
+        "src-005"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "reading-first",
+      "initiativeName": "Reading First",
+      "category": "Literacy",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-015",
+        "src-014"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "reading-recovery",
+      "initiativeName": "Reading Recovery",
+      "category": "Literacy",
+      "studyDesignAssessment": "promising-causal-quasi",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-017",
+        "src-002"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "remote-learning-and-virtual-schooling-during-covid",
+      "initiativeName": "Remote learning and virtual schooling during COVID",
+      "category": "Technology",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-041",
+        "src-049"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "restorative-practices",
+      "initiativeName": "Restorative practices",
+      "category": "Whole-child/climate",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-040",
+        "src-072"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "school-finance-reforms-adequacy-and-equity-funding",
+      "initiativeName": "School finance reforms / adequacy and equity funding",
+      "category": "Finance/recovery",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-056",
+        "src-073"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "state-test-based-accountability-before-nclb",
+      "initiativeName": "State test-based accountability before NCLB",
+      "category": "Standards/accountability",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-003",
+        "src-001"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "success-for-all",
+      "initiativeName": "Success for All",
+      "category": "Curriculum/pedagogy",
+      "studyDesignAssessment": "strong-causal",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-016",
+        "src-002"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "traditional-workshop-professional-development",
+      "initiativeName": "Traditional workshop professional development",
+      "category": "Teacher workforce",
+      "studyDesignAssessment": "mixed-conditional",
+      "linkedSourceCount": 2,
+      "linkedSourceIds": [
+        "src-023",
+        "src-020"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "essa-evidence-tiers-and-evidence-based-intervention-requirements",
+      "initiativeName": "ESSA evidence tiers and evidence-based intervention requirements",
+      "category": "Evidence infrastructure",
+      "studyDesignAssessment": "not-outcome-intervention",
+      "linkedSourceCount": 3,
+      "linkedSourceIds": [
+        "src-007",
+        "src-002",
+        "src-008"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "science-of-reading-state-policy-wave",
+      "initiativeName": "Science of Reading state policy wave",
+      "category": "Literacy",
+      "studyDesignAssessment": "limited-descriptive",
+      "linkedSourceCount": 3,
+      "linkedSourceIds": [
+        "src-014",
+        "src-010",
+        "src-015"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    },
+    {
+      "initiativeSlug": "mississippi-literacy-based-promotion-act-mississippi-miracle",
+      "initiativeName": "Mississippi Literacy-Based Promotion Act / 'Mississippi miracle'",
+      "category": "Literacy",
+      "studyDesignAssessment": "promising-causal-quasi",
+      "linkedSourceCount": 4,
+      "linkedSourceIds": [
+        "src-010",
+        "src-011",
+        "src-012",
+        "src-013"
+      ],
+      "recommendedNextStep": "Review whether linked sources cover both impact evidence and implementation or external-validity limits."
+    }
+  ]
+}

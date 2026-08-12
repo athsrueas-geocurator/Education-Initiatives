@@ -20,6 +20,7 @@ Large national extracts are intentionally excluded from Git. They must be fetche
 - `dataset-profiles.json`: generated table and field inventory for acquired raw artifacts.
 - `initiative-dataset-links.json`: explicit, non-causal roles for datasets when comparing published initiatives.
 - `wwc-dossier-index.json`: complete list of cited What Works Clearinghouse records, mapped to their source IDs and related initiatives.
+- `source-coverage-audit.json`: generated, initiative-by-initiative source coverage and the current research queue.
 
 ## Collection
 
@@ -53,6 +54,12 @@ To verify the manifest against a local acquisition, run:
 
 ```bash
 node scripts/validate-research-data.mjs --verify-raw
+```
+
+To regenerate the source-expansion queue after adding or reviewing sources, run:
+
+```bash
+npm run research:audit-sources
 ```
 
 Use `NCES_ID` / `ncessch` for schools and `LEAID` / `leaid` for districts. Never infer a causal effect by joining outcome trends to an initiative name; comparison claims must retain their study design, comparator, population, and study-period metadata.
